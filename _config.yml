@@ -1,0 +1,26 @@
+title: Zettel Notes Documentation
+email: info@thedoc.eu.org
+description: >- # this means to ignore newlines until "baseurl:"
+  Documentation for Zettel Notes : Markdown note taking app for android
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+github_username:  damionx7
+
+# Build settings
+#theme: "just-the-docs"
+remote_theme: pmarsceill/just-the-docs
+color_scheme: "light"
+search_enabled: true
+plugins:
+  - jekyll-feed
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
