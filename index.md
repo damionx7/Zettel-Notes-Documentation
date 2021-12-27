@@ -2,7 +2,7 @@
 layout: default
 title: Home
 nav_order: 1
-has_children: true
+has_children: false
 has_toc: false
 ---
 
@@ -10,91 +10,69 @@ has_toc: false
 
 Welcome to documentation page for [Zettel Notes](https://thedoc.eu.org/redirect/zettel-notes) Markdown Note taking app for android
 
+Download via [Play  Store](https://thedoc.eu.org/redirect/zettel-notes) or [My F-Droid Repository](https://thedoc.eu.org/fdroid/)</a>
 
-<body>
-    <p>
-    <section id="main_content">
+Zettel notes provides seamless private zettelkasten and markdown note taking experience with webdav and
+dropbox synchronization. It is provided free of cost, without ads and with no hidden permissions. No user data is
+collected.
 
-        <p>
-            Download via <a href="https://thedoc.eu.org/redirect/zettel-notes">Play
-                Store</a> or <a href="https://thedoc.eu.org/fdroid/">My F-Droid Repository</a>
-        </p>
+Notes are stored as separate markdown files (no vendor lock-in like other apps). App starts
+with tutorial files explaining zettelkasten method. After installing, add folder / repository containing
+your existing notes from the Repositories option in menu.
 
-        <p>
-            Zettel notes provides seamless private zettelkasten and markdown note taking experience with webdav and
-            dropbox
-            synchronization. It is provided free of cost, without ads and with no hidden permissions. No user data is
-            collected.</p>
+## FEATURES
 
-        <p>
-            Notes are stored as separate markdown files (no vendor lock-in like other apps). App starts
-            with tutorial files explaining zettelkasten method. After installing, add folder / repository containing
-            your existing notes from the Repositories option in menu.
-        </p>
+-  [Material design themes]({{ site.baseurl }}{% link docs/themes/app-theme.md %})
+-  Completely offline / No account Required
+-  Full control of files (no vendor lock-in like other apps)
+-  [Dropbox]({{ site.baseurl }}{% link docs/synchronization/index.md %}#dropbox), [WebDAV]({{ site.baseurl }}{% link docs/synchronization/index.md %}#webdav) and [SFTP]({{ site.baseurl }}{% link docs/synchronization/index.md %}#sftp--ssh) synchronization
+-  [PGP key / Password encryption]({{ site.baseurl }}{% link docs/encryption/index.md %})
+-  Multiple note folders / repositories
+-  Full text search (customizable)
+-  Bookmark / Pin notes
+-  Template support
+-  Sort notes by alphabetical, edited time, creation time, words, frequency of opening
+-  Share text from any app to create new note or append to existing note
+-  Share Web page URL to create new markdown note
+-  Share Notes
+-  MD / TXT / ORG file support
 
-        <h2>FEATURES:</h2>
-        <ul>
+## MARKDOWN FEATURES
 
-            <li> <a href="{{ site.baseurl }}{% link docs/themes/app-theme.md %}">Material design themes</a></li>
-            <li> Completely offline / No account Required</li>
-            <li> Full control of files (no vendor lock-in like other apps)</li>
-            <li> <a href="{{ site.baseurl }}{% link docs/synchronization/index.md %}"> Dropbox, WebDAV and SFTP synchronization</a></li>
-            <li>  <a href="{{ site.baseurl }}{% link docs/encryption/index.md %}"> PGP key / Password encryption</a></li>
-            <li> Multiple note folders / repositories</li>
-            <li> Full text search (customizable)</li>
-            <li> Bookmark / Pin notes</li>
-            <li> Template support</li>
-            <li> Sort notes by alphabetical, edited time, creation time, words, frequency of opening</li>
-            <li> Share text from any app to create new note or append to existing note</li>
-            <li> Share Web page URL to create new markdown note</li>
-            <li> Share Notes</li>
-            <li> MD / TXT / ORG file support</li>
-        </ul>
+- [Custom Themes]({{ site.baseurl }}{% link docs/themes/markdown-theme.md %})
+- Syntax highlighting
+- Pictures
+- Lists
+- Tables
+- Checklists
+- Footnotes
+- Bold, Italic, Strike-through, Spoiler, Superscript, Subscript
 
-        <h2>MARKDOWN FEATURES:</h2>
-        <ul>
+## ZETTELKASTEN FEATURES
 
-            <li><a href="{{ site.baseurl }}{% link docs/themes/markdown-theme.md %}">Custom Themes</a></li>
-            <li>Syntax highlighting</li>
-            <li>Pictures</li>
-            <li>Lists</li>
-            <li>Tables</li>
-            <li>Checklists</li>
-            <li>Footnotes</li>
-            <li>Bold, Italic, Strike-through, Spoiler, Superscript, Subscript</li>
-        </ul>
+- Show Note Back-links
+- Wiki style links between notes
+- type [[ to show note dialog and select to insert markdown link for the note
+- Tags
+- tags are denoted by #tag or specifying tag in yaml
+- type ## or #? to show tags search dialog
+- Authors
+- authors are denoted by @author or specifying author in yaml
+- type @@ to show author search dialog
+- Extract new note while editing
 
-        <h2>ZETTELKASTEN FEATURES:</h2>
-        <ul>
-            <li>Show Note Back-links</li>
-            <li>Wiki style links between notes</li>
-            <li>type [[ to show note dialog and select to insert markdown link for the note</li>
-            <li>Tags</li>
-            <li>tags are denoted by #tag or specifying tag in yaml</li>
-            <li>type ## or #? to show tags search dialog</li>
-            <li>Authors</li>
-            <li>authors are denoted by @author or specifying author in yaml</li>
-            <li>type @@ to show author search dialog</li>
-            <li>Extract new note while editing</li>
-        </ul>
+## Contact Us
 
-        <h2>Contact Us</h2>
-        <p>If you have any issues, feel free to contact via <a href="mailto:info@thedoc.eu.org">info@thedoc.eu.org</a>
-         or <a href="https://t.me/joinchat/DZ2eFcOk3Mo4MDk1">Telegram Support Group</a>
-        </p>
+If you have any issues, feel free to contact via [info@thedoc.eu.org](mailto:info@thedoc.eu.org) or [Telegram Support Group](https://t.me/joinchat/DZ2eFcOk3Mo4MDk1)
 
-        <p>Follow <a href="https://t.me/zettelnotes">Telegram Channel</a> for updates and tutorials.</p>
-      
-        
-        <h2>Privacy Policy</h2>
-        <p><a href="https://thedoc.eu.org/zettel-notes/privacy">Privacy Policy</a></p>
+Follow [Telegram Channel](https://t.me/zettelnotes) for updates and tutorials.
 
-        <h2>Online Discussions</h2>
-        <ul>
-            <li><a href="https://www.reddit.com/r/Zettelkasten/comments/npr00a/introducing_my_new_android_app_for_zettelkasten/">Reddit post</a></li>
-            <li><a href="https://forum.zettelkasten.de/discussion/1844/introducing-my-new-android-app-for-zettelkasten-zettel-notes/">Zettelkasten.de forum</a></li>
-        </ul>
 
-    </section>
-    </p>
-</body>
+## Privacy Policy
+
+[Privacy Policy](https://thedoc.eu.org/zettel-notes/privacy)
+
+## Online Discussions
+
+- [Reddit post](https://www.reddit.com/r/Zettelkasten/comments/npr00a/introducing_my_new_android_app_for_zettelkasten/)
+- [Zettelkasten.de forum](https://forum.zettelkasten.de/discussion/1844/introducing-my-new-android-app-for-zettelkasten-zettel-notes/)
