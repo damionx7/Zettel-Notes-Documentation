@@ -3,6 +3,7 @@ layout: default
 title: Home
 nav_order: 1
 has_children: true
+has_toc: false
 ---
 
 # Introduction
@@ -34,11 +35,11 @@ Welcome to documentation page for [Zettel Notes](https://thedoc.eu.org/redirect/
         <h2>FEATURES:</h2>
         <ul>
 
-            <li> Material design themes : Light, Dark, Black</li>
+            <li> <a href="{{ site.baseurl }}{% link docs/themes/app-theme.md %}">Material design themes</a></li>
             <li> Completely offline / No account Required</li>
             <li> Full control of files (no vendor lock-in like other apps)</li>
-            <li> WebDAV and Dropbox synchronization</li>
-            <li> PGP key / Password encryption</li>
+            <li> <a href="{{ site.baseurl }}{% link docs/synchronization/index.md %}"> Dropbox, WebDAV and SFTP synchronization</a></li>
+            <li>  <a href="{{ site.baseurl }}{% link docs/encryption/index.md %}"> PGP key / Password encryption</a></li>
             <li> Multiple note folders / repositories</li>
             <li> Full text search (customizable)</li>
             <li> Bookmark / Pin notes</li>
@@ -53,7 +54,7 @@ Welcome to documentation page for [Zettel Notes](https://thedoc.eu.org/redirect/
         <h2>MARKDOWN FEATURES:</h2>
         <ul>
 
-            <li>Custom Themes</li>
+            <li><a href="{{ site.baseurl }}{% link docs/themes/markdown-theme.md %}">Custom Themes</a></li>
             <li>Syntax highlighting</li>
             <li>Pictures</li>
             <li>Lists</li>
