@@ -10,7 +10,7 @@ has_toc: false
 
 Welcome to documentation page for [Zettel Notes](https://thedoc.eu.org/redirect/zettel-notes) Markdown Note taking app for android
 
-Download via [Play  Store](https://thedoc.eu.org/redirect/zettel-notes) or [My F-Droid Repository](https://thedoc.eu.org/fdroid/)</a>
+Download via [Play  Store](https://thedoc.eu.org/redirect/zettel-notes) or [My F-Droid Repository](https://thedoc.eu.org/fdroid/)
 
 Zettel notes provides seamless private zettelkasten and markdown note taking experience with webdav and
 dropbox synchronization. It is provided free of cost, without ads and with no hidden permissions. No user data is
@@ -39,14 +39,35 @@ your existing notes from the Repositories option in menu.
 
 ## MARKDOWN FEATURES
 
-- [Custom Themes]({{ site.baseurl }}{% link docs/themes/markdown-theme.md %})
-- Syntax highlighting
-- Pictures
-- Lists
-- Tables
-- Checklists
-- Footnotes
-- Bold, Italic, Strike-through, Spoiler, Superscript, Subscript
+* Italics (`*`, `_`)
+* Bold (`**`, `__`)
+* Strike-through (`~~`)
+* Spoiler (`>!!<`)
+* Headers (`#{1,6}`)
+* Links (`[]()` && `[][]`)
+* Images
+* Thematic break (`---`, `***`, `___`)
+* Quotes (`>`)
+* Lists
+* Inline code highlight
+* Code blocks
+* Tables
+* LaTeX formulas
+* Footnotes
+* Table of Content ( add [TOC] tag )
+* Toggleable Task lists (`- [ ]` and `- [x]`)
+* HTML
+  * Emphasis (`<i>`, `<em>`, `<cite>`, `<dfn>`)
+  * Strong emphasis (`<b>`, `<strong>`)
+  * SuperScript (`<sup>`)
+  * SubScript (`<sub>`)
+  * Underline (`<u>`, `ins`)
+  * Strike-through (`<s>`, `<strike>`, `<del>`)
+  * Link (`a`)
+  * Lists (`ul`, `ol`)
+  * Images (`img` will require configured image loader)
+  * Blockquote (`blockquote`)
+  * Heading (`h1`, `h2`, `h3`, `h4`, `h5`, `h6`)
 
 ## ZETTELKASTEN FEATURES
 
