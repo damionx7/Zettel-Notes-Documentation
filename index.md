@@ -23,6 +23,7 @@ your existing notes from the Repositories option in menu.
 ## FEATURES
 
 -  [Material design themes]({{ site.baseurl }}{% link docs/themes/app-theme.md %})
+-  [Plugins]({{ site.baseurl }}{% link docs/plugins/index.md %})
 -  Completely offline / No account Required
 -  Full control of files (no vendor lock-in like other apps)
 -  [Dropbox]({{ site.baseurl }}{% link docs/synchronization/index.md %}#dropbox), [WebDAV]({{ site.baseurl }}{% link docs/synchronization/index.md %}#webdav) and [SFTP]({{ site.baseurl }}{% link docs/synchronization/index.md %}#sftp--ssh) synchronization
