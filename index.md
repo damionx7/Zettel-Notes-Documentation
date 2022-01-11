@@ -25,11 +25,18 @@ your existing notes from the Repositories option in menu.
 -  [Material design themes]({{ site.baseurl }}{% link docs/themes/app-theme.md %})
 -  [Plugins]({{ site.baseurl }}{% link docs/plugins/index.md %})
 -  Completely offline / No account Required
--  Full control of files (no vendor lock-in like other apps)
--  [Dropbox]({{ site.baseurl }}{% link docs/synchronization/index.md %}#dropbox), [WebDAV]({{ site.baseurl }}{% link docs/synchronization/index.md %}#webdav) and [SFTP]({{ site.baseurl }}{% link docs/synchronization/index.md %}#sftp--ssh) synchronization
+- [Git sync]({{ site.baseurl }}{% link docs/synchronization/index.md %}#git) with github, gitlab or other private git repository
+- [Dropbox]({{ site.baseurl }}{% link docs/synchronization/index.md %}#dropbox), [WebDAV]({{ site.baseurl }}{% link docs/synchronization/index.md %}#webdav) and [SFTP]({{ site.baseurl }}{% link docs/synchronization/index.md %}#sftp--ssh) synchronization
 -  [PGP key / Password encryption]({{ site.baseurl }}{% link docs/encryption/index.md %})
+- [Different types of Notes]({{ site.baseurl }}{% link docs/notes/index.md %}) stored in plain text files.
+  - Markdown Note (Default)
+  - Task Note
+  - Drawing Note
+  - Audio Note
+- [Calendar View]({{ site.baseurl }}{% link docs/calendar.md %})
 -  Multiple note folders / repositories
--  Full text search (customizable)
+-  Supports subfolders
+-  Full text search
 -  Bookmark / Pin notes
 -  Template support
 -  Sort notes by alphabetical, edited time, creation time, words, frequency of opening
@@ -66,7 +73,6 @@ your existing notes from the Repositories option in menu.
   * Strike-through (`<s>`, `<strike>`, `<del>`)
   * Link (`a`)
   * Lists (`ul`, `ol`)
-  * Images (`img` will require configured image loader)
   * Blockquote (`blockquote`)
   * Heading (`h1`, `h2`, `h3`, `h4`, `h5`, `h6`)
 

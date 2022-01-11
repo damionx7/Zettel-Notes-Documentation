@@ -2,7 +2,7 @@
 layout: default
 title: Plugins
 nav_order: 5
-has_children: true
+has_children: false
 has_toc: false
 ---
 
@@ -28,7 +28,12 @@ You can also develop your own custom plugins. Currently following plugins are av
     - lowercase
     - Title Case
     - sWAP cASE
+    - Convert to Task list
+    - Remove Task list
+- Speech To Text [<i class='fa fa-android'></i>](https://play.google.com/store/apps/details?id=org.eu.thedoc.zettelnotes.buttons.speech2text) [<i class='fa fa-laptop'></i>](https://thedoc.eu.org/fdroid/)
+    - Require Google app
+    - Convert spoken text to words and insert in note
 
-## Smile emoji donation plugin
+## [Donation Plugin](https://play.google.com/store/apps/details?id=org.eu.thedoc.zettelnotes.buttons.dummy)
 
 You can show your support by purchasing this plugin. [<i class='fa fa-android'></i>](https://play.google.com/store/apps/details?id=org.eu.thedoc.zettelnotes.buttons.dummy) 

@@ -12,6 +12,13 @@ has_toc: false
 - Resolve merge conflicts
 - Background synchronization
 
+## Git
+
+<video width="350" height="" controls>
+  <source src="/assets/synchronization/git.webm" type="video/webm">
+Your browser does not support the video tag.
+</video>
+
 ## Dropbox
 
 <video width="350" height="" controls>
