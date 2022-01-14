@@ -17,8 +17,8 @@ dropbox synchronization. It is provided free of cost, without ads and with no hi
 collected.
 
 Notes are stored as separate markdown files (no vendor lock-in like other apps). App starts
-with tutorial files explaining zettelkasten method. After installing, add folder / repository containing
-your existing notes from the Repositories option in menu.
+with tutorial files explaining zettelkasten method. After installing, add folder / [repository]({{ site.baseurl }}{% link docs/repository.md %}) containing
+your existing notes from the [Repositories]({{ site.baseurl }}{% link docs/repository.md %}) option in menu.
 
 ## FEATURES
 
@@ -34,7 +34,8 @@ your existing notes from the Repositories option in menu.
   - Drawing Note
   - Audio Note
 - [Calendar View]({{ site.baseurl }}{% link docs/calendar.md %})
--  Multiple note folders / repositories
+- [Multiple note folders / vaults / repositories]({{ site.baseurl }}{% link docs/repository.md %})
+  - Customizable `Default Text` and `Date Format` for each repository
 -  Supports subfolders
 -  Full text search
 -  Bookmark / Pin notes
@@ -44,6 +45,19 @@ your existing notes from the Repositories option in menu.
 -  Share Web page URL to create new markdown note
 -  Share Notes
 -  MD / TXT / ORG file support
+
+## ZETTELKASTEN FEATURES
+
+- Show Note Back-links
+- Wiki style links between notes
+- type [[ to show note dialog and select to insert markdown link for the note
+- Tags
+  - Tags are denoted by #tag or specifying tag in yaml
+  - type ## or #? to show tags search dialog
+- Authors
+  - Authors are denoted by @author or specifying author in yaml
+  - type @@ to show author search dialog
+- Extract new note while editing
 
 ## MARKDOWN FEATURES
 
@@ -75,19 +89,6 @@ your existing notes from the Repositories option in menu.
   * Lists (`ul`, `ol`)
   * Blockquote (`blockquote`)
   * Heading (`h1`, `h2`, `h3`, `h4`, `h5`, `h6`)
-
-## ZETTELKASTEN FEATURES
-
-- Show Note Back-links
-- Wiki style links between notes
-- type [[ to show note dialog and select to insert markdown link for the note
-- Tags
-- tags are denoted by #tag or specifying tag in yaml
-- type ## or #? to show tags search dialog
-- Authors
-- authors are denoted by @author or specifying author in yaml
-- type @@ to show author search dialog
-- Extract new note while editing
 
 ## Contact Us
 

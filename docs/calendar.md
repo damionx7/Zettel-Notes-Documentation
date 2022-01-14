@@ -15,5 +15,3 @@ has_toc: false
 <img src="/assets/calendar/calendar.webp" alt="Calendar View" width="250"/>
 
 <img src="/assets/calendar/calendar1.webp" alt="Calendar View" width="250"/>
-
-</video>
