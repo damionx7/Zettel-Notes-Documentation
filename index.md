@@ -92,10 +92,12 @@ your existing notes from the [Repositories]({{ site.baseurl }}{% link docs/repos
 
 ## Contact Us
 
-If you have any issues, feel free to contact via [info@thedoc.eu.org](mailto:info@thedoc.eu.org) or [Telegram Support Group](https://t.me/joinchat/DZ2eFcOk3Mo4MDk1)
+If you have any issues, feel free to contact via
 
-Follow [Telegram Channel](https://t.me/zettelnotes) for updates and tutorials.
-
+- [info@thedoc.eu.org](mailto:info@thedoc.eu.org)
+- [Google Group](https://groups.google.com/g/znotes)
+- [Telegram Channel](https://t.me/zettelnotes)
+- [Telegram Support Group](https://t.me/joinchat/DZ2eFcOk3Mo4MDk1)
 
 ## Privacy Policy
 
