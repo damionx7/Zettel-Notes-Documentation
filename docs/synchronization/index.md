@@ -19,6 +19,10 @@ has_toc: false
 Your browser does not support the video tag.
 </video>
 
+<b>Github</b>
+
+You will need to use [personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token).
+
 ## Dropbox
 
 <video width="350" height="" controls>
