@@ -35,6 +35,7 @@ You can also develop your own custom plugins. Currently following plugins are av
 - Speech To Text [<i class='fa fa-android'></i>](https://play.google.com/store/apps/details?id=org.eu.thedoc.zettelnotes.buttons.speech2text) [<i class='fa fa-laptop'></i>](https://thedoc.eu.org/fdroid/)
     - Require Google app
     - Convert spoken text to words and insert in note
+- Translate [<i class='fa fa-android'></i>](https://play.google.com/store/apps/details?id=org.eu.thedoc.zettelnotes.buttons.translate) [<i class='fa fa-laptop'></i>](https://thedoc.eu.org/fdroid/)
 
 ## [Donation Plugin](https://play.google.com/store/apps/details?id=org.eu.thedoc.zettelnotes.buttons.dummy)
 
