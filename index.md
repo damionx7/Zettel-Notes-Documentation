@@ -61,23 +61,25 @@ your existing notes from the [Repositories]({{ site.baseurl }}{% link docs/repos
 
 ## MARKDOWN FEATURES
 
-* Italics (`*`, `_`)
-* Bold (`**`, `__`)
-* Strike-through (`~~`)
-* Spoiler (`>!!<`)
-* Headers (`#{1,6}`)
-* Links (`[]()` && `[][]`)
-* Images
-* Thematic break (`---`, `***`, `___`)
-* Quotes (`>`)
-* Lists
-* Inline code highlight
-* Code blocks
-* Tables
-* LaTeX formulas
-* Footnotes
-* Table of Content ( add [TOC] tag )
-* Toggleable Task lists (`- [ ]` and `- [x]`)
+○ Bold (`**`, `__`)
+○ Code blocks
+○ Footnotes
+○ Headers (`#{1,6}`)
+○ Images
+○ Inline code highlight
+○ Italics (`○`, `_`)
+○ LaTeX formulas
+○ Links (`[]()` && `[][]`)
+○ Lists
+○ Quotes (`>`)
+○ Spoiler (`>!!<`)
+○ Strike-through (`~~`)
+○ Superscript (`^`)
+○ Subscript (`~`)
+○ Table of Content ( [TOC] tag )
+○ Tables
+○ Thematic break (`---`, `***`, `___`)
+○ Toggleable Task lists (`- [ ]` and `- [x]`)
 * HTML
   * Emphasis (`<i>`, `<em>`, `<cite>`, `<dfn>`)
   * Strong emphasis (`<b>`, `<strong>`)
@@ -89,6 +91,24 @@ your existing notes from the [Repositories]({{ site.baseurl }}{% link docs/repos
   * Lists (`ul`, `ol`)
   * Blockquote (`blockquote`)
   * Heading (`h1`, `h2`, `h3`, `h4`, `h5`, `h6`)
+
+## Translations
+
+1. Chinese Simplified
+2. Chinese Traditional
+3. English
+4. German
+5. Hindi
+6. Italian
+7. Persian
+8. Portuguese
+9. Romanian
+10. Russian
+11. Spanish
+12. Turkish
+13. Ukrainian
+
+[Translate Zettel Notes in your language](https://crowdin.com/project/zettel-notes)
 
 ## Contact Us
 
@@ -107,3 +127,5 @@ If you have any issues, feel free to contact via
 
 - [Reddit post](https://www.reddit.com/r/Zettelkasten/comments/npr00a/introducing_my_new_android_app_for_zettelkasten/)
 - [Zettelkasten.de forum](https://forum.zettelkasten.de/discussion/1844/introducing-my-new-android-app-for-zettelkasten-zettel-notes/)
+
+
