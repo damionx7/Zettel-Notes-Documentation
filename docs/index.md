@@ -1,16 +1,13 @@
 ---
-layout: default
-title: Home
-nav_order: 1
-has_children: false
-has_toc: false
+title: Introduction
+sidebar_position: 1
+slug: /
+tags: [Introduction]
 ---
-
-# Introduction
 
 Welcome to documentation page for [Zettel Notes](https://thedoc.eu.org/redirect/zettel-notes) Markdown Note taking app for android
 
-<b>🚀 Why Choose Zettel Notes? 🚀</b>
+## 🚀 Why Choose Zettel Notes? 🚀
 
 1. Store your notes as separate markdown files, ensuring no vendor lock-in like other apps
 2. Get started quickly with our tutorial file that explains the zettelkasten method
@@ -18,28 +15,32 @@ Welcome to documentation page for [Zettel Notes](https://thedoc.eu.org/redirect/
 4. Free of cost, without ads, and no hidden permissions
 5. No collection of user data
 
+:::info
+
 Checkout our no data collection **[Privacy Policy](https://thedoc.eu.org/zettel-notes/privacy)**.
+
+:::
 
 Experience the convenience and privacy of Zettel Notes for your note taking needs. Download via [Play  Store](https://thedoc.eu.org/redirect/zettel-notes) or [My F-Droid Repository](https://thedoc.eu.org/fdroid/)
 
-Notes are stored as separate markdown files (no vendor lock-in like other apps). App starts with tutorial file explaining zettelkasten method. After installing, add folder / [repository]({{ site.baseurl }}{% link docs/repository.md %}) containing your existing notes from the [Repositories]({{ site.baseurl }}{% link docs/repository.md %}) option in menu.
+Notes are stored as separate markdown files (no vendor lock-in like other apps). App starts with tutorial file explaining zettelkasten method. After installing, add folder / repository containing your existing notes from the repositories option in menu.
 
 
-**Key Features**
+## Key Features
 
--  [Material design themes]({{ site.baseurl }}{% link docs/themes/app-theme.md %})
--  [Plugins]({{ site.baseurl }}{% link docs/plugins/index.md %})
+-  [Material design themes](./themes/app-theme.md)
+-  [Plugins](./plugins.md)
 -  Completely offline / No account Required
-- [Git sync]({{ site.baseurl }}{% link docs/synchronization/index.md %}#git) with github, gitlab or other private git repository
-- [Dropbox]({{ site.baseurl }}{% link docs/synchronization/index.md %}#dropbox), [WebDAV]({{ site.baseurl }}{% link docs/synchronization/index.md %}#webdav) and [SFTP]({{ site.baseurl }}{% link docs/synchronization/index.md %}#sftp--ssh) synchronization
--  [PGP key / Password encryption]({{ site.baseurl }}{% link docs/encryption/index.md %})
-- [Different types of Notes]({{ site.baseurl }}{% link docs/notes/index.md %}) stored in plain text files.
+- [Git sync](./synchronization.md#git) with github, gitlab or other private git repository
+- [Dropbox](./synchronization.md#dropbox), [WebDAV](./synchronization.md#webdav) and [SFTP](./synchronization.md#ssh) synchronization
+-  [PGP key / Password encryption](./encryption.md)
+- [Different types of Notes](./note-types.md) stored in plain text files.
   - Markdown Note (Default)
   - Task Note
   - Drawing Note
   - Audio Note
-- [Calendar View]({{ site.baseurl }}{% link docs/calendar.md %})
-- [Multiple note folders / vaults / repositories]({{ site.baseurl }}{% link docs/repository.md %})
+- [Calendar View](./calendar.md)
+- [Multiple note folders / vaults / repositories](./repository.md)
   - Customizable `Default Text` and `Date Format` for each repository
 -  Supports subfolders
 -  Full text search
@@ -52,7 +53,7 @@ Notes are stored as separate markdown files (no vendor lock-in like other apps).
 -  MD / TXT / ORG file support
 -  Breadcrump navigation
 
-<b>📚 Zettelkasten Features 📚</b>
+## 📚 Zettelkasten Features 📚
 
 - Show Note backlinks
 - Wiki style links between notes
@@ -65,7 +66,7 @@ Notes are stored as separate markdown files (no vendor lock-in like other apps).
   - type `@@` to show author search dialog
 - Extract new note while editing
 
-<b> 📝 Markdown Features 📝 </b>
+## 📝 Markdown Features 📝
 
 * Bold (`**`, `__`)
 * Code blocks
@@ -87,7 +88,7 @@ Notes are stored as separate markdown files (no vendor lock-in like other apps).
 * Thematic break (`---`, `***`, `___`)
 * Toggleable Task lists (`- [ ]` and `- [x]`)
 
-<b>🔌 HTML Features 🔌</b>
+## 🔌 HTML Features 🔌
 
 * Emphasis (`<i>`, `<em>`, `<cite>`, `<dfn>`)
 * Strong emphasis (`<b>`, `<strong>`)
@@ -100,7 +101,7 @@ Notes are stored as separate markdown files (no vendor lock-in like other apps).
 * Blockquote (`blockquote`)
 * Heading (`h1`, `h2`, `h3`, `h4`, `h5`, `h6`)
 
-<b>💬 Join our Community 💬</b>
+**💬 Join our Community 💬**
 
 If you have any issues, feel free to contact us
 
@@ -111,30 +112,39 @@ If you have any issues, feel free to contact us
 - [🗞️ Reddit post](https://www.reddit.com/r/Zettelkasten/comments/npr00a/introducing_my_new_android_app_for_zettelkasten/)
 - [🗞️ Zettelkasten.de post](https://forum.zettelkasten.de/discussion/1844/introducing-my-new-android-app-for-zettelkasten-zettel-notes/)
 
-<b>🔍 Be a beta tester 🔍</b>
+**🔍 Be a beta tester 🔍**
 
 1. Join [Google group](https://groups.google.com/g/znotes) 
 2. Sign up for [beta testing](https://play.google.com/apps/testing/org.eu.thedoc.zettelnotes)
 
-<b>Develop custom plugins</b>
+:::tip
+
+**How to develop custom plugins ?**
 
 Want to customize your Zettel Notes experience? Check out our [Plugin API](https://github.com/damionx7/Zettel-Notes-Plugin-Api) on GitHub
 
-**Translations supported**
+::: 
 
-1. Chinese Simplified
-2. Chinese Traditional
-3. English
-4. German
-5. Hindi
-6. Italian
-7. Persian
-8. Portuguese
-9. Romanian
-10. Russian
-11. Spanish
-12. Turkish
-13. Ukrainian
+## Translations supported
+
+1. Arabic
+2. Chinese Simplified
+3. Chinese Traditional
+4. Catalan
+5. English
+6. French
+7. German
+8. Hindi
+9. Italian
+10. Persian
+11. Portuguese
+12. Romanian
+13. Russian
+14. Spanish
+15. Tagalog
+16. Turkish
+17. Ukrainian
+18. Vietnamese
 
 [🌐 Translate Zettel Notes in your language 🌐](https://crowdin.com/project/zettel-notes)
 

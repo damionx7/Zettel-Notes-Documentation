@@ -1,9 +1,6 @@
 ---
-layout: default
 title: Plugins
-nav_order: 5
-has_children: false
-has_toc: false
+sidebar_position: 6
 ---
 
 ## Introduction

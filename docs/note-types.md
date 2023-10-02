@@ -1,9 +1,6 @@
 ---
-layout: default
 title: Note Types
-nav_order: 4
-has_children: false
-has_toc: false
+sidebar_position: 5
 ---
 
 All notes are stored as plain files. No database magic.

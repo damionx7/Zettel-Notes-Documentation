@@ -1,12 +1,7 @@
 ---
-layout: default
 title: App Themes
-nav_order: 2
-parent: Themes
-has_children: false
-has_toc: false
+sidebar_position: 2
 ---
-
 
 ## Light
 

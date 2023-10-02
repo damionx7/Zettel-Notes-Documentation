@@ -1,9 +1,6 @@
 ---
-layout: default
-title: Calendar View
-nav_order: 5
-has_children: false
-has_toc: false
+title: Calendar 
+sidebar_position: 3
 ---
 
 # Features
@@ -14,4 +11,5 @@ has_toc: false
 
 <img src="/assets/calendar/calendar.webp" alt="Calendar View" width="250"/>
 
+<br/>
 <img src="/assets/calendar/calendar1.webp" alt="Calendar View" width="250"/>

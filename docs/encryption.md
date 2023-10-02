@@ -1,9 +1,6 @@
 ---
-layout: default
 title: Encryption
-nav_order: 4
-has_children: false
-has_toc: false
+sidebar_position: 4
 ---
 
 ## Password

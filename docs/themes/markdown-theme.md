@@ -1,12 +1,7 @@
 ---
-layout: default
-title: Markdown Themes
-nav_order: 2
-parent: Themes
-has_children: false
-has_toc: false
+title: Markdown Styles
+sidebar_position: 3
 ---
-
 Following default Markdown themes are provided. You can customize themes or add your own.
 
 ## Monokai
@@ -34,6 +29,6 @@ Following default Markdown themes are provided. You can customize themes or add 
 # How to add your own markdown theme ?
 
 <video width="250" height="" controls>
-  <source src="/assets/themes/add-markdown-theme.webm" type="video/webm">
+  <source src="/assets/themes/add-markdown-theme.webm" type="video/webm"/>
 Your browser does not support the video tag.
 </video> 

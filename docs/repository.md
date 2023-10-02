@@ -1,9 +1,6 @@
 ---
-layout: default
 title: Repository
-nav_order: 5
-has_children: false
-has_toc: false
+sidebar_position: 2
 ---
 
 # Repository
@@ -13,7 +10,7 @@ Repository in Zettel Notes is like root folder for your collection of notes. To 
 You can create repository in following ways:
 
 - Select root folder from file system
-- [Clone Git in private storage of app]({{ site.baseurl }}{% link docs/synchronization/index.md %}#git)
+- [Clone Git in private storage of app](synchronization#git)
 - Long press floating button to create random repository in private storage of app
 
 ## Default Text 
