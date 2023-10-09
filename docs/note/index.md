@@ -1,4 +1,7 @@
 ---
-title: Note
+title: Notes
 sidebar_position: 1
 ---
+
+What is a note ?
+

@@ -25,20 +25,21 @@ Checkout our **[Privacy Policy](https://thedoc.eu.org/zettel-notes/privacy)**
 
 ## Features List
 
-- [App Lock](./app-lock.md)
+-  [App Lock](./app-lock.md)
 -  Bookmark / Pin notes
 -  [Calendar View](./calendar.md)
--  [Dropbox](./synchronization.md#dropbox), [Git](./synchronization.md#git), Google Drive, [WebDAV](./synchronization.md#webdav) and [SFTP](./synchronization.md#ssh) synchronization
+-  [Dropbox, Git, Google Drive, WebDAV and SFTP synchronization](./repository/synchronization/index.md)
 -  [Different types of notes](./note-types.md) stored as plain text files eg. task note, audio note, bookmark note etc.
 -  Full text search
 -  [Keyboard Shortcuts](./keyboard-shortcuts)
+-  [Keys Manager](./repository/synchronization/keys-manager.md)
 -  [Latex support](./note/editor/markdown#latex)
 -  [Markdown Formatting](./note/editor/markdown)
 -  [Material design themes](./themes/app-theme.md) and [Fonts](./themes/font-downloader.md)
 -  MD / TXT / ORG file support
 -  [Multiple note folders / vaults / repositories](./repository/index.md)
 -  [PGP key / Password encryption](./encryption.md)
--  [Plugins](./plugins.md)
+-  [Plugins](./plugins/)
 -  [Recycle Bin](./recycle-bin)
 -  [Saved searches](./saved-searches)
 -  [Share Note as PDF, HTML, launcher shortcut or pinned notifications](/category/share-notes)
