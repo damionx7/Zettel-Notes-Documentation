@@ -28,7 +28,18 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
-video {
-  width: 280px;
-  height: "";
+a:hover {
+  text-decoration: underline;
+}
+
+
+figure, video {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 24px;
+  margin-top: 24px;
+  width: 300px;
+  text-align: center;
+  font-weight: bold;
 }

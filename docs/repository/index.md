@@ -1,0 +1,28 @@
+---
+title: Repository
+sidebar_position: 1
+---
+
+# Repository
+
+Repository in Zettel Notes is like root folder for your collection of notes. To create a repository, click on menu button on main screen, select `Repositories` option.
+
+You can create repository in following ways:
+
+- Select root folder from file system
+- [Clone Git in private storage of app](synchronization#git)
+- Long press floating button to create random repository in private storage of app
+
+## Default Text 
+
+This text will be added to new note files created when you are using that repository.
+
+<img src="/assets/img/defaulttxt1.webp" alt="Default Text" width="250"/>
+<img src="/assets/img/defaulttxt2.webp" alt="Default Text" width="250"/>
+
+## Date Format 
+
+It contains format for [date time](https://docs.oracle.com/javase/7/docs/api/java/util/Formatter.html) which will be evaluated with the present date and time when creating new note.
+
+<img src="/assets/img/dateformat1.webp" alt="Date Format" width="250"/>
+<img src="/assets/img/dateformat2.webp" alt="Date Format" width="250"/>

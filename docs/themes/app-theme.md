@@ -1,24 +1,80 @@
 ---
 title: App Themes
-sidebar_position: 2
 ---
 
-## Light
+There are 2 base themes - light and dark theme. You can choose to follow system theme. Zettel Notes will automatically select light or dark theme based on android system configuration.
 
-<img src="/assets/themes/app-light.webp" alt="Light Theme" width="200"/>
+You can configure each base theme with `Accent Color`, `Background Color`, `Viewer Font`, `Editor Font` and `Markdown Style`.
 
-## Dark
+To configure theme, go to `Settings > Theme`.
 
-<img src="/assets/themes/app-dark.webp" alt="Dark Theme" width="200"/>
+## Font
 
-## Black (AMOLED)
+You can import font `ttf` file from storage or use any font from Google Fonts. [Read more](./font-downloader.md).
 
-<img src="/assets/themes/app-black.webp" alt="Black Theme" width="200"/>
+## Markdown Style
 
-## Dark.Blue
+You can configure separate markdown style for light and dark theme. [Read more](./markdown-theme.md)
 
-<img src="/assets/themes/app-dark-blue.webp" alt="Dark Blue Theme" width="200"/>
+## Accent Colors
 
-## Dark.Teal
+- Blue
+- Brown
+- Cyan
+- Green
+- Grey
+- Orange
+- Pink
+- Purple
+- Red
+- Teal
 
-<img src="/assets/themes/app-dark-teal.webp" alt="Dark Teal Theme" width="200"/>
+## Background Colors
+
+Following background colors are supported. 
+
+<figure>
+<img src="/assets/img/theme-background-light.png" alt="White"/>
+ <figcaption>White Background</figcaption>
+</figure>
+
+<figure>
+<img src="/assets/img/theme-background-black.png" alt="Black"/>
+ <figcaption>Black Background</figcaption>
+</figure>
+
+<figure>
+<img src="/assets/img/theme-background-blue-light.png" alt="Blue (Light)"/>
+ <figcaption>Blue (Light) Background</figcaption>
+</figure>
+
+<figure>
+<img src="/assets/img/theme-background-blue.png" alt="Blue"/>
+ <figcaption>Blue Background</figcaption>
+</figure>
+
+<figure>
+  <img src="/assets/img/theme-background-green.png" alt="Green"/>
+  <figcaption>Green Background</figcaption>
+</figure>
+
+<figure>
+  <img src="/assets/img/theme-background-teal.png" alt="Teal"/>
+  <figcaption>Teal Background</figcaption>
+</figure>
+
+<figure>
+  <img src="/assets/img/theme-background-red.png" alt="Red"/>
+  <figcaption>Red Background</figcaption>
+</figure>
+
+<figure>
+  <img src="/assets/img/theme-background-newspaper.png" alt="Newspaper"/>
+  <figcaption>Newspaper Background</figcaption>
+</figure>
+
+<figure>
+  <img src="/assets/img/theme-background-terminal.png" alt="Terminal"/>
+  <figcaption>Terminal Background</figcaption>
+</figure>
+

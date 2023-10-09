@@ -1,0 +1,3 @@
+---
+title: Donation Plugin
+---
