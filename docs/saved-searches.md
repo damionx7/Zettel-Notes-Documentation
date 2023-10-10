@@ -31,5 +31,5 @@ Edit you search name and search query. To set specific filter click on the respe
 To search just click on the saved search in navigation drawer.
 
 :::tip
-You can long press on [Tag](./note/tags.md) in Tags Screen to add it as saved search.
+You can long press on tag in tags screen to add it as saved search.
 :::

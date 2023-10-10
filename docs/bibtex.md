@@ -20,3 +20,7 @@ To learn how to create citations file in zotero follow this blog post https://th
 
 - BibTex Manager is available as a seperate application 
 - Download via [Play Store](https://play.google.com/store/apps/details?id=org.eu.thedoc.bibtexmanager) or [F-Droid](https://thedoc.eu.org/fdroid/) 
+
+## Demo Video
+
+<iframe width="100%" height="550px" src="https://www.youtube-nocookie.com/embed/70-TkT_Hhx0?si=gsf9WQJpcNMETvys" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

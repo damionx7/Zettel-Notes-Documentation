@@ -1,14 +1,52 @@
 ---
-title: Zettelkasten
+title: Zettelkasten Method
 ---
 
-- Show Note backlinks
-- Wiki style links between notes
-- type `[[` to show note dialog and select to insert markdown link for the note
-- Tags
-  - Tags are denoted by `#tag` or specifying tag in yaml
-  - type `##` or `#?` to show tags search dialog
-- Authors
-  - Authors are denoted by `@author` or specifying author in yaml
-  - type `@@` to show author search dialog
-- Extract new note while editing
+Zettel Notes has first class support for Zettelkasten note taking method.
+
+## Features
+
+### Backlinks
+
+Backlinks are the notes which contain link for the existing note. In [note information dialog](../#note-information), all note backlinks are listed. You can click on any backlink note to open it.
+
+### Wiki style links between notes
+
+Type `[[` in editor to show note list and select any note to insert markdown link for the note. eg `[[note.md]]`
+
+:::tip
+```
+To configure note links, go to `Settings > Editor > Link Style`. You can select among `[[filename]]`, `[[filename.md]]`, `[[filename|title]]`, `[[filename.md|title]]`, `[[date]]`, `[[date]] title`, `[title](filename)` and `[title](filename.md)`.
+```
+:::
+
+### Tags
+
+- Tags are denoted by `#tag` or specifying tag in yaml
+- type `##` or `#?` to show tag search dialog
+
+## Authors
+
+- Authors are denoted by `@author` or specifying author in yaml
+- type `@@` to show author search dialog
+
+## New Note from selection
+
+You can create new note from selected text in editor. Just select some text in editor and click on `Extract Note` editor button in [Editor](../editor)
+
+<figure>
+<img src="/assets/img/editor-buttons-extract-note.jpeg" alt="Extract Note"/>
+ <figcaption>Extract note editor button</figcaption>
+</figure>
+
+### Table of contents
+
+To display table of contents, add `[TOC]` tag anywhere in note in a new line.
+
+To enable table of contents for all notes, tick `Table of Contents (TOC)` settings option in `Settings > Editor`.
+
+## Lean more about Zettelkasten method 📖
+
+This note taking method is based on zettel or short notes based on a single idea. Main strength of this method lies in interlinking notes and backlinks.
+
+Sascha has described this method is more detail. Please checkout his blog post at https://zettelkasten.de/introduction/.

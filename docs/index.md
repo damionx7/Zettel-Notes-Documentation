@@ -29,7 +29,7 @@ Checkout our **[Privacy Policy](https://thedoc.eu.org/zettel-notes/privacy)**
 -  Bookmark / Pin notes
 -  [Calendar View](./calendar.md)
 -  [Dropbox, Git, Google Drive, WebDAV and SFTP synchronization](./repository/synchronization/index.md)
--  [Different types of notes](./note-types.md) stored as plain text files eg. task note, audio note, bookmark note etc.
+-  [Different types of notes](./note-types) stored as plain text files eg. task note, audio note, bookmark note etc.
 -  Full text search
 -  [Keyboard Shortcuts](./keyboard-shortcuts)
 -  [Keys Manager](./repository/synchronization/keys-manager.md)
@@ -38,7 +38,7 @@ Checkout our **[Privacy Policy](https://thedoc.eu.org/zettel-notes/privacy)**
 -  [Material design themes](./themes/app-theme.md) and [Fonts](./themes/font-downloader.md)
 -  MD / TXT / ORG file support
 -  [Multiple note folders / vaults / repositories](./repository/index.md)
--  [PGP key / Password encryption](./encryption.md)
+-  [PGP key / Password encryption](./repository/encryption.md)
 -  [Plugins](./plugins/)
 -  [Recycle Bin](./recycle-bin)
 -  [Saved searches](./saved-searches)
