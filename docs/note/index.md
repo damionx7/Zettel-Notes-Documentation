@@ -22,7 +22,7 @@ There are 2 modes for any note
 
 View mode shows the parsed markdown. It shows different layouts depending on the [Note Type](./note-types). 
 
-[Edit]((./editor)) mode allows to edit files with [markdown formatting](./editor/markdown). You can insert tags, authors and note links in editor. It has deep integration with [Zettelkasten Method](./editor/zettelkasten)
+[Edit](./editor) mode allows to edit files with [markdown formatting](./editor/markdown). You can insert tags, authors and note links in editor. It has deep integration with [Zettelkasten Method](./editor/zettelkasten)
 
 ## Note Information
 

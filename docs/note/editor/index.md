@@ -33,7 +33,7 @@ Editor has text editing area in center and editor buttons at bottom of the scree
 
 ### Heading button
 
-- Click to insert [heading format]((./editor/markdown#heading)) in front of line.
+- Click to insert [heading format](./markdown#heading) in front of line.
 - You can remove heading or add heading from Level 1 to Level 6 heading.
 
 ### Zettelkasten Buttons
@@ -45,14 +45,14 @@ Editor has text editing area in center and editor buttons at bottom of the scree
 
 ### Attachment button
 
-The folder where attachments are stored is defined by [attachment location in repository](../repository#7-default-location-for-attachments).
+The folder where attachments are stored is defined by [attachment location in repository](../../repository#7-default-location-for-attachments).
 
 - Link
 - Audio recording
 - Drawing
 - Camera Image
 - File from storage
-- Media file from [Gallery](../gallery)
+- Media file from [Gallery](../../gallery)
 
 :::info
 You can also download the link, if it is an image file.
