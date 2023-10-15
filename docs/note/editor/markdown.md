@@ -153,13 +153,16 @@ $$
 
 ## Supported HTML tags
 
+* Blockquote (`blockquote`)
+* Code (`code`, `pre`)
 * Emphasis (`<i>`, `<em>`, `<cite>`, `<dfn>`)
-* Strong emphasis (`<b>`, `<strong>`)
-* SuperScript (`<sup>`)
-* SubScript (`<sub>`)
-* Underline (`<u>`, `ins`)
-* Strike-through (`<s>`, `<strike>`, `<del>`)
+* Heading (`h1`, `h2`, `h3`, `h4`, `h5`, `h6`)
+* Highlight (`mark`)
 * Link (`a`)
 * Lists (`ul`, `ol`)
-* Blockquote (`blockquote`)
-* Heading (`h1`, `h2`, `h3`, `h4`, `h5`, `h6`)
+* Strong Emphasis (`<b>`, `<strong>`)
+* Superscript (`<sup>`)
+* Subscript (`<sub>`)
+* Strike-through (`<s>`, `<strike>`, `<del>`)
+* Spoiler (`spoiler`)
+* Underline (`<u>`, `ins`)
