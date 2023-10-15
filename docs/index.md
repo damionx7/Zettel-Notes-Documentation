@@ -15,7 +15,7 @@ Welcome to documentation for [Zettel Notes](./download) Markdown Note taking app
 5. No collection of user data
 6. Offline, synchronization is optional.
 
-Notes are stored as separate text files. Applications starts with Introduction note. After installing, add folder / repository containing your existing notes from the repositories option in menu.
+Notes are stored as separate text files. Application starts with an introductary note. After installing, add folder / repository containing your existing notes from the repositories option in menu.
 
 Checkout our **[Privacy Policy](https://thedoc.eu.org/zettel-notes/privacy)**
 

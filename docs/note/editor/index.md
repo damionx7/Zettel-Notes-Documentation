@@ -113,6 +113,19 @@ This button is integrated with [BibTex](../../bibtex) manager
 
 Click to enter citation and long press button to generate bibliography.
 
+### Emoji Button
+
+Application has support for converting Emoji alias (in edit mode) to emojis (in view mode). Eg. `:smile:` is converted to 😄 in view mode. Clicking on an emoji will insert its alias in editor.
+
+:::info
+For full list of supported emojis and aliases, [follow this link](https://github.com/vdurmont/emoji-java/blob/master/EMOJIS.md)
+:::
+
+<figure>
+<img src="/assets/img/editor-buttons-emoji.png" alt="Emoji Button"/>
+ <figcaption>Emoji Button</figcaption>
+</figure>
+
 ### Settings Button
 
 You can configure the order of editor buttons or enable / disable editor buttons with this button.
