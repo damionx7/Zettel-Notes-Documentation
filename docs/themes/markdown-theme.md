@@ -4,6 +4,10 @@ title: Markdown Style
 
 Zettel Notes supports configuring markdown formatting apart from [App Theme](./app-theme.md).
 
+:::info
+You can export and import markdown styles as `json` files.
+:::
+
 ## What can be modified ?
 
 1. Blockquote color
@@ -21,10 +25,13 @@ Zettel Notes supports configuring markdown formatting apart from [App Theme](./a
 13. Thematic break height
 14. Show markdown link brackets
 15. Show underline in links
+16. Code Font
+17. Heading Font
+18. Editor Font
+19. Viewer Font 
 
-
-:::info
-You can export and import markdown styles as `json` files.
+:::tip
+If you define editor and viewer fonts in markdown theme and also in app theme, then fonts selected in markdown theme will be preferred.
 :::
 
 ## Pre-installed 
