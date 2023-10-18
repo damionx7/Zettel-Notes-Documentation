@@ -47,6 +47,7 @@ Checkout our **[Privacy Policy](https://thedoc.eu.org/zettel-notes/privacy)**
 -  Sort notes by alphabetical, edited time, creation time, words, frequency of opening
 -  Subfolder support
 -  [Templates](./templates.md)
+-  [Tasker Plugin](./tasker.md)
 -  [Zettelkasten support](./note/editor/zettelkasten)
 
 
