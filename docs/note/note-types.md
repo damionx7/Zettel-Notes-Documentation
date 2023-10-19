@@ -13,7 +13,7 @@ note_type: task
 ---
 ```
 
-This note shows all the [markdown style tasks](./editor/markdown#task-lists) as a simple task list. You can toggle task or add new task from the floating add button. To delete task swipe from left on the task and click on delete button.
+This note shows all the [markdown style tasks](./editor/markdown#task-lists) as a simple task list. You can toggle task or add new task from the floating add button. To delete task swipe from left on the task and click on delete button. You can also show / hide completed tasks.
 
 :::tip
 It is possible to set alarm on a task. Just install [Alarm Plugin](../plugins/alarm-plugin.md) and swipe on a task to set alarm.

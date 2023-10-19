@@ -8,16 +8,13 @@ You can encrypt notes per repository. To enable note encryption, go to `Reposito
 
 1. Password
 
-    - You can use plain text password for encryption 
-    - Decryption is exclusively possible through the Zettel Notes app on the user's device. If you uninstall the Zettel Notes app (which clears the SALT) or forget the password, the notes cannot be decrypted.
-    - Only an asymmetric password hash is stored, which is then compared with the user-entered password upon app startup. The plain password is not stored in Zettel Notes.
+- Use password for encrypting notes.
+- If you uninstall the Zettel Notes app (which clears the SALT) or forget the password, notes cannot be decrypted.
+- Decryption is possible between android devices. For that you will have to use same `salt` for both devices. Copy from `Settings > Encryption Salt`. 
+- If encryption salt is similar on two devices using Zettel Notes, then user can share the encrypted note and decrypt on other device with user password.
+- Only an asymmetric password hash (argon2 algorithm) is stored (on device), which is then compared with the user-entered password. 
+- User password is not stored in Zettel Notes. It is impossible as of now to recover user password from the stored hash if strength of user password is reasonable.
 
-:::info
-Password encryption uses AES-256 Encryption. Secret key is generated using two inputs 
-- User provided Password
-- Specific text known as SALT (unique for each installation)
-:::
+1. OpenPGP
 
-2. OpenPGP
-
-   - PGP Key encryption is provided via intergration with [Openkeychain](https://play.google.com/store/apps/details?hl=en&id=org.sufficientlysecure.keychain) app.
+- PGP Key encryption is provided via intergration with [Openkeychain](https://play.google.com/store/apps/details?hl=en&id=org.sufficientlysecure.keychain) app.
