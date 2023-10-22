@@ -26,7 +26,19 @@ const config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
-  
+
+  plugins: [
+    [
+      require.resolve("@cmfcmf/docusaurus-search-local"),
+      {
+        // whether to index blog pages
+        indexBlog: false,
+        language: "en",
+        maxSearchResults: 5,
+      },
+    ],
+  ],
+
   presets: [
     [
       '@docusaurus/preset-classic',
