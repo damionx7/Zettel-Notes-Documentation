@@ -19,6 +19,7 @@ If you want to translate application in your language. Sign up at crowdin and dr
 - Chinese Simplified
 - Chinese Traditional
 - Catalan
+- Dutch
 - English
 - French
 - German
