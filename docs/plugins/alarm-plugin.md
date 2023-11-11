@@ -15,7 +15,9 @@ Remind me to code.
 
 This will create an alarm at 10 AM on 10th October 2023. Alarm will show `Remind me to code` text in notification. Clicking this notification will take you to the specific note.
 
-Clicking on alarm button will show date and time selection dialog.
+Checking or deleting alarm will comment out the alarm syntax. 
+
+Click on alarm editor button to show date and time selection dialog.
 
 <figure>
 <img src="/assets/img/plugin-alarm-selection-dialog.png" alt="Task Note"/>

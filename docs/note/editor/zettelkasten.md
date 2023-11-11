@@ -45,6 +45,12 @@ To display table of contents, add `[TOC]` tag anywhere in note in a new line.
 
 To enable table of contents for all notes, tick `Table of Contents (TOC)` settings option in `Settings > Editor`.
 
+### Inline Heading links
+
+To create inline heading links add # in front of link eg. `[Heading](#heading)`.
+
+Clicking on inline heading link will scroll to the specific heading.
+
 ## Lean more about Zettelkasten method 📖
 
 This note taking method is based on zettel or short notes based on a single idea. Main strength of this method lies in interlinking notes and backlinks.

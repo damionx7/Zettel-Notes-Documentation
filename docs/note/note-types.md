@@ -84,7 +84,7 @@ This note directly opens the url or source defined in YAML. For eg. in the above
 
 To create a bookmark note, share webpage from browser and select `Zettel Notes > New Bookmark Note` from share screen.
 
-## Log Note (Upcoming)
+## Log Note
 
 ```
 ---

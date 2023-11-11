@@ -19,6 +19,9 @@ All these fonts have Open Font license.
   <figcaption>Font Chooser</figcaption>
 </figure>
 
+:::tip
+Long press font title to delete font file from Zettel Notes
+:::
 
 ## Downloading from Google Fonts
 

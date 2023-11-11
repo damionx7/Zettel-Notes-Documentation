@@ -16,6 +16,8 @@ You can choose to synchronize with subfolder while setting up synchronization. F
 
 You can generate private and public ssh keys within Zettel Notes. [Git](./git.md) and [SSH](./sftp.md) synchronization support keys generated via Keys Manager. See [Keys Manager](./keys-manager.md)
 
+To trigger synchronization after saving note, toggle settings option in `Settings > Synchronization > Trigger sync on saving note`.
+
 ## Background synchronization
 
 To enable background synchronization go to, `Settings > Synchronization > Enable background synchronization`
