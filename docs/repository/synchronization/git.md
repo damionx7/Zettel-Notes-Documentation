@@ -38,9 +38,10 @@ You will have to set following parameters
  <figcaption>GIT Settings</figcaption>
 </figure>
 
-:::tip
-For Github you will need to use [personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) instead of password.
-:::
+!!! tip
+
+    For Github you will need to use [personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) instead of password.
+
 
 ## Video showcasing GIT repository setup
 
@@ -50,6 +51,7 @@ Your browser does not support the video tag.
 </video>
 
 
-:::info
-To reset git repository, select `Reset Repository` option in title bar in git settings.
-:::
+!!! information
+
+    To reset git repository, select `Reset Repository` option in title bar in git settings.
+

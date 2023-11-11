@@ -7,9 +7,10 @@ Repository in Zettel Notes is root folder for your collection of notes. It is co
 
 To create a repository, click on menu button on main screen, select `Repositories` option. And click on floating create repository button.
 
-:::tip
-Long pressing create repository button, creates a new repository in private storage of application.
-:::
+!!! tip
+
+    Long pressing create repository button, creates a new repository in private storage of application.
+
 
 ## Properties of a Repository
 
@@ -71,4 +72,4 @@ Following file extensions are supported `md`, `org`,`txt`,`text`, `mkd`, `mdwn`,
 
 ## Synchronization
 
-- To setup synchronization, [follow this guide](./synchronization/).
+- To setup synchronization, [follow this guide](synchronization/index.md).

@@ -17,14 +17,13 @@ Currently following plugins are available in play store and f-droid repository.
 7. [Text Utils Plugin](./text-utils.md)
 8. [Translate Plugin](./translate-plugin.md)
 
-:::tip
-Show your love ❤️ for Zettel Notes   by [purchasing donation plugin](https://play.google.com/store/apps/details?id=org.eu.thedoc.zettelnotes.buttons.dummy) and other plugins.
-:::
+!!! tip
 
-## Source Code for plugins
+    Show your love ❤️ for Zettel Notes   by [purchasing donation plugin](https://play.google.com/store/apps/details?id=org.eu.thedoc.zettelnotes.buttons.dummy) and other plugins.
 
-Source code for plugins and plugin api is available on Github.
+**Source code for plugins and plugin api is available on Github**
+
 - [Zettel-Notes-Plugin-Api <i class='fa fa-github'></i>](https://github.com/damionx7/Zettel-Notes-Plugin-Api)
-  - Library used to develop plugins
-  - Any developer can use this library to create new plugins
+    - Library used to develop plugins
+    - Any developer can use this library to create new plugins
 - [Zettel-Notes-Plugin-Buttons <i class='fa fa-github'></i>](https://github.com/damionx7/Zettel-Notes-Plugin-Buttons/)

@@ -27,7 +27,7 @@ To open calendar view, open left navigation drawer and click on `Calendar`.
 
 - Click on date to search notes which were created on that date.
 
-:::info
-Calendar works best when your notes have date format in front of filenames. eg. `202310082210 Note.md`.
-To automatically add this in front of filename, edit date format in [Repository](repository#date-format) settings.
-:::
+!!! info
+
+    Calendar works best when your notes have date format in front of filenames. eg. `202310082210 Note.md`.
+    To automatically add this in front of filename, edit date format in [Repository](repository#date-format) settings.

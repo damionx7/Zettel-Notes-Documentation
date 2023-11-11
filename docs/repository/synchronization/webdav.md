@@ -6,11 +6,12 @@ To setup WebDav synchronization, go to `Repositories > Setup Sync > WebDav`. Ent
 
 If you want to synchronize with specific subfolder, then `WebDav url` should include your subfolder.
 
-:::tip
-If you use private ssl certificates for your webdav server, tick `Trust Private Certificate` in WebDav synchronization dialog.
-:::
+!!! tip
 
-To setup Nextcloud synchronization, [checkout this faq](../../faq#how-to-use-nextcloud-synchronization-)
+    If you use private ssl certificates for your webdav server, tick `Trust Private Certificate` in WebDav synchronization dialog.
+
+
+To setup Nextcloud synchronization, [checkout this faq](../../faq.md#how-to-use-nextcloud-synchronization-)
 ## Demo Video
 
 <video controls>

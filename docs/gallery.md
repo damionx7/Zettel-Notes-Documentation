@@ -23,6 +23,6 @@ You can perform following actions on media files from Gallery. Just long press m
  <figcaption>Gallery showing Media Files</figcaption>
 </figure>
 
-:::tip
-You can also filter unused media files. Just press on top right button in menu `Toggle Unused Media`.
-:::
+!!! tip
+
+    You can also filter unused media files. Just press on top right button in menu `Toggle Unused Media`.

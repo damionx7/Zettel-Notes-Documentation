@@ -1,0 +1,20 @@
+.md-typeset h1,
+.md-typeset h2 {
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img,
+video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 24px;
+    margin-top: 24px;
+    width: 350px;
+    text-align: center;
+    font-weight: bold;
+}

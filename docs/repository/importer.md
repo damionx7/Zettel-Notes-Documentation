@@ -4,7 +4,7 @@ title: Import Notes
 
 You can import notes from other applications in Zettel Notes. To import notes, go to `Repositories > Long Press Repository > Import Notes`.
 
-## [StyleNote](http://nullium.com/)
+## 1. [StyleNote](http://nullium.com/)
 
 Currently you can import notes only from StyleNote HTML file. 
 

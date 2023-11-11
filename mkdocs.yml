@@ -1,0 +1,50 @@
+site_name: Zettel Notes
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+theme:
+  name: material
+  font:
+    text: Lato
+    code: Roboto Mono
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  palette: 
+        # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: white
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+extra_css:
+  - stylesheets/style.css
+plugins:
+  - search
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/solid/paper-plane
+      link: https://t.me/zettelnotes
+    - icon: fontawesome/brands/youtube
+      link: https://youtube.com/@zettelnotes
+    - icon: fontawesome/brands/reddit
+      link: https://www.reddit.com/r/Zettelkasten/comments/npr00a/introducing_my_new_android_app_for_zettelkasten/
+    - icon: fontawesome/brands/github
+      link: https://github.com/damionx7/Zettel-Notes-Documentation/
+    - icon: fontawesome/solid/envelope
+      link: mailto:info@thedoc.eu.org

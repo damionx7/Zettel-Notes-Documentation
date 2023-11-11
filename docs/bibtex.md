@@ -10,9 +10,10 @@ Zettel Notes can also be used as a citation manager.
 4. Save the repository.
 5. To browse this BibTex file, Select `BibTex` from left navigation drawer on main screen.
 
-:::info
-Zettel Notes supports `bib` and `json` files for citation
-:::
+!!! tip
+
+    Zettel Notes supports `bib` and `json` files for citation
+
 
 To learn how to create citations file in zotero follow this blog post https://thedoc.eu.org/blog/bibtex-manager
 

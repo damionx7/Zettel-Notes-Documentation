@@ -2,9 +2,10 @@
 title: Speech To Text Plugin
 ---
 
-:::info
-Download from [Play Store](https://play.google.com/store/apps/details?id=org.eu.thedoc.zettelnotes.buttons.speech2text) or F-Droid
-:::
+!!! information
+
+    Download from [Play Store](https://play.google.com/store/apps/details?id=org.eu.thedoc.zettelnotes.buttons.speech2text) or F-Droid
+
 
 This plugin converts spoken text into words and inserts in note.
 

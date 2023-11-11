@@ -4,9 +4,10 @@ title: Markdown Style
 
 Zettel Notes supports configuring markdown formatting apart from [App Theme](./app-theme.md).
 
-:::info
-You can export and import markdown styles as `json` files.
-:::
+!!! information
+
+    You can export and import markdown styles as `json` files.
+
 
 ## What can be modified ?
 
@@ -30,9 +31,10 @@ You can export and import markdown styles as `json` files.
 18. Editor Font
 19. Viewer Font 
 
-:::tip
-If you define editor and viewer fonts in markdown theme and also in app theme, then fonts selected in markdown theme will be preferred.
-:::
+!!! tip
+
+    If you define editor and viewer fonts in markdown theme and also in app theme, then fonts selected in markdown theme will be preferred.
+
 
 ## Pre-installed 
 
@@ -74,7 +76,7 @@ Your browser does not support the video tag.
 
 ## Another Beautiful Style (My Favourite)
 
-- To apply this markdown style, [download json file](../../static/markdown-theme-hertz-dark.json) and import in Zettel Notes. `Settings > Theme > Markdown Style > Import`.
+- To apply this markdown style, [download json file](../assets/markdown-theme-hertz-dark.json) and import in Zettel Notes. `Settings > Theme > Markdown Style > Import`.
 
 
 <figure>

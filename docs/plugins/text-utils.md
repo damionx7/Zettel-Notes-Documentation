@@ -2,9 +2,10 @@
 title: Text Utils Plugin
 ---
 
-:::info
-Download from [Play Store](https://play.google.com/store/apps/details?id=org.eu.thedoc.zettelnotes.buttons.textutils) or F-Droid
-:::
+!!! information
+
+    Download from [Play Store](https://play.google.com/store/apps/details?id=org.eu.thedoc.zettelnotes.buttons.textutils) or F-Droid
+
 
 Following utilities are provided:
 

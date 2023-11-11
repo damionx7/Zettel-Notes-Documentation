@@ -9,9 +9,10 @@ It is crowd sourced and translated by users like you and me.
 Contribute to translation at
 [https://crowdin.com/project/zettel-notes](https://crowdin.com/project/zettel-notes)
 
-:::info
-If you want to translate application in your language. Sign up at crowdin and drop a message.
-:::
+!!! information
+
+    If you want to translate application in your language. Sign up at crowdin and drop a message.
+
 
 ## Languages supported
 

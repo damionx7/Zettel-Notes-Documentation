@@ -5,9 +5,10 @@ sidebar_position: 1
 
 You can enter edit mode by clicking on edit button in View Mode. 
 
-:::tip
-You can directly open note in edit mode. Just change `Settings > Editor > Default Mode > Edit`
-:::
+!!! tip
+
+    You can directly open note in edit mode. Just change `Settings > Editor > Default Mode > Edit`
+
 
 Editor has text editing area in center and editor buttons at bottom of the screen.
 
@@ -54,9 +55,10 @@ The folder where attachments are stored is defined by [attachment location in re
 - File from storage
 - Media file from [Gallery](../../gallery)
 
-:::info
-You can also download the link, if it is an image file.
-:::
+!!! information
+
+    You can also download the link, if it is an image file.
+
 
 ### Text manipulation buttons
 
@@ -80,9 +82,9 @@ You can also download the link, if it is an image file.
 - Goto Previous Line
 - Goto Next Line
 
-:::tip
-If you long press Goto Previous Line or Goto Next Line buttons, selection will be set to start or end of file respectively.
-:::
+!!! tip
+
+    If you long press Goto Previous Line or Goto Next Line buttons, selection will be set to start or end of file respectively.
 
 ### Revision (Note History) Button
 
@@ -117,9 +119,10 @@ Click to enter citation and long press button to generate bibliography.
 
 Application has support for converting Emoji alias (in edit mode) to emojis (in view mode). Eg. `:smile:` is converted to 😄 in view mode. Clicking on an emoji will insert its alias in editor.
 
-:::info
-For full list of supported emojis and aliases, [follow this link](https://github.com/vdurmont/emoji-java/blob/master/EMOJIS.md)
-:::
+!!! information
+
+    For full list of supported emojis and aliases, [follow this link](https://github.com/vdurmont/emoji-java/blob/master/EMOJIS.md)
+
 
 <figure>
 <img src="/assets/img/editor-buttons-emoji.png" alt="Emoji Button"/>

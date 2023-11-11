@@ -19,9 +19,10 @@ Notes are stored as separate text files. Application starts with an introductary
 
 Checkout our **[Privacy Policy](https://thedoc.eu.org/zettel-notes/privacy)**
 
-:::info
-[Download Now!](./download) Experience the convenience and privacy of Zettel Notes for your note taking needs. 
-:::
+!!! info
+    
+    [Download Now!](./download) Experience the convenience and privacy of Zettel Notes for your note taking needs. 
+
 
 ## Features List
 
@@ -63,13 +64,12 @@ If you have any issues, feel free to contact us
 - [🗞️ Reddit post](https://www.reddit.com/r/Zettelkasten/comments/npr00a/introducing_my_new_android_app_for_zettelkasten/)
 - [🗞️ Zettelkasten.de post](https://forum.zettelkasten.de/discussion/1844/introducing-my-new-android-app-for-zettelkasten-zettel-notes/)
 
-:::tip
+!!! information
 
-**How to develop custom plugins ?**
+    **How to develop custom plugins ?**
 
-Want to customize your Zettel Notes experience? Check out our [Plugin API](https://github.com/damionx7/Zettel-Notes-Plugin-Api) on GitHub
+    Want to customize your Zettel Notes experience? Check out our [Plugin API](https://github.com/damionx7/Zettel-Notes-Plugin-Api) on GitHub
 
-::: 
 
 ## Translations
 

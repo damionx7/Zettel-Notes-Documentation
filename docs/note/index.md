@@ -9,9 +9,10 @@ A note in Zettel Notes is a plain text file. It can have any of the supported fi
 
 Whatever changes are made by the user are automatically saved in the note file. This way you can use any application you want to read your notes and are not dependent on Zettel Notes (vendor agnostic).
 
-:::tip
-For full list of supported file extensions, checkout [Repository](../repository)
-:::
+!!! tip
+
+    For full list of supported file extensions, checkout [Repository](../repository)
+
 
 ## Viewer and Editor Modes
 
@@ -42,6 +43,6 @@ You can share note as
 - [PDF or HTML](./share-note/pdf)
 - [Zettel Links](./share-note/zettel-links)
 
-:::tip
-You can also create a note widgets. [Read more](./share-note/widgets).
-:::
+!!! tip
+
+    You can also create a note widgets. [Read more](./share-note/widgets).

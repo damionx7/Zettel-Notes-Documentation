@@ -6,9 +6,10 @@ Zettel Notes has powerful full-text search. It can search in file contents almos
 
 Search can be filtered by clicking on `Sort` icon in menu.
 
-:::info
-6 note filters are provided. You can sort notes by `Date`, `Title`, `Word Count`, `Last Modified`, `Times Accessed` and `Filename`.
-:::
+!!! information
+
+    6 note filters are provided. You can sort notes by `Date`, `Title`, `Word Count`, `Last Modified`, `Times Accessed` and `Filename`.
+
 
 You can also save your search queries. 
 
@@ -30,6 +31,6 @@ Edit you search name and search query. To set specific filter click on the respe
 
 To search just click on the saved search in navigation drawer.
 
-:::tip
-You can long press on tag in tags screen to add it as saved search.
-:::
+!!! tip
+
+    You can long press on tag in tags screen to add it as saved search.

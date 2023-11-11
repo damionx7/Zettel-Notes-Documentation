@@ -12,16 +12,14 @@ Zettel Notes provides option to select different fonts for viewer and editor. Yo
 4. Open Dyslexic
 5. Roboto
 
-All these fonts have Open Font license.
+!!! information
+
+    Long press font title to delete font file from Zettel Notes
 
 <figure>
   <img src="/assets/img/font-chooser-dialog.png" alt="Font chooser" />
   <figcaption>Font Chooser</figcaption>
 </figure>
-
-:::tip
-Long press font title to delete font file from Zettel Notes
-:::
 
 ## Downloading from Google Fonts
 
@@ -31,9 +29,10 @@ To use it, click on Download button in Font chooser. Select any font you want an
 
 To use font weight other than regular, click on button to the right on font and choose specific font weight.
 
-:::tip
-You can also search and sort fonts. Following sort filters are provided `display`, `handwriting`, `monospace`, `sans-serif` and `serif`
-:::
+!!! information
+
+    You can also search and sort fonts. Following sort filters are provided `display`, `handwriting`, `monospace`, `sans-serif` and `serif`
+
 
 <figure>
   <img src="/assets/img/font-download-screen.png" alt="Font downloader" />

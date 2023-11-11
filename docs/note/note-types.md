@@ -15,9 +15,10 @@ note_type: task
 
 This note shows all the [markdown style tasks](./editor/markdown#task-lists) as a simple task list. You can toggle task or add new task from the floating add button. To delete task swipe from left on the task and click on delete button. You can also show / hide completed tasks.
 
-:::tip
-It is possible to set alarm on a task. Just install [Alarm Plugin](../plugins/alarm-plugin.md) and swipe on a task to set alarm.
-:::
+!!! tip
+
+    It is possible to set alarm on a task. Just install [Alarm Plugin](../plugins/alarm-plugin.md) and swipe on a task to set alarm.
+
 
 <figure>
 <img src="/assets/img/note-type-task.webp" alt="Task Note"/>
@@ -40,9 +41,10 @@ This note acts as central place for your drawings. To add a new drawing / doodle
 </figure>
 
 
-:::tip
-To change brush size, long press on the color selection button in lower right corner.
-:::
+!!! tip
+
+    To change brush size, long press on the color selection button in lower right corner.
+
 
 The suffix for newly created drawings can be modified in settings. Go to `Settings > Editor and Viewer > Attachment Suffix`. It supports variable date format. eg. `-yyyy-MM-dd` will create drawing with file name as `drawing-2023-10-18.png`.
 
@@ -66,9 +68,10 @@ This note can be your audio recorder. If you are on a trip and want to take voic
  <figcaption>Audio Note</figcaption>
 </figure>
 
-:::info
-To configure audio recording, go to `Settings > Audio Recorder`. You can configure Bitrate, Channel Count, Sampling Rate, Recodring format and Filename. 
-:::
+!!! information
+
+    To configure audio recording, go to `Settings > Audio Recorder`. You can configure Bitrate, Channel Count, Sampling Rate, Recodring format and Filename. 
+
 
 
 ## Bookmark Note

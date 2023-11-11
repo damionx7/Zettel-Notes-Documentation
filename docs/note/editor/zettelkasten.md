@@ -8,17 +8,15 @@ Zettel Notes has first class support for Zettelkasten note taking method.
 
 ### Backlinks
 
-Backlinks are the notes which contain link for the existing note. In [note information dialog](../#note-information), all note backlinks are listed. You can click on any backlink note to open it.
+Backlinks are the notes which contain link for the existing note. In [note information dialog](../index.md#note-information), all note backlinks are listed. You can click on any backlink note to open it.
 
 ### Wiki style links between notes
 
 Type `[[` in editor to show note list and select any note to insert markdown link for the note. eg `[[note.md]]`
 
-:::tip
-```
-To configure note links, go to `Settings > Editor > Link Style`. You can select among `[[filename]]`, `[[filename.md]]`, `[[filename|title]]`, `[[filename.md|title]]`, `[[date]]`, `[[date]] title`, `[title](filename)` and `[title](filename.md)`.
-```
-:::
+!!! tip
+
+    To configure note links, go to `Settings > Editor > Link Style`. You can select among `[[filename]]`, `[[filename.md]]`, `[[filename|title]]`, `[[filename.md|title]]`, `[[date]]`, `[[date]] title`, `[title](filename)` and `[title](filename.md)`.
 
 ### Tags
 

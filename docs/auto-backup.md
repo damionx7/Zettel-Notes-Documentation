@@ -4,9 +4,10 @@ title: Backups
 
 Zettel Notes can auto backup your notes at specific intervals. 
 
-:::info
-Zettel Notes only creates backup of files in App Folder.
-:::
+!!! info    
+    
+    Zettel Notes only creates backup of files in App Folder.
+
 
 To enable auto backups 
 
@@ -15,9 +16,10 @@ To enable auto backups
 3. Select backup folder and backup interval
 4. Click on `Backup Now` to backup in selected folder
 
-:::tip
-To create a local backup inside application data (not accessible via file explorer), click on first option `Backup (excluding external notes)`. Share the backup file with your favourite application.
-:::
+!!! tip
+
+    To create a local backup inside application data (not accessible via file explorer), click on first option `Backup (excluding external notes)`. Share the backup file with your favourite application.
+
 
 <figure>
 <img src="/assets/img/auto-backups.png" alt="auto backups settings screen"/>
@@ -33,9 +35,10 @@ Following backup intervals are provided
 - Daily
 - Weekly
 
-:::tip
-You can also auto remove backups older than specific days in backup settings.
-:::
+!!! tip
+    
+    You can also auto remove backups older than specific days in backup settings.
+
 
 ## How to restore backup ?
 
@@ -54,6 +57,6 @@ You can select if you want to restore **Databases**, **Settings** or **Templates
  <figcaption>Restore Dialog</figcaption>
 </figure>
 
-:::warning
-Be careful when selecting `Reset to default`. It will reset all application data.
-:::
+!!! warning
+
+    Be careful when selecting `Reset to default`. It will reset all application data.

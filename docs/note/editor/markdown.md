@@ -87,9 +87,10 @@ Defined via `- [ ] ` in front of text. It is rendered only when bracket is the f
 - [ ] Pending with empty bracket
 - [x] Completed with `x` or `X` in bracket
 
-:::tip
-Tasks can be ticked from View Mode
-:::
+!!! tip
+
+    Tasks can be ticked from View Mode
+
 
 ### Thematic break 
 

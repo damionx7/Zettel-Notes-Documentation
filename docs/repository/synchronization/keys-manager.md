@@ -17,6 +17,7 @@ Following encryption algorithms are supported
  <figcaption>Keys Manager Dialog</figcaption>
 </figure>
 
-:::info
-You can access the public key by clicking generated key, while the private key is stored in Zettel Notes and used during synchronization.
-:::
+!!! tip
+
+    You can access the public key by clicking generated key, while the private key is stored in Zettel Notes and used during synchronization.
+

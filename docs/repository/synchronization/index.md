@@ -4,11 +4,11 @@ title: Synchronization
 
 ## Supported protocols
 
-- [Git](./git)
-- [Dropbox](./dropbox.md)
-- [Google Drive](./google-drive.md)
-- [Webdav](./webdav.md)
-- [SSH / SFTP](./sftp.md)
+- [Git](git.md)
+- [Dropbox](dropbox.md)
+- [Google Drive](google-drive.md)
+- [Webdav](webdav.md)
+- [SSH / SFTP](sftp.md)
 
 ## Features
 
@@ -40,6 +40,6 @@ Following synchronization intervals are supported
 
 If synchronization takes time, you can also toggle the option to synchronize only while the application is in background.
 
-:::tip
-You can override synchronization settings, per repository. That means that for one repository you can set synchronization only on wifi while for other only during charging. To override go to, `Repositories > <Repository> Setting > Edit Synchronization > Configure synchronization`.
-:::
+!!! tip
+
+    You can override synchronization settings, per repository. That means that for one repository you can set synchronization only on wifi while for other only during charging. To override go to, `Repositories > <Repository> Setting > Edit Synchronization > Configure synchronization`.

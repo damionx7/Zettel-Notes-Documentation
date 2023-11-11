@@ -2,9 +2,10 @@
 title: Alarm Plugin
 ---
 
-:::info
-Download from [Play Store](https://play.google.com/store/apps/details?id=org.eu.thedoc.zettelnotes.buttons.alarm) or F-Droid
-:::
+!!! information
+
+    Download from [Play Store](https://play.google.com/store/apps/details?id=org.eu.thedoc.zettelnotes.buttons.alarm) or F-Droid
+
 
 Use following format to set alarms for specific text in note or task. 
 
@@ -24,9 +25,10 @@ Click on alarm editor button to show date and time selection dialog.
  <figcaption>Select date and time for alarm</figcaption>
 </figure>
 
-:::tip
-You can also set alarm for tasks in task note.
-:::
+!!! tip
+
+    You can also set alarm for tasks in task note.
+
 
 <figure>
 <img src="/assets/img/note-type-task-alarm.png" alt="Task Note"/>

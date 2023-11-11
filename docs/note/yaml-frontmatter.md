@@ -22,6 +22,6 @@ Following YAML properties are supported
 6. Id or uid
    - should be number with minimum length of 6
 
-:::tip
-YAML frontmatter can also be specified as default text for notes that will be added to new notes in [repository settings](../repository/#2-default-text)
-:::
+!!! tip
+
+      YAML frontmatter can also be specified as default text for notes that will be added to new notes in [repository settings](../repository/#2-default-text)

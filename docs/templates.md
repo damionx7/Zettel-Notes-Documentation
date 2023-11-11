@@ -14,9 +14,10 @@ Zettel Notes supports following dynamic variables in templates. Dynamic variable
 - `$$yyyyMMdd$$` : Date variable
 - `$custom$` : Custom variable
 
-:::tip
-Date variable is surrounded with 2 `$$` on each side. To learn more about its format read [official documentation](https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html)
-:::
+!!! tip
+
+    Date variable is surrounded with 2 `$$` on each side. To learn more about its format read [official documentation](https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html)
+
 
 ## Custom Variables
 
