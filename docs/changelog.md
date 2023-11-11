@@ -2,6 +2,66 @@
 title: Changelog
 ---
 
+### 2.2.7
+
+⭐ New [Log note](https://znotes.thedoc.eu.org/note/note-types#log-note)
+⭐ New Launcher shortcut : Search shortcut (Directly open app with search focused)
+⭐ Inline Heading links (`[Heading](#heading)`)
+⭐ Open first searched item on pressing enter
+⭐ Long press to delete font file in font selection dialog
+🐛 Fix Dropbox synchronization
+🐛 Fix saving encrypted file
+
+### 2.2.6
+
+⭐ Trigger synchronization on note save (Settings > Synchronization > Trigger sync on saving note)
+⭐ Settings option for note list corner, padding and text size (Settings > Notes List > Display)
+🐛 Fix audio note attachments
+🐛 Fix salt detection method
+
+### 2.2.5
+
+⭐ Fleeting Note launcher shortcut (Widgets > Create launcher shortcut)
+⭐ Folders and repository launcher shortcuts
+⭐ New drawing note quick tile
+
+### 2.2.4
+
+⭐ New initial editor screen
+⭐ Settings option for add note button (Notes List > Customize Add Note Button)
+🐛 Fix flickering notes list
+🐛 Fix delete editor button
+
+### 2.2.3
+
+🐛 Bug fixes
+
+### 2.2.2
+
+⭐ Crash reporting library
+⭐ Dutch language
+⭐ New End to end encryption (Enable in Repository > Encryption > E2E)
+🐛 Fix slow launch
+🐛 Fix widget update
+
+### 2.2.1
+
+⭐ Use strong hash (argon2) for password encryption (existing users using password encryption should upgrade in repository settings)
+⭐ Rounded corners for toast messages
+🐛 Fix launcher shortcuts for encrypted files
+
+### 2.2.0
+
+⭐ Emoji editor button
+⭐ Note Layouts (Compact, Normal, Grid)
+⭐ Hide / Show completed tasks button in Task Note
+⭐ Support `code`,`pre`,`strike` and `spoiler` HTML tags
+⭐ Settings option to strike completed tasks (`Settings > Note Formats > Strike completed tasks`)
+⭐ Settings option for attachment (eg. drawing) suffix (`Settings > Editor and Viewer > Attachment Suffix`)
+⭐ Settings option disable Soft break adding new line in viewer (`Settings > Editor and Viewer > Soft break adds new line`)
+⭐ 4 new markdown style settings (Code Font, Heading Font, Editor and Viewer Font)
+🐛 Fix password encryption
+
 ### 2.1.9
 
 ⭐ Integration of Task Note with Alarm Plugin
