@@ -5,6 +5,8 @@ markdown_extensions:
   - md_in_html
 theme:
   name: material
+  favicon: assets/favicon.ico
+  logo: assets/android-chrome-512x512.png
   font:
     text: Roboto
     code: Source Code Pro
@@ -33,7 +35,7 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
 extra_css:
-  - stylesheets/style.css
+  - assets/stylesheets/style.css
 plugins:
   - search
 extra:
