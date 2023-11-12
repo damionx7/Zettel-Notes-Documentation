@@ -55,16 +55,16 @@ Checkout our **[Privacy Policy](https://thedoc.eu.org/zettel-notes/privacy)**
 
     To make new feature requests, sign up at <https://zettel-notes.canny.io/feature-requests>
 
-**💬 Join our Community 💬**
+## Join our Community
 
-If you have any issues, feel free to contact us
+If you have any issues, feel free to contact via
 
-- [✉️ Email](mailto:info@thedoc.eu.org)
-- [📣 Telegram Channel](https://t.me/zettelnotes)
-- [👥 Google Group](https://groups.google.com/g/znotes)
-- [👥 Telegram Support Group](https://t.me/joinchat/DZ2eFcOk3Mo4MDk1)
-- [🗞️ Reddit post](https://www.reddit.com/r/Zettelkasten/comments/npr00a/introducing_my_new_android_app_for_zettelkasten/)
-- [🗞️ Zettelkasten.de post](https://forum.zettelkasten.de/discussion/1844/introducing-my-new-android-app-for-zettelkasten-zettel-notes/)
+- [Email](mailto:info@thedoc.eu.org)
+- [Google Group](https://groups.google.com/g/znotes)
+- [Reddit post](https://www.reddit.com/r/Zettelkasten/comments/npr00a/introducing_my_new_android_app_for_zettelkasten/)
+- [Telegram Channel](https://t.me/zettelnotes)
+- [Telegram Support Group](https://t.me/joinchat/DZ2eFcOk3Mo4MDk1)
+- [Zettelkasten.de post](https://forum.zettelkasten.de/discussion/1844/introducing-my-new-android-app-for-zettelkasten-zettel-notes/)
 
 !!! information
 
