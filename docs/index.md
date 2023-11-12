@@ -51,6 +51,10 @@ Checkout our **[Privacy Policy](https://thedoc.eu.org/zettel-notes/privacy)**
 -  [Tasker Plugin](./tasker.md)
 -  [Zettelkasten support](./note/editor/zettelkasten.md)
 
+!!! information
+
+    To make new feature requests, sign up at <https://zettel-notes.canny.io/feature-requests>
+
 **💬 Join our Community 💬**
 
 If you have any issues, feel free to contact us

@@ -1,4 +1,4 @@
-site_name: Zettel Notes
+site_name: Zettel Notes Documentation
 markdown_extensions:
   - admonition
   - attr_list

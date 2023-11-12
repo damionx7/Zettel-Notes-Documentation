@@ -11,8 +11,8 @@ I hope this documentation has convinced you that Zettel Notes is the best markdo
 
 !!! information "Become a beta tester"
 
-    1. Join [https://groups.google.com/g/znotes](https://groups.google.com/g/znotes) 
-    2. Sign up for beta testing at https://play.google.com/apps/testing/org.eu.thedoc.zettelnotes
+    1. Join <https://groups.google.com/g/znotes>
+    2. Sign up for beta testing at <https://play.google.com/apps/testing/org.eu.thedoc.zettelnotes>
 
 
 ## F-Droid repository
