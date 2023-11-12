@@ -10,5 +10,5 @@ Suppose repository name is `root` and note filename is `note.md` and note id is 
 
 - `znotes://repository/note.md`
 - `znotes:://repository/?id=123456`
-- `https://thedoc.eu.org/repository/note.md`
-- `https://thedoc.eu.org/repository/?id=123456`
+- `https://thedoc.eu.org/app-links/zettel-notes/repository/note.md`
+- `https://thedoc.eu.org/app-links/zettel-notes/repository/?id=123456`

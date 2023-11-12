@@ -30,4 +30,4 @@ To open calendar view, open left navigation drawer and click on `Calendar`.
 !!! info
 
     Calendar works best when your notes have date format in front of filenames. eg. `202310082210 Note.md`.
-    To automatically add this in front of filename, edit date format in [Repository](repository#date-format) settings.
+    To automatically add this in front of filename, edit date format in [Repository](repository/index.md#date-format) settings.

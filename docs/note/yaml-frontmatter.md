@@ -24,4 +24,4 @@ Following YAML properties are supported
 
 !!! tip
 
-      YAML frontmatter can also be specified as default text for notes that will be added to new notes in [repository settings](../repository/#2-default-text)
+      YAML frontmatter can also be specified as default text for notes that will be added to new notes in [repository settings](../repository/index.md#2-default-text)

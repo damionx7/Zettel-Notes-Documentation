@@ -4,7 +4,7 @@ title: Changelog
 
 ### 2.2.7
 
-⭐ New [Log note](/note/note-types#log-note)  
+⭐ New [Log note](note/note-types.md#log-note)  
 ⭐ New Launcher shortcut : Search shortcut (Directly open app with search focused)  
 ⭐ Inline Heading links (`[Heading](#heading)`)  
 ⭐ Open first searched item on pressing enter  

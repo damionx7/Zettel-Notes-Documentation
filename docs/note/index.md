@@ -5,13 +5,13 @@ sidebar_position: 1
 
 **What is a note ?**
 
-A note in Zettel Notes is a plain text file. It can have any of the supported file extensions (eg. `md`, `org`, `txt` etc.). Zettel Notes parses all the files in a [repository / folder / vault](../repository) defined by the user and saves in database. 
+A note in Zettel Notes is a plain text file. It can have any of the supported file extensions (eg. `md`, `org`, `txt` etc.). Zettel Notes parses all the files in a [repository / folder / vault](../repository/index.md) defined by the user and saves in database. 
 
 Whatever changes are made by the user are automatically saved in the note file. This way you can use any application you want to read your notes and are not dependent on Zettel Notes (vendor agnostic).
 
 !!! tip
 
-    For full list of supported file extensions, checkout [Repository](../repository)
+    For full list of supported file extensions, checkout [Repository](../repository/index.md)
 
 
 ## Viewer and Editor Modes
@@ -19,11 +19,11 @@ Whatever changes are made by the user are automatically saved in the note file. 
 There are 2 modes for any note
 
 - View mode
-- [Edit mode](./editor)
+- [Edit mode](./editor/index.md)
 
-View mode shows the parsed markdown. It shows different layouts depending on the [Note Type](./note-types). 
+View mode shows the parsed markdown. It shows different layouts depending on the [Note Type](./note-types.md).
 
-[Edit](./editor) mode allows to edit files with [markdown formatting](./editor/markdown). You can insert tags, authors and note links in editor. It has deep integration with [Zettelkasten Method](./editor/zettelkasten)
+[Edit](./editor/index.md) mode allows to edit files with [markdown formatting](./editor/markdown.md). You can insert tags, authors and note links in editor. It has deep integration with [Zettelkasten Method](./editor/zettelkasten.md)
 
 ## Note Information
 
@@ -34,15 +34,6 @@ In view mode you can see **Note Information** by clicking on top right menu butt
  <figcaption>Note Info Dialog</figcaption>
 </figure>
 
-## Share note
+!!! information
 
-You can share note as 
-
-- [Launcher shortcut](./share-note/launcher-shortcuts)
-- [Pinned Notification](./share-note/notifications)
-- [PDF or HTML](./share-note/pdf)
-- [Zettel Links](./share-note/zettel-links)
-
-!!! tip
-
-    You can also create a note widgets. [Read more](./share-note/widgets).
+    You can share in various formats, to learn more [click here](./share-note/index.md)

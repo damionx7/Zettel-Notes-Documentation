@@ -30,7 +30,7 @@ Type `[[` in editor to show note list and select any note to insert markdown lin
 
 ## New Note from selection
 
-You can create new note from selected text in editor. Just select some text in editor and click on `Extract Note` editor button in [Editor](../editor)
+You can create new note from selected text in editor. Just select some text in editor and click on `Extract Note` editor button in [Editor](../editor/index.md)
 
 <figure>
 <img src="/assets/img/editor-buttons-extract-note.jpeg" alt="Extract Note"/>

@@ -6,9 +6,10 @@ markdown_extensions:
 theme:
   name: material
   font:
-    text: Lato
-    code: Roboto Mono
+    text: Roboto
+    code: Source Code Pro
   features:
+    - navigation.indexes
     - navigation.instant
     - navigation.instant.progress
     - navigation.footer

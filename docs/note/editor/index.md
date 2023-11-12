@@ -34,7 +34,7 @@ Editor has text editing area in center and editor buttons at bottom of the scree
 
 ### Heading button
 
-- Click to insert [heading format](./markdown#heading) in front of line.
+- Click to insert [heading format](./markdown.md#heading) in front of line.
 - You can remove heading or add heading from Level 1 to Level 6 heading.
 
 ### Zettelkasten Buttons
@@ -46,14 +46,14 @@ Editor has text editing area in center and editor buttons at bottom of the scree
 
 ### Attachment button
 
-The folder where attachments are stored is defined by [attachment location in repository](../../repository#7-default-location-for-attachments).
+The folder where attachments are stored is defined by [attachment location in repository](../../repository/index.md#7-default-location-for-attachments).
 
 - Link
 - Audio recording
 - Drawing
 - Camera Image
 - File from storage
-- Media file from [Gallery](../../gallery)
+- Media file from [Gallery](../../gallery.md)
 
 !!! information
 
@@ -111,7 +111,7 @@ Eg. if Expander is `omg`, Expansion is `Oh My God` then clicking on Expander `om
 
 ### Citations Button
 
-This button is integrated with [BibTex](../../bibtex) manager
+This button is integrated with [BibTex](../../bibtex.md) manager
 
 Click to enter citation and long press button to generate bibliography.
 

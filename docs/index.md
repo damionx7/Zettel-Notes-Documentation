@@ -5,7 +5,7 @@ slug: /
 tags: [Introduction]
 ---
 
-Welcome to documentation for [Zettel Notes](./download) Markdown Note taking app for android devices.
+Welcome to documentation for [Zettel Notes](./download.md) Markdown Note taking app for android devices.
 
 ## Why Choose Zettel Notes ? 🚀
 
@@ -21,7 +21,7 @@ Checkout our **[Privacy Policy](https://thedoc.eu.org/zettel-notes/privacy)**
 
 !!! info
     
-    [Download Now!](./download) Experience the convenience and privacy of Zettel Notes for your note taking needs. 
+    [Download Now!](download.md) Experience the convenience and privacy of Zettel Notes for your note taking needs. 
 
 
 ## Features List
@@ -30,28 +30,26 @@ Checkout our **[Privacy Policy](https://thedoc.eu.org/zettel-notes/privacy)**
 -  Bookmark / Pin notes
 -  [Calendar View](./calendar.md)
 -  [Dropbox, Git, Google Drive, WebDAV and SFTP synchronization](./repository/synchronization/index.md)
--  [Different types of notes](./note/note-types) stored as plain text files eg. task note, audio note, bookmark note etc.
+-  [Different types of notes](./note/note-types.md) stored as plain text files eg. task note, audio note, bookmark note etc.
 -  Full text search
--  [Keyboard Shortcuts](./keyboard-shortcuts)
+-  [Keyboard Shortcuts](./keyboard-shortcuts.md)
 -  [Keys Manager](./repository/synchronization/keys-manager.md)
--  [Latex support](./note/editor/markdown#latex)
--  [Markdown Formatting](./note/editor/markdown)
+-  [Latex support](./note/editor/markdown.md#latex)
+-  [Markdown Formatting](./note/editor/markdown.md)
 -  [Material design themes](./themes/app-theme.md) and [Fonts](./themes/font-downloader.md)
 -  MD / TXT / ORG file support
 -  [Multiple note folders / vaults / repositories](./repository/index.md)
 -  [PGP key / Password encryption](./repository/encryption.md)
--  [Plugins](./plugins/)
--  [Recycle Bin](./recycle-bin)
--  [Saved searches](./saved-searches)
--  [Share Note as PDF, HTML, launcher shortcut or pinned notifications](/category/share-notes)
+-  [Plugins](./plugins/index.md)
+-  [Recycle Bin](./recycle-bin.md)
+-  [Saved searches](./saved-searches.md)
+-  [Share Note as PDF, HTML, launcher shortcut or pinned notifications](./note/share-note/index.md)
 -  Share Web page or text from any app to create new note or append to existing note
 -  Sort notes by alphabetical, edited time, creation time, words, frequency of opening
 -  Subfolder support
 -  [Templates](./templates.md)
 -  [Tasker Plugin](./tasker.md)
--  [Zettelkasten support](./note/editor/zettelkasten)
-
-
+-  [Zettelkasten support](./note/editor/zettelkasten.md)
 
 **💬 Join our Community 💬**
 
@@ -73,4 +71,4 @@ If you have any issues, feel free to contact us
 
 ## Translations
 
-Zettel Notes is multi-lingual and translated in 18 languages. [Read more](./translations)
+Zettel Notes is multi-lingual and translated in 18 languages. [Read more](translations.md)
