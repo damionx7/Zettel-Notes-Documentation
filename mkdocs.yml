@@ -5,8 +5,8 @@ markdown_extensions:
   - md_in_html
 theme:
   name: material
-  favicon: assets/favicon.ico
-  logo: assets/android-chrome-512x512.png
+  favicon: favicon.ico
+  logo: android-chrome-512x512.png
   font:
     text: Roboto
     code: Source Code Pro
