@@ -76,3 +76,8 @@ If you have any issues, feel free to contact via
 ## Translations
 
 Zettel Notes is multi-lingual and translated in 18 languages. [Read more](translations.md)
+
+## Disclaimer
+
+The software is provided "as is," without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and noninfringement. By using this software, you agree that the developer will not be liable for any damages, including but not limited to loss of data, revenue, or profits, arising out of or connected with the application's use.
+
