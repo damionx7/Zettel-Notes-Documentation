@@ -29,6 +29,12 @@ You can configure separate markdown style for light and dark theme. [Read more](
 - Red
 - Teal
 
+## Toolbar Colors
+
+Following colors are available for changing toolbar. You can select any of them in settings. 
+
+![toolbar](../assets/img/app-theme-toolbars.png)
+
 ## Background Colors
 
 Following background colors are supported. 

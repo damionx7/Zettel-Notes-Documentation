@@ -2,6 +2,19 @@
 title: Changelog
 ---
 
+### 2.2.9 
+
+⭐ New! [Storage Manager](./storage-manager.md) (Android Settings > Zettel Notes > Storage and Cache > Manage Space)  
+🐛 Fix webdav synchronization  
+🐛 Fix links not working after rotation  
+
+### 2.2.8
+
+⭐ New! Toolbar Color setting  
+⭐ Dividers in compact notes list  
+⭐ Support `#` in file names  
+🐛 Fix launching from recents screen  
+
 ### 2.2.7
 
 ⭐ New [Log note](note/note-types.md#log-note)  

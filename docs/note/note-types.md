@@ -72,8 +72,6 @@ This note can be your audio recorder. If you are on a trip and want to take voic
 
     To configure audio recording, go to `Settings > Audio Recorder`. You can configure Bitrate, Channel Count, Sampling Rate, Recodring format and Filename. 
 
-
-
 ## Bookmark Note
 
 ```
@@ -96,3 +94,8 @@ note_type: log
 ```
 
 Based on `.LOG` keyword of windows notepad. This note will add timestamp automatically in a newline, whenever user open note editor.
+
+!!! information
+
+    To configure date format for log notes, go to `Settings > Note Formats > Log Note > Date Format`.
+    Eg. To make log entry bold, use this date format `'**'yyyy-MM-dd'**'`

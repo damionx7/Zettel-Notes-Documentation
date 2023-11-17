@@ -36,7 +36,6 @@ Checkout our **[Privacy Policy](https://thedoc.eu.org/zettel-notes/privacy)**
 -  [Keys Manager](./repository/synchronization/keys-manager.md)
 -  [Latex support](./note/editor/markdown.md#latex)
 -  [Markdown Formatting](./note/editor/markdown.md)
--  [Material design themes](./themes/app-theme.md) and [Fonts](./themes/font-downloader.md)
 -  MD / TXT / ORG file support
 -  [Multiple note folders / vaults / repositories](./repository/index.md)
 -  [PGP key / Password encryption](./repository/encryption.md)
@@ -47,6 +46,7 @@ Checkout our **[Privacy Policy](https://thedoc.eu.org/zettel-notes/privacy)**
 -  Share Web page or text from any app to create new note or append to existing note
 -  Sort notes by alphabetical, edited time, creation time, words, frequency of opening
 -  Subfolder support
+-  Customizable [Material Themes](./themes/app-theme.md) and [Fonts](./themes/font-downloader.md)
 -  [Templates](./templates.md)
 -  [Tasker Plugin](./tasker.md)
 -  [Zettelkasten support](./note/editor/zettelkasten.md)
