@@ -73,3 +73,17 @@ Following file extensions are supported `md`, `org`,`txt`,`text`, `mkd`, `mdwn`,
 ## Synchronization
 
 - To setup synchronization, [follow this guide](synchronization/index.md).
+
+
+## Mounting internal repositories
+
+Repositories can be assessed via the android [Documents](https://source.android.com/docs/core/ota/modular-system/documentsui) application.
+
+To disable mounting internal repositories, go to `Settings > Security` and disable `Mount internal repositories`.
+
+![mounted repository](../assets/img/repository-mount.png)
+
+!!! tip
+
+    To unmount specific repository, hide the repository in Repository settings.
+

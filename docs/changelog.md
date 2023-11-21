@@ -2,6 +2,18 @@
 title: Changelog
 ---
 
+### 2.3.1
+
+⭐ Settings option to disable mounting internal repositories (Settings > Security)  
+⭐ Improve [HTML to markdown conversion](./web-clipper.md)  
+🐛 Fix webdav not syncing files inside folder  
+
+### 2.3.0
+
+⭐ Manual synchronization button in left drawer  
+⭐ [Mount](./repository/index.md/#mounting-internal-repositories) internal repositories using documents provider (open in native Files app)  
+🐛 Fix saved searches counter  
+
 ### 2.2.9 
 
 ⭐ New! [Storage Manager](./storage-manager.md) (Android Settings > Zettel Notes > Storage and Cache > Manage Space)  
