@@ -8,18 +8,19 @@ To have a sustained income model, I created Plugins. These are seperate apps dow
 
 Currently following plugins are available in play store and f-droid repository.
 
-1. [AI Chat Plugin](./chat-ai-plugin.md)
-2. [Alarm Plugin](./alarm-plugin.md)
-3. [Donation Plugin](./donation-plugin.md)
-4. [Location Plugin](./location-plugin.md)
-5. [Speech to Text Plugin](./speech-to-text-plugin.md)
-6. [Speed Read Plugin](./speed-read-plugin.md)
-7. [Text Utils Plugin](./text-utils.md)
-8. [Translate Plugin](./translate-plugin.md)
+1. [AI Chat plugin](./chat-ai-plugin.md)
+2. [Alarm plugin](./alarm-plugin.md)
+3. [Donation plugin](./donation-plugin.md)
+4. [Location plugin](./location-plugin.md)
+5. [Speech to Text plugin](./speech-to-text-plugin.md)
+6. [Speed Read plugin](./speed-read-plugin.md)
+7. [Text Utils plugin](./text-utils.md)
+8. [Translate plugin](./translate-plugin.md)
+9. [Todo.txt plugin](./todo-txt-plugin.md)
 
 !!! tip
 
-    Show your love ❤️ for Zettel Notes   by [purchasing donation plugin](https://play.google.com/store/apps/details?id=org.eu.thedoc.zettelnotes.buttons.dummy) and other plugins.
+    Show your love ❤️ for Zettel Notes by [purchasing donation plugin](https://play.google.com/store/apps/details?id=org.eu.thedoc.zettelnotes.buttons.dummy).
 
 **Source code for plugins and plugin api is available on Github**
 
