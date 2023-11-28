@@ -72,6 +72,13 @@ If you have any issues, feel free to contact via
 
     Want to customize your Zettel Notes experience? Check out our [Plugin API](https://github.com/damionx7/Zettel-Notes-Plugin-Api) on GitHub
 
+## What users say about Zettel Notes
+
+![](/assets/img/review-play-store.png){: style="width:100%"}
+
+![](/assets/img/review-play-store-1.png){: style="width:100%"}
+
+![](/assets/img/review-play-store-2.png){: style="width:100%"}
 
 ## Translations
 
