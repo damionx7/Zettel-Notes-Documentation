@@ -129,6 +129,10 @@ Defined via `- [ ] ` in front of text. It is rendered only when bracket is the f
 
 - Defined as `![Description](image-location.png)`
 - Image location has to be relative to the note file or use `/` in start if absolute location is used.
+
+!!! tip
+
+    To use specific width for images use HTML format. For eg. to set image width as 50%, use `<img src="https://picsum.photos/id/237/1024/800" width="50%"/>`
  
 ### Footnotes
 

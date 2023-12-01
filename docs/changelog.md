@@ -2,6 +2,19 @@
 title: Changelog
 ---
 
+### 2.3.3
+
+⭐ Trigger Git synchronization on saving file  
+⭐ Improve! Table of contents  
+⭐ Set image size using HTML width for img tag  
+🐛 Fix not rendering latex matrix  
+
+### 2.3.2
+
+⭐ New! [Todo.txt plugin](https://play.google.com/store/apps/details?id=org.eu.thedoc.zettelnotes.buttons.todotxt)  
+🐛 Fix note date not updating  
+🐛 Fix task adapter for RTL languages  
+
 ### 2.3.1
 
 ⭐ Settings option to disable mounting internal repositories (Settings > Security)  
