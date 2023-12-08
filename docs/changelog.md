@@ -2,6 +2,15 @@
 title: Changelog
 ---
 
+### 2.3.4
+
+⭐ HTML center tag to align images  
+⭐ Click code blocks to code text to clipboard  
+⭐ Reimplement Table of Contents heading levels  
+⭐ Settings option for [Web clipper](./web-clipper.md) (Note Formats)  
+🐛 Fix Latex Omega sign  
+🐛 Fix large tooltip size in toolbar  
+
 ### 2.3.3
 
 ⭐ Trigger Git synchronization on saving file  
