@@ -22,3 +22,4 @@ yarn-error.log*
 
 # User
 .vscode
+.cache

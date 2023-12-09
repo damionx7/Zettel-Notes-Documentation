@@ -16,8 +16,8 @@ You can choose among the following options when you share a web page.
 4. New Video Note
       1. You this only for youtube videos
 5. Add Webpage Content to Note
-   1. This will download webpage content, convert it to markdown and add it in user selected note.
-   2. You will be prompted to select the note in which you want to add the webpage content.
+     1. This will download webpage content, convert it to markdown and add it in user selected note.
+     2. You will be prompted to select the note in which you want to add the webpage content.
 
 !!! Information
 

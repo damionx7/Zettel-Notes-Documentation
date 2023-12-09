@@ -19,6 +19,10 @@ theme:
     - search.highlight
     - content.code.copy
   palette: 
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
         # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -38,6 +42,7 @@ extra_css:
   - assets/stylesheets/style.css
 plugins:
   - search
+  - privacy
 extra:
   generator: false
   social:

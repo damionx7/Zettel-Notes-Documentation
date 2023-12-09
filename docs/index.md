@@ -74,11 +74,11 @@ If you have any issues, feel free to contact via
 
 ## What users say about Zettel Notes
 
-![](/assets/img/review-play-store.png){: style="width:100%"}
+![](assets/img/review-play-store.png){: style="width:100%"}
 
-![](/assets/img/review-play-store-1.png){: style="width:100%"}
+![](assets/img/review-play-store-1.png){: style="width:100%"}
 
-![](/assets/img/review-play-store-2.png){: style="width:100%"}
+![](assets/img/review-play-store-2.png){: style="width:100%"}
 
 ## Translations
 
