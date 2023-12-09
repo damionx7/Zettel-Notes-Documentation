@@ -1,1 +1,2 @@
 mkdocs-material==9.5.1
+mkdocs-material-extensions==1.3.1
