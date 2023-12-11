@@ -2,6 +2,13 @@
 title: Changelog
 ---
 
+### 2.3.5
+
+⭐ New! Fleeting note launcher shortcut with specific template  
+⭐ Calendar highlight color is set according to number of notes  
+⭐ Settings option to parse hidden media folders  
+⭐ Settings option to change LaTeX text size (Editor and Viewer)  
+
 ### 2.3.4
 
 ⭐ HTML center tag to align images  

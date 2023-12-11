@@ -20,9 +20,10 @@ Following shortcuts are avaiable
 - Open Quick Note
 - New Drawing / Audio / Task / Note shortcut
 - Fleeting note shortcut
-    - Directly open editor in selected folder of specific repository
-    - Filename can also be edited from the editor
+    - Directly open editor in selected repository
+- Fleeting note shortcut with template
+    - Directly open editor with note populated from user selected template in selected repository
 - Folder shortcut
-- Repository shortcut
+    - Opens app in user selected folder and repository.
 - Search shortcut
-    - Open zettel notes with search bar focused
+    - Open app with search bar focused.
