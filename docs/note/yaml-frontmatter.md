@@ -25,3 +25,20 @@ Following YAML properties are supported
 !!! tip
 
       YAML frontmatter can also be specified as default text for notes that will be added to new notes in [repository settings](../repository/index.md#2-default-text)
+
+## YAML Variables
+
+These are static variables, defined by `${yaml-property}$` in content of the note. For eg. 
+```YAML
+---
+account: savings
+---
+
+We should have atleast ${account} type of account. 
+```
+
+This will render as `We should have atleast savings type of account` in view mode.
+
+!!! information
+
+      To disable YAML variables, toggle `Settings > Editor and Viewer > YAML variables`.

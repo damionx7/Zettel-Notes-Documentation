@@ -30,9 +30,9 @@
     font-weight: bold;
 }
 
-a:hover {
-    text-decoration: underline;
-}
+/* a:hover { */
+    /* text-decoration: underline; */
+/* } */
 
 img,
 video {
