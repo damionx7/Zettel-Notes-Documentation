@@ -45,9 +45,11 @@ To enable table of contents for all notes, tick `Table of Contents (TOC)` settin
 
 ### Inline Heading links
 
-To create inline heading links add # in front of link eg. `[Heading](#heading)`.
+To create inline heading links add # in front of link eg. `[Heading](#heading)`. Clicking on inline heading link will scroll to the specific heading. You will need to replace spaces and non-alphanumeric characters in heading with hypen in the link. 
 
-Clicking on inline heading link will scroll to the specific heading.
+!!! example
+
+        Inline link for `# This is a heading` will be `[link](#this-is-a-heading)`.
 
 ## Lean more about Zettelkasten method 📖
 
