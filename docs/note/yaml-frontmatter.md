@@ -14,13 +14,22 @@ This is body of the note.
 
 Following YAML properties are supported
 
-1. Title
-2. Tag(s)
-3. Author(s)
-4. Source or Url
-5. Bookmark or Pin or Star
-6. Id or uid
-   - should be number with minimum length of 6
+1. **Title**
+2. **Tag(s)**
+3. **Author(s)**
+4. **Source or Url**
+5. **Bookmark or Pin or Star**
+6. **Id or uid** : should be a number with minimum length of 6
+
+To specify multiple sources for a note, use array format. eg.
+
+```yaml
+---
+source:
+      - https://google.com
+      - https://gmail.com
+---
+```
 
 !!! tip
 
