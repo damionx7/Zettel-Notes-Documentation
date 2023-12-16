@@ -7,9 +7,6 @@ theme:
   name: material
   favicon: favicon.ico
   logo: android-chrome-512x512.png
-  font:
-    text: Roboto
-    code: Source Code Pro
   features:
     - navigation.indexes
     - navigation.instant

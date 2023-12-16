@@ -30,7 +30,7 @@ Confirm that the repository fingerprint matches
 B1358F5B942E5676B2935B83F39E3BAA363F3FDA9E53DB62113551D14B09A173
 ```
 
-In case f-droid downloads are slow. [Read this FAQ](faq.md#f-droid-downloads-are-slow)
+In case f-droid downloads are slow. [Read this FAQ](frequently-asked-questions.md#f-droid-downloads-are-slow)
 
 **F-Droid Clients**
 

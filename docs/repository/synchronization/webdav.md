@@ -11,7 +11,7 @@ If you want to synchronize with specific subfolder, then `WebDav url` should inc
     If you use private ssl certificates for your webdav server, tick `Trust Private Certificate` in WebDav synchronization dialog.
 
 
-To setup Nextcloud synchronization, [checkout this faq](../../faq.md#how-to-use-nextcloud-synchronization-)
+To setup Nextcloud synchronization, [checkout this faq](../../frequently-asked-questions.md#how-to-use-nextcloud-synchronization-)
 ## Demo Video
 
 <video controls>
