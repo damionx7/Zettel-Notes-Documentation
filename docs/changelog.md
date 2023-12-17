@@ -2,6 +2,16 @@
 title: Changelog
 ---
 
+### 2.3.7
+
+⭐ Support multiple sources in YAML front-matter  
+⭐ Change YAML variables format to (`${property}$`)  
+⭐ Separate Copy / Move notes from Share section  
+
+### 2.3.6
+
+🐛 Fix search launcher shortcut  
+
 ### 2.3.5
 
 ⭐ New! Fleeting note launcher shortcut with specific template  
