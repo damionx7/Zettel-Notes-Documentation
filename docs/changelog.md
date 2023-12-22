@@ -2,6 +2,15 @@
 title: Changelog
 ---
 
+### 2.3.8
+
+⭐ New! Editor button to toggle keyboard  
+⭐ Launcher shortcuts for most accessed notes  
+⭐ Swipe button to rename task (Task Note)  
+⭐ Support arrays in [YAML variable](./note/yaml-frontmatter.md)  
+⭐ Minimum android version is now 6 (from 5.1)  
+🐛 Fix crash while restoring large note  
+
 ### 2.3.7
 
 ⭐ Support multiple sources in YAML front-matter  
