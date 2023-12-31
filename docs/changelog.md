@@ -2,6 +2,16 @@
 title: Changelog
 ---
 
+### 2.3.9
+
+⭐ User defined groups for Editor buttons (Editor buttons order > New group)  
+⭐ Indent Table of Contents  
+⭐ Settings options for viewer and editor line wrap (Settings > Editor and Viewer)  
+⭐ Trigger search on pressing enter only  
+🐛 Fix Google Drive synchronization  
+🐛 Fix punctuations in italics regex  
+🐛 Fix selection clearing on scroll in viewer  
+
 ### 2.3.8
 
 ⭐ New! Editor button to toggle keyboard  
