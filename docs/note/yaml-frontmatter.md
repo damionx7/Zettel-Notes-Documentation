@@ -37,7 +37,9 @@ source:
 
 ## YAML Variables
 
-These are static variables, defined by `${yaml-property}$` in content of the note. For eg. 
+
+These are static variables, defined by `${yaml-property}$` in content of the note.
+
 ```YAML
 ---
 account: savings
@@ -47,6 +49,15 @@ We should have atleast ${account} type of account.
 ```
 
 This will render as `We should have atleast savings type of account` in view mode.
+
+Apart from this following static YAML variables are supported. These variables are populated from the note.
+
+- `${id}$`
+- `${title}$`
+- `${filename}$`
+- `${mdate}$` (Last modified date)
+- `${accessed}$` (Number of times note is opened)
+- `${wordcount}$` 
 
 !!! information
 

@@ -2,6 +2,20 @@
 title: Changelog
 ---
 
+### 2.4.1
+
+⭐ Show confirmation dialog when deleting fonts  
+🐛 Fix cursor jump on loading note  
+
+### 2.4.0
+
+⭐ Icons! for editor toolbar groups (1000+)  
+⭐ Allow user to create style buttons in editor toolbar  
+⭐ Swipe to delete editor buttons in button order screen  
+⭐ Settings option for Table of contents first heading level  
+⭐ New YAML variables related to note file `${id}$ ${title}$ ${filename}$ ${mdate}$ ${accessed}$ ${wordcount}$`  
+🐛 Fix bottom sheets collapsing in landscape mode  
+
 ### 2.3.9
 
 ⭐ User defined groups for Editor buttons (Editor buttons order > New group)  

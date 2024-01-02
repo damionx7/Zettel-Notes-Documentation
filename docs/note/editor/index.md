@@ -131,4 +131,8 @@ Application has support for converting Emoji alias (in edit mode) to emojis (in 
 
 ### Settings Button
 
-You can configure the order of editor buttons or enable / disable editor buttons with this button.
+You can configure the order of editor buttons or enable / disable editor buttons with this button. Click on add button in setting screen to add groups. All the buttons below a group will be added in the group.
+
+!!! tip
+
+        Click on a group to change its icon.
