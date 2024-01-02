@@ -5,6 +5,7 @@ title: Changelog
 ### 2.4.1
 
 ⭐ Show confirmation dialog when deleting fonts  
+⭐ Settings option to change initial editor cursor position (`Settings > Editor and Viewer`)
 🐛 Fix cursor jump on loading note  
 
 ### 2.4.0
