@@ -2,6 +2,15 @@
 title: Changelog
 ---
 
+### 2.4.2
+
+⭐ Settings option for initial cursor position in editor  
+⭐ Show link url on long press  
+⭐ Support `$id$ $title$ $filename$` variables for attachment suffix  
+⭐ Rename Editor order buttons to Editor toolbar  
+🐛 Fix crash on search in editor  
+🐛 Fix overwriting encrypted note extension on save  
+
 ### 2.4.1
 
 ⭐ Show confirmation dialog when deleting fonts  

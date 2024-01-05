@@ -17,7 +17,12 @@ Editor has text editing area in center and editor buttons at bottom of the scree
  <figcaption>Editor</figcaption>
 </figure>
 
-When you first open the editor then last edited position is focused. To change the initial selection position for a note file, go to `Settings > Editor and Viewer > Initial Cursor Position`. 3 options are provided i) Start of note ii) End of note iii) Last edit position.
+When you first open the editor then last edited position is focused. To change the initial selection position for a note file, go to `Settings > Editor and Viewer > Initial Cursor Position`. 4 options are provided 
+
+1. Start of note
+2. End of note
+3. Last edit position
+4. None (Don't set initial cursor)
 
 ## Editor Buttons
 

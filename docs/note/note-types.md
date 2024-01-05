@@ -46,7 +46,7 @@ This note acts as central place for your drawings. To add a new drawing / doodle
     To change brush size, long press on the color selection button in lower right corner.
 
 
-The suffix for newly created drawings can be modified in settings. Go to `Settings > Editor and Viewer > Attachment Suffix`. It supports variable date format. eg. `-yyyy-MM-dd` will create drawing with file name as `drawing-2023-10-18.png`.
+The suffix for newly created attachments (including recording, drawing, images) can be modified in settings. Go to `Settings > Editor and Viewer > Attachment Suffix`. It supports these variables (`$$-yyyy-MM-dd$$ $id$ $title$ $filename$`). Using `$$-yyyy-MM-dd$$` variable will create drawing with file name as `Drawing-2023-10-18.png`. Id, Title and Filename will be populated from the note file.
 
 <figure>
 <img src="/assets/img/note-type-drawing-draw.webp" alt="Doodle Screen!"/>
