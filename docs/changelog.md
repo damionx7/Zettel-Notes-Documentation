@@ -2,6 +2,15 @@
 title: Changelog
 ---
 
+### 2.4.4
+
+⭐ 2 new launcher shortcuts (Synchronize in download or upload only mode)  
+⭐ Allow user to set editor button groups in between buttons  
+⭐ Disable undo redo buttons if nothing to change  
+⭐ Increase scrollbar thumb width  
+⭐ New editor button (download online images to local storage)  
+🐛 Fix showing incorrect markdown style
+
 ### 2.4.3
 
 WARN! Editor buttons will be reset with this update. Please setup them again.  
