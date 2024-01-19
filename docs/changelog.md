@@ -2,6 +2,13 @@
 title: Changelog
 ---
 
+### 2.4.5 
+
+⭐ Press on markdown styles to show it  
+🐛 Fix changing filename extension on note save  
+🐛 Fix gallery markdown links  
+🐛 Fix disabling undo redo editor icons  
+
 ### 2.4.4
 
 ⭐ 2 new launcher shortcuts (Synchronize in download or upload only mode)  
