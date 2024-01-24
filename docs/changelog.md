@@ -2,12 +2,21 @@
 title: Changelog
 ---
 
-### 2.4.5 
+### 2.4.6
+
+⭐ 7 new markdown styles!  
+⭐ Show associated notes option for media files  
+🐛 Fix backlinks search causing slow loading  
+🐛 Fix google drive client for testers  
+🐛 Fix heading formatting in note title  
+🐛 Make heading links confirm to specifications  
+
+### 2.4.5
 
 ⭐ Press on markdown styles to show it  
 🐛 Fix changing filename extension on note save  
 🐛 Fix gallery markdown links  
-🐛 Fix disabling undo redo editor icons  
+🐛 Fix disabling undo redo editor buttons  
 
 ### 2.4.4
 
