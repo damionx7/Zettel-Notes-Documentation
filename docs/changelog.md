@@ -2,6 +2,11 @@
 title: Changelog
 ---
 
+### 2.4.7
+
+⭐ Allow @[] in filenames  
+🐛 Fix crash on android 6  
+
 ### 2.4.6
 
 ⭐ 7 new markdown styles!  
