@@ -40,11 +40,16 @@ extra_css:
 plugins:
   - search
   - privacy
+copyright: <a href="#__consent">Change cookie settings</a>
 extra:
   generator: false
   analytics:
     provider: google
     property: G-R1E2DWQVC1
+  consent:
+    title: Cookie consent
+    description: 
+      We use cookies to recognize your repeated visits and preferences, as well as to measure the effectiveness of our documentation and whether users find what they're searching for. With your consent, you're helping us to use
   social:
     - icon: fontawesome/solid/paper-plane
       link: https://t.me/zettelnotes
