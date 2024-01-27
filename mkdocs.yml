@@ -42,6 +42,9 @@ plugins:
   - privacy
 extra:
   generator: false
+  analytics:
+    provider: google
+    property: G-R1E2DWQVC1
   social:
     - icon: fontawesome/solid/paper-plane
       link: https://t.me/zettelnotes
