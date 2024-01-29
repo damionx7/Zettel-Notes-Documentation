@@ -2,6 +2,14 @@
 title: Changelog
 ---
 
+### 2.4.8
+
+⭐ Allow user to enable / disable plugins  
+⭐ Load unsigned plugins also  
+⭐ Option to download from 2,594 CSL styles in bibtex manager  
+⭐ Search and Replace button in editor  
+🐛 Fix repeating headline in viewer  
+
 ### 2.4.7
 
 ⭐ Allow @[] in filenames  

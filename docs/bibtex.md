@@ -25,3 +25,7 @@ To learn how to create citations file in zotero follow this blog post https://th
 ## Demo Video
 
 <iframe width="100%" height="550px" src="https://www.youtube-nocookie.com/embed/70-TkT_Hhx0?si=gsf9WQJpcNMETvys" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+### How to change CSL Style for bibliography ?
+
+Go to bibtex screen, click on top right menu button to open CSL Style manager. Click on download and select from 2,594 CSL styles to use in app.
