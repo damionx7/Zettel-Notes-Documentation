@@ -9,6 +9,8 @@ It is crowd sourced and translated by users like you and me.
 Contribute to translation at
 [https://crowdin.com/project/zettel-notes](https://crowdin.com/project/zettel-notes)
 
+![](https://badges.crowdin.net/zettel-notes/localized.svg){: style="width:20%;"}
+
 !!! information
 
     If you want to translate application in your language. Sign up at crowdin and drop a message.
