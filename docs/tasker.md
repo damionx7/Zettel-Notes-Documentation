@@ -13,6 +13,11 @@ To create a new tasker action:
 3. Select Zettel Notes from Action plugin category
 4. Enter tasker variables for content and filename
 
+Following action plugins are available for use with tasker
+
+1. Create Note
+2. Get Note Content
+
 <figure>
 <img src="/assets/img/tasker_action.png" alt="Tasker plugin"/>
  <figcaption>Zettel Notes in Tasker plugins</figcaption>

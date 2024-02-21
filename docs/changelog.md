@@ -2,6 +2,13 @@
 title: Changelog
 ---
 
+### 2.4.9
+
+⭐ Inbuilt image viewer  
+⭐ Allow user to change default attachment prefixes (Settings > Editor and Viewer)  
+⭐ New Tasker plugin action to get note content  
+🐛 Fix non specific backlinks  
+
 ### 2.4.8
 
 ⭐ Allow user to enable / disable plugins  
