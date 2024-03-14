@@ -2,6 +2,13 @@
 title: Changelog
 ---
 
+### 2.5.0
+
+⭐ Show all note images in inbuilt image viewer  
+⭐ Option to share note file directly via telegram or mail  
+🐛 Fix opening markdown files from file manager  
+🐛 Fix crash while opening invalid links  
+
 ### 2.4.9
 
 ⭐ Inbuilt image viewer  
