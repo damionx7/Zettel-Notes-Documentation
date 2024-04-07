@@ -2,6 +2,12 @@
 title: Changelog
 ---
 
+### 2.5.1
+
+⭐ Markdown code syntax highlight  
+🐛 Not refreshing notes on directory rename  
+🐛 URL encoding issue while sharing webpages  
+
 ### 2.5.0
 
 ⭐ Show all note images in inbuilt image viewer  
