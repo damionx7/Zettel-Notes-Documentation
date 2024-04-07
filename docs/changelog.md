@@ -5,6 +5,7 @@ title: Changelog
 ### 2.5.1
 
 ⭐ Markdown code syntax highlight  
+⭐ Settings option to show note content  
 🐛 Not refreshing notes on directory rename  
 🐛 URL encoding issue while sharing webpages  
 
