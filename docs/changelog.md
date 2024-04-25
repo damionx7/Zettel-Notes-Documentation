@@ -2,6 +2,14 @@
 title: Changelog
 ---
 
+### 2.5.2
+
+⭐ New! Long press home button to change repositories quickly  
+⭐ New! Repositories will be shown in left drawer  
+⭐ Option to disable code syntax highlighting (Settings > Editor and Viewer)  
+⭐ Option to change content size and content length in notes list (Settings > Notes List)  
+⭐ Option to toggle left drawer items (Settings > Notes List)  
+
 ### 2.5.1
 
 ⭐ Markdown code syntax highlight  
