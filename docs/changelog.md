@@ -2,6 +2,13 @@
 title: Changelog
 ---
 
+### 2.5.3
+
+⭐ New! Settings option to toggle editor line numbering  
+⭐ Improve note multi selection  
+⭐ Plugins Api Reworked (You will need to have latest plugins)  
+🐛 Fix location image  
+
 ### 2.5.2
 
 ⭐ New! Long press home button to change repositories quickly  
