@@ -14,11 +14,12 @@ Currently following plugins are available in play store and f-droid repository.
 4. [Donation plugin](./donation-plugin.md)
 5. [Latex plugin](./latex-plugin.md)
 6. [Location plugin](./location-plugin.md)
-7. [Speech to Text plugin](./speech-to-text-plugin.md)
-8. [Speed Read plugin](./speed-read-plugin.md)
-9. [Text Utils plugin](./text-utils.md)
-10. [Translate plugin](./translate-plugin.md)
-11. [Todo.txt plugin](./todo-txt-plugin.md)
+7. [OCR plugin](./ocr-plugin.md)
+8. [Speech to Text plugin](./speech-to-text-plugin.md)
+9. [Speed Read plugin](./speed-read-plugin.md)
+10. [Text Utils plugin](./text-utils.md)
+11. [Translate plugin](./translate-plugin.md)
+12. [Todo.txt plugin](./todo-txt-plugin.md)
 
 !!! tip
 

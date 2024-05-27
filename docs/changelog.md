@@ -2,6 +2,14 @@
 title: Changelog
 ---
 
+### 2.5.4
+
+⭐ New! Settings options for synchronization merge preference and conflict resolution  
+⭐ New! Settings option for switching between old and new launcher icon  
+⭐ Allow replacing text in editor with empty string  
+🐛 Fix stuck images in image viewer  
+🐛 Fix restoring previous repository on app restart
+
 ### 2.5.3
 
 ⭐ New! Settings option to toggle editor line numbering  
