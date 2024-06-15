@@ -2,6 +2,22 @@
 title: Changelog
 ---
 
+### 2.5.7
+
+⭐ GIF support!  
+⭐ Markdown theme option for changing heading size   
+⭐ Option to edit .gitignore for GIT synchronization  
+⭐ Share note as DOCX, EPUB, ODT using Termux  
+
+### 2.5.6
+
+🐛 Fix SSH synchronization  
+
+### 2.5.5
+
+⭐ Launch web urls in custom tabs  
+🐛 Fix SSH synchronization  
+
 ### 2.5.4
 
 ⭐ New! Settings options for synchronization merge preference and conflict resolution  
