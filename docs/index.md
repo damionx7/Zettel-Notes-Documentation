@@ -53,7 +53,7 @@ Checkout our **[Privacy Policy](https://thedoc.eu.org/zettel-notes/privacy)**
 
 !!! information
 
-    To make new feature requests, sign up at <https://zettel-notes.canny.io/feature-requests>
+    To make new feature requests, sign up at <https://github.com/damionx7/Zettel-Notes-Documentation/discussions>
 
 ## Join our Community
 
