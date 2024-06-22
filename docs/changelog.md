@@ -2,6 +2,20 @@
 title: Changelog
 ---
 
+### 2.5.9
+
+⭐ Settings option to change UI Font (Default / Lato / Roboto)  
+⭐ Share note via info dialog  
+⭐ Pandoc export now supports relative image links  
+🐛 Fix editor margins when line numbering is used
+
+### 2.5.8
+
+⭐ New option to change note margins (Settings > Editor and Viewer)  
+⭐ New option in link dialog to insert youtube links unformatted  
+⭐ Now Pandoc share works for encrypted files also  
+🐛 Fix widget crash
+
 ### 2.5.7
 
 ⭐ GIF support!  
