@@ -58,6 +58,8 @@ Apart from this following static YAML variables are supported. These variables a
 - `${mdate}$` (Last modified date)
 - `${accessed}$` (Number of times note is opened)
 - `${wordcount}$` 
+- `${$yyyyMM$}$`
+  - In this variable `yyyyMM` will be replaced by the corresponding date time. To learn more about this format read [official documentation](https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html).
 
 !!! information
 
