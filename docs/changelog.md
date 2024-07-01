@@ -2,6 +2,22 @@
 title: Changelog
 ---
 
+### 2.6.1
+
+⭐ New! Charcoal background color  
+⭐ New! HTML to Markdown converter for websites that require login  
+⭐ New! Image editor for in-built gallery  
+⭐ Settings option to change scrollbar size  
+🐛 Fix editor scroll jumps  
+🐛 Fix text to speech not working for large text
+
+### 2.6.0
+
+⭐ Export note as PDF directly instead of using print dialog  
+⭐ Show ellipsize in note content  
+🐛 Fix slow scrolling with line numbering  
+🐛 Fix inline latex rendering as date time
+
 ### 2.5.9
 
 ⭐ Settings option to change UI Font (Default / Lato / Roboto)  
