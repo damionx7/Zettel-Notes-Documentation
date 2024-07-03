@@ -2,6 +2,17 @@
 title: Changelog
 ---
 
+### 2.6.3
+
+⭐ Add previous button for note search  
+⭐ Option to change image link format in settings (`![[image.png]]`)  
+🐛 Fix backlinks search  
+🐛 Fix heading editor button icon
+
+### 2.6.2
+
+🐛 Fix crash while opening note
+
 ### 2.6.1
 
 ⭐ New! Charcoal background color  
