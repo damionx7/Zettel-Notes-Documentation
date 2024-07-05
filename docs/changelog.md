@@ -2,6 +2,11 @@
 title: Changelog
 ---
 
+### 2.6.4
+
+⭐ Play audio files in in-built Audio Player  
+🐛 Fix editor toolbar buttons
+
 ### 2.6.3
 
 ⭐ Add previous button for note search  
