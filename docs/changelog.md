@@ -2,6 +2,14 @@
 title: Changelog
 ---
 
+### 2.6.5
+
+⭐ New! Markdown folder links: `[folder](/folder/)`  
+⭐ Allow commas in YAML tags  
+⭐ Added support for pasting images from clipboard  
+⭐ Support using a single `$` for inline LaTeX eg. `$a=b$`  
+🐛 Fixed issue with tag search in notes list
+
 ### 2.6.4
 
 ⭐ Play audio files in in-built Audio Player  

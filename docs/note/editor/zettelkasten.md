@@ -10,13 +10,15 @@ Zettel Notes has first class support for Zettelkasten note taking method.
 
 Backlinks are the notes which contain link for the existing note. In [note information dialog](../index.md#note-information), all note backlinks are listed. You can click on any backlink note to open it.
 
-### Wiki style links between notes
+### Wiki style links
 
 Type `[[` in editor to show note list and select any note to insert markdown link for the note. eg `[[note.md]]`
 
 !!! tip
 
     To configure note links, go to `Settings > Editor > Link Style`. You can select among `[[filename]]`, `[[filename.md]]`, `[[filename|title]]`, `[[filename.md|title]]`, `[[date]]`, `[[date]] title`, `[title](filename)` and `[title](filename.md)`.
+
+To create folder links, enter the absolute or relative folder path and add '/' at the end of link eg. `[sub-folder][/sub-folder/]`. Clicking on this link will open the `sub-folder` folder.
 
 ### Tags
 
