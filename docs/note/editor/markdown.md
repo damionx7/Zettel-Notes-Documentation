@@ -144,7 +144,7 @@ To create a footnote add `[1]` after the text. eg `Text[^1]`. Here `1` is identi
 
 **Inline Latex**
 
-To use inline latex, enclose the latex formula in `$$`. eg. `$$\text{A long division \longdiv{12345}{13}$$`
+To use inline latex, enclose the latex formula in `$`. eg. `$\text{A long division \longdiv{12345}{13}$`.
 
 **Block Latex**
 

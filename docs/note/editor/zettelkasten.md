@@ -43,7 +43,11 @@ You can create new note from selected text in editor. Just select some text in e
 
 To display table of contents, add `[TOC]` tag anywhere in note in a new line.
 
-To enable table of contents for all notes, tick `Table of Contents (TOC)` settings option in `Settings > Editor`.
+To enable table of contents for all notes, tick `Table of Contents (TOC)` settings option in `Settings > Editor and Viewer`.
+
+!!! tip
+
+    Table of contents can be customized per note using the following `[TOC:min=1,max=2,symbol=round]` syntax. Three different symbols are supported `round`, `square` and `diamond`. Here `min` and `max` are the minimum and maximum heading levels to use.
 
 ### Inline Heading links
 
@@ -51,7 +55,7 @@ To create inline heading links add # in front of link eg. `[Heading](#heading)`.
 
 !!! example
 
-        Inline link for `# This is a heading` will be `[link](#this-is-a-heading)`.
+    Inline link for `# This is a heading` will be `[link](#this-is-a-heading)`.
 
 ## Lean more about Zettelkasten method 📖
 
