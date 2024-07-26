@@ -26,6 +26,8 @@ When you first open the editor then last edited position is focused. To change t
 
 ## Editor Buttons
 
+The editor buttons are shown in a row at the bottom of the screen. You can scroll right and left to see them all, press and hold to see the title of a button, and use the Settings button to change the order in which they're shown.
+
 ### Markdown Buttons
 
 - This is the first editor button.
