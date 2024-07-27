@@ -112,11 +112,14 @@ Coffee duration of 5 min, 10 mins and 30 mins are provided.
 
 ### Text Snippets Button
 
-Text snippet has 2 parts. Expander and Expansion. When user clicks on expander then its expansion will be entered in editor at the selected position.
+A text snippet has 2 parts: the expander and the expansion. When a user taps on an expander, its expansion will be entered in the editor at the selected position.
 
-To add a new snippet just click on the floating edit button.
+For example, if the expander is `otoh` and the expansion is `on the other hand`, clicking on the expander `otoh` in Text Snippets will enter `on the other hand` in the editor. See the built-in "Heading with Subtasks" snippet for a more substantial example.
 
-Eg. if Expander is `omg`, Expansion is `Oh My God` then clicking on Expander `omg` in Text Snippets will enter `Oh My God` in editor
+The expander may also contain date and/or time placeholders in [SimpleDateFormat](https://docs.oracle.com/javase/8/docs/api/java/text/SimpleDateFormat.html); surrounding these with `$$` will cause the expansion to expand them using the current date and time.
+For example, `## $$yyy-MM-hh (EE)$$` will be expanded to to the current date, formatted like `2024-07-26 (Fri)`.
+
+To add a new text snippet or edit an existing one, just tap on the floating edit button.
 
 ### Citations Button
 
