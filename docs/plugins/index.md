@@ -10,16 +10,17 @@ Currently following plugins are available in play store and f-droid repository.
 
 1. [AI Chat plugin](./chat-ai-plugin.md)
 2. [Alarm plugin](./alarm-plugin.md)
-3. [Document Scanner plugin](./doc-scanner-plugin.md)
-4. [Donation plugin](./donation-plugin.md)
-5. [Latex plugin](./latex-plugin.md)
-6. [Location plugin](./location-plugin.md)
-7. [OCR plugin](./ocr-plugin.md)
-8. [Speech to Text plugin](./speech-to-text-plugin.md)
-9. [Speed Read plugin](./speed-read-plugin.md)
-10. [Text Utils plugin](./text-utils.md)
-11. [Translate plugin](./translate-plugin.md)
-12. [Todo.txt plugin](./todo-txt-plugin.md)
+3. [Anki plugin](./anki-plugin.md)
+4. [Document Scanner plugin](./doc-scanner-plugin.md)
+5. [Donation plugin](./donation-plugin.md)
+6. [Latex plugin](./latex-plugin.md)
+7. [Location plugin](./location-plugin.md)
+8. [OCR plugin](./ocr-plugin.md)
+9. [Speech to Text plugin](./speech-to-text-plugin.md)
+10. [Speed Read plugin](./speed-read-plugin.md)
+11. [Text Utils plugin](./text-utils.md)
+12. [Translate plugin](./translate-plugin.md)
+13. [Todo.txt plugin](./todo-txt-plugin.md)
 
 !!! tip
 
