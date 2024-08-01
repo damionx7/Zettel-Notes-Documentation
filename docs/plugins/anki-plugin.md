@@ -52,3 +52,4 @@ A: Answer
 Requirements:
 
 - Anki <https://play.google.com/store/apps/details?id=com.ichi2.anki>
+- Open the AnkiDroid settings, go to Advanced, and check `Enable AnkiDroid API`
