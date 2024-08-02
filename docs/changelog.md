@@ -2,6 +2,12 @@
 title: Changelog
 ---
 
+### 2.6.6
+
+⭐ Added Bulgarian Translation  
+⭐ LaTeX support is now available in shared PDFs  
+🐛 Fix an issue with adding tags from fenced code blocks
+
 ### 2.6.5
 
 ⭐ New! Markdown folder links: `[folder](/folder/)`  
