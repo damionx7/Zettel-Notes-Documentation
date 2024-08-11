@@ -2,6 +2,12 @@
 title: Changelog
 ---
 
+### 2.6.7
+
+⭐ Settings option to toggle inline LaTeX symbol (`$`)  
+🐛 Fix parsing emoji and tag in code blocks  
+🐛 Fix OpenKeyChain Integration
+
 ### 2.6.6
 
 ⭐ Added Bulgarian Translation  
