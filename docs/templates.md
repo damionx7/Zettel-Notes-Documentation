@@ -12,7 +12,7 @@ Zettel Notes supports following dynamic variables in templates. Dynamic variable
 - `$title$` : Note Title
 - `$filename$` : Filename
 - `$$yyyyMMdd$$` : Date variable
-- `$default-text`: Add Repository Default Text
+- `$default-text$`: Add Repository Default Text
 - `$custom$` : Custom variable
 
 !!! tip
