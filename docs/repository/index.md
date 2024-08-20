@@ -28,6 +28,10 @@ This text will be added to new note files. You can use any of these variables `$
 
 <img src="/assets/img/repository-property-default-text-1.webp" alt="Default Text" width="250"/>
 
+!!! tip
+
+    When using templates, you will have to add `$default-text$` variable at start of template to add repository default text in the note file.
+
 ### 3. Date Format 
 
 It contains [date time format](https://docs.oracle.com/javase/7/docs/api/java/util/Formatter.html) which will be replaced with the present date and time when creating new note.
