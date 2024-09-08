@@ -2,6 +2,16 @@
 title: Changelog
 ---
 
+### 2.6.8
+
+⭐ Indent multiple selected lines in editor  
+⭐ "Repository Default Text" variable for template  
+⭐ Restore editor lock / unlock state on start  
+⭐ Option to change launcher shortcut label  
+⭐ Setting option to disable automatic numbering in ordered lists  
+⭐ Show characters in note info  
+🐛 Fix rename error when extension is left out
+
 ### 2.6.7
 
 ⭐ Settings option to toggle inline LaTeX symbol (`$`)  
