@@ -2,6 +2,11 @@
 title: Changelog
 ---
 
+### 2.6.9
+
+⭐ Compatibility with obsidian image syntax  
+🐛 Fix crash in yaml parser
+
 ### 2.6.8
 
 ⭐ Indent multiple selected lines in editor  
