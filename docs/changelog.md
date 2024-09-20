@@ -2,6 +2,11 @@
 title: Changelog
 ---
 
+### 2.7.0
+
+🐛 Fix Git synchronization overwriting commits  
+🐛 Fix auto backups not working (Please re-enable the auto-backup option in settings)
+
 ### 2.6.9
 
 ⭐ Compatibility with obsidian image syntax  
