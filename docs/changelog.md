@@ -2,6 +2,14 @@
 title: Changelog
 ---
 
+### 2.7.1
+
+⭐ Background worker notifications option (Settings > Miscellaneous)  
+⭐ Code syntax support for `bash`,`zsh` and `sh` languages  
+⭐ Dark theme for code syntax highlight (Markdown style > Tick Dark Theme)  
+⭐ Increase minimum android version (24)  
+🐛 Fix restoring settings from backup file
+
 ### 2.7.0
 
 🐛 Fix Git synchronization overwriting commits  
