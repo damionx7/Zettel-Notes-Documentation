@@ -2,6 +2,16 @@
 title: Changelog
 ---
 
+### 2.7.2
+
+⭐ Auto save note (Settings > Editor and Viewer > Auto-Save when Idle)  
+⭐ Create YAML attributes like tags and author (Left drawer > Add Attribute)  
+⭐ Delete tasks on check (Settings > Note Formats)  
+⭐ Focus mode while editing (Settings > Editor and Viewer > Focus Mode)  
+⭐ Support `[[../file.md]]` relative links in notes  
+⭐ Text selection options for bold, italics, underline and highlight in editor  
+🐛 Fix crash if multiple instance
+
 ### 2.7.1
 
 ⭐ Background worker notifications option (Settings > Miscellaneous)  
