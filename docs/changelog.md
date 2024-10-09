@@ -2,6 +2,11 @@
 title: Changelog
 ---
 
+### 2.7.3
+
+🐛 Fix Plugin Crash  
+🐛 Fix Line Numbers in Editor
+
 ### 2.7.2
 
 ⭐ Auto save note (Settings > Editor and Viewer > Auto-Save when Idle)  
@@ -10,7 +15,7 @@ title: Changelog
 ⭐ Focus mode while editing (Settings > Editor and Viewer > Focus Mode)  
 ⭐ Support `[[../file.md]]` relative links in notes  
 ⭐ Text selection options for bold, italics, underline and highlight in editor  
-🐛 Fix crash if multiple instance
+🐛 Fix crash when multiple instances
 
 ### 2.7.1
 
