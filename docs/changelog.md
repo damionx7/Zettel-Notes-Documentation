@@ -2,6 +2,13 @@
 title: Changelog
 ---
 
+### 2.7.4
+
+⭐ Backup / Restore Editor Toolbar Buttons  
+⭐ Option to Delete Note from Note Info Dialog  
+⭐ Settings option for absolute note links (Settings > Editor and Viewer)  
+🐛 Fix WebDAV synchronization
+
 ### 2.7.3
 
 🐛 Fix Plugin Crash  
