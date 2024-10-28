@@ -51,23 +51,23 @@ Following file extensions are supported `md`, `org`,`txt`,`text`, `mkd`, `mdwn`,
 ### 6. Prefer Title From
 
 - Default
-  - Repository will use following order of preference for parsing title.
-  -  `YAML Metadata` > `First Heading` > `File name`
+    - Repository will use following order of preference for parsing title.
+    -  `YAML Metadata` > `First Heading` > `File name`
 - YAML Metadata
-  - YAML Property `title: Note Title` is used to set title as `Note Title`.
+    - YAML Property `title: Note Title` is used to set title as `Note Title`.
 - First Heading
-  - First Heading `# Note Title` is used to set title as `Note Title`.
+    - First Heading `# Note Title` is used to set title as `Note Title`.
 - Filename
-  - Filename `Note Title.md` is used to set title as `Note Title`.
+    - Filename `Note Title.md` is used to set title as `Note Title`.
 
 ### 7. Default location for attachments
 
 - Main Folder
-  - The root folder will be used for storing attachments
+    - The root folder will be used for storing attachments
 - Same folder as note
 - Specific subfolder
-  - Specific subfoler set by user will be used for storing attachments.
-  - It should start with `/`
+    - Specific subfoler set by user will be used for storing attachments.
+    - It should start with `/`
 - Subfolder in same folder as note
 
 ## Encryption
