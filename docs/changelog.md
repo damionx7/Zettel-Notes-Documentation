@@ -2,6 +2,13 @@
 title: Changelog
 ---
 
+### 2.7.5
+
+⭐ KBD HTML Tag support  
+🐛 Fix Templates above Keyboard  
+🐛 Fix WebDAV sub-folder synchronization  
+🐛 Fix MIUI text selection
+
 ### 2.7.4
 
 ⭐ Backup / Restore Editor Toolbar Buttons  
