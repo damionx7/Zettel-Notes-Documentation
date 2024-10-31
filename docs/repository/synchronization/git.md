@@ -14,8 +14,8 @@ To setup git repository, select `Setup GIT` while setting up new [repository](..
 You will have to set following parameters
 
 - Repository Url
-  - Url of the remote repository
-  - Could be `https://..` or `ssh://`
+  - Url of the remote repository.
+  - Could be `https://..` or in the format `<username>@<server>:/path/to/repo` for SSH.
 - Checkout Branch
   - The git branch which contains your note files (should exist on remote server).
   - If no checkout branch is set then the default remote origin branch is choosen.
@@ -24,7 +24,7 @@ You will have to set following parameters
 - Commit message
   - You can modify the commit message. It can contain date format variable (same as in templates).
 - Username
-  - Used for login
+  - Used for login. For SSH, this should match the username specified in the Repository URL.
 - Password or Token
   - Enter password or your personal access token
 - Key authentication
