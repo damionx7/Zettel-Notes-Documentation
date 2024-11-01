@@ -58,3 +58,23 @@ After this you can trigger synchronization by clicking on synchronize button in 
 
 ![manual synchronization](../../assets/img/nav-drawer-manual-synchronization.jpeg)
 
+## Configure Conflict Resolution 
+
+You can configure how conflicts are resolved via options in Settings > Synchronization > Conflict Resolution and Merge Strategy options
+
+- **Conflict Resolution**
+    - Auto
+        - The default strategy
+    - Prefer Local Changes
+        - Changes made on zettel notes will overwrite changes made on server
+    - Prefer Remote Changes
+        - Changes made on server will overwrite changes made on zettel notes
+- **Merge Strategy**
+    - These options are enabled only for Auto Conflict Resolution strategy
+    - 3 options are provided
+        - Default
+            - Merge changes made on zettel notes and server
+        - Prefer Old Changes
+            - Latest changes will be overwritten with old changes made on either zettel notes or server
+        - Prefer New Changes
+            - Old changes will be overwritten with latest changes made on either zettel notes or server
