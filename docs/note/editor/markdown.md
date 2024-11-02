@@ -164,6 +164,7 @@ $$
 * Emphasis (`<i>`, `<em>`, `<cite>`, `<dfn>`)
 * Heading (`h1`, `h2`, `h3`, `h4`, `h5`, `h6`)
 * Highlight (`mark`)
+* Keyboard input (`kbd`)
 * Link (`a`)
 * Lists (`ul`, `ol`)
 * Strong Emphasis (`<b>`, `<strong>`)

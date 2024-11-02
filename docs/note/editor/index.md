@@ -68,7 +68,6 @@ The folder where attachments are stored is defined by [attachment location in re
 
     You can also download the link, if it is an image file.
 
-
 ### Text manipulation buttons
 
 - Cut
@@ -139,6 +138,26 @@ Application has support for converting Emoji alias (in edit mode) to emojis (in 
 <figure>
 <img src="/assets/img/editor-buttons-emoji.png" alt="Emoji Button"/>
  <figcaption>Emoji Button</figcaption>
+</figure>
+
+### Focus Mode Button
+
+Click to enable / disable focus mode while editing. 
+
+<figure>
+<img src="/assets/img/editor-button-focus-mode.webp" alt="Focus Mode"/>
+ <figcaption>Focus Mode</figcaption>
+</figure>
+
+!!! tip
+
+    You can enable Focus Mode for all notes from Settings > Editor and Viewer > Focus Mode.
+
+### Insert Table Button
+
+<figure>
+<img src="/assets/img/editor-button-insert-table.png" alt="Insert Table"/>
+ <figcaption>Insert Table</figcaption>
 </figure>
 
 ### Settings Button

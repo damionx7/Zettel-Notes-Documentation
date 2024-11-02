@@ -76,5 +76,5 @@ You can configure how conflicts are resolved via options in Settings > Synchroni
             - Merge changes made on zettel notes and server
         - Prefer Old Changes
             - Latest changes will be overwritten with old changes made on either zettel notes or server
-        - Prefer New Changes
+        - Prefer New Changes (Preferred Option)
             - Old changes will be overwritten with latest changes made on either zettel notes or server
