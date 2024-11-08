@@ -82,15 +82,22 @@ Code blocks
 
 ### Task lists
 
-Defined via `- [ ] ` in front of text. It is rendered only when bracket is the first thing in line
+Defined via `- [ ] ` in front of text. It is rendered only when bracket is the first thing in line.
+
+Tasks can be ticked from View Mode
 
 - [ ] Pending with empty bracket
 - [x] Completed with `x` or `X` in bracket
 
-!!! tip
 
-    Tasks can be ticked from View Mode
+### Custom checkboxes
 
+The character in task bracket can be modified to show different statuses. Following custom checkboxes are support
+
+- `- [-] Cancelled`
+- `- [!] Important`
+- `- [?] More Info`
+- `- [>] Scheduled`.
 
 ### Thematic break 
 

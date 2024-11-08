@@ -2,6 +2,16 @@
 title: Changelog
 ---
 
+### 2.7.6
+
+⭐ Add 2 Editor Buttons (Toggle Focus Mode and Clean Sync Tags)  
+⭐ Add Markdown Style Blockquote Font option  
+⭐ Options for changing Note Auto-Save timeout (Settings > Editor and Viewer)  
+⭐ Option to import SSH key in Keys Manager  
+⭐ Support Custom Checkboxes  
+🐛 Accent color not shown in some places  
+🐛 Fix Table of Contents scroll
+
 ### 2.7.5
 
 ⭐ KBD HTML Tag support  
