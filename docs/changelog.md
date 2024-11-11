@@ -8,7 +8,7 @@ title: Changelog
 ⭐ Add Markdown Style Blockquote Font option  
 ⭐ Options for changing Note Auto-Save timeout (Settings > Editor and Viewer)  
 ⭐ Option to import SSH key in Keys Manager  
-⭐ Support Custom Checkboxes  
+⭐ Support [Custom Checkboxes](https://znotes.thedoc.eu.org/note/editor/markdown/#custom-checkboxes)  
 🐛 Accent color not shown in some places  
 🐛 Fix Table of Contents scroll
 
