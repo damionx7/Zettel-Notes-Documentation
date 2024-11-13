@@ -2,6 +2,13 @@
 title: Changelog
 ---
 
+### 2.7.7
+
+⭐ Default template option for fleeting notes (Template > Set as default)  
+⭐ Editor shortcut `::` for inserting Text Snippets  
+⭐ Proportionate Heading size in Editor (Settings > Editor and Viewer > Large headings)  
+🐛 Fix Markdown Links displayed differently in Editor and Viewer
+
 ### 2.7.6
 
 ⭐ Add 2 Editor Buttons (Toggle Focus Mode and Clean Sync Tags)  
