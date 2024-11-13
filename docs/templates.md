@@ -28,3 +28,7 @@ Apart from pre-defined variables, Zettel Notes allows you to use custom variable
 <img src="/assets/img/templates-custom-variable.png" alt="add note screen"/>
  <figcaption>Usage of custom template variable</figcaption>
 </figure>
+
+## Default template
+
+A template can be set as default template by long pressing template and selecting `Set as Default` option. After that this selected template will be added to all fletting notes created by clicking the add note button in notes list.
