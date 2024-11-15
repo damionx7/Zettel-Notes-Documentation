@@ -2,6 +2,11 @@
 title: Changelog
 ---
 
+### 2.7.8
+
+⭐ YAML Checker in Editor  
+🐛 Fix Background Synchronization
+
 ### 2.7.7
 
 ⭐ Default template option for fleeting notes (Template > Set as default)  
