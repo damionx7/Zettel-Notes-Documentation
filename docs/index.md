@@ -23,7 +23,6 @@ Checkout our **[Privacy Policy](https://thedoc.eu.org/zettel-notes/privacy)**
     
     [Download Now!](download.md) Experience the convenience and privacy of Zettel Notes for your note taking needs. 
 
-
 ## Features List
 
 -  [App Lock](./app-lock.md)
@@ -55,9 +54,17 @@ Checkout our **[Privacy Policy](https://thedoc.eu.org/zettel-notes/privacy)**
 
     To make new feature requests, sign up at <https://github.com/damionx7/Zettel-Notes-Documentation/discussions>
 
+## Support my work
+
+If my work has positively impacted your life and you'd like to support my ongoing projects, consider showing your appreciation by [donating](https://www.buymeacoffee.com/dr.rohit) or becoming a member at [buymeacoffee](https://www.buymeacoffee.com/dr.rohit/membership).  
+
+It means a lot to me as a solo developer!  
+
+[Purchase membership](https://www.buymeacoffee.com/dr.rohit/membership){ .md-button .md-button--primary} [Donate :simple-buymeacoffee:](https://www.buymeacoffee.com/dr.rohit){ .md-button }
+
 ## Join our Community
 
-If you have any issues, feel free to contact via
+If you have any suggestion or feedback regarding my projects or this site, you can contact via 
 
 - [Email](mailto:info@thedoc.eu.org)
 - [Google Group](https://groups.google.com/g/znotes)
@@ -65,12 +72,6 @@ If you have any issues, feel free to contact via
 - [Telegram Channel](https://t.me/zettelnotes)
 - [Telegram Support Group](https://t.me/joinchat/DZ2eFcOk3Mo4MDk1)
 - [Zettelkasten.de post](https://forum.zettelkasten.de/discussion/1844/introducing-my-new-android-app-for-zettelkasten-zettel-notes/)
-
-!!! information
-
-    **How to develop custom plugins ?**
-
-    Want to customize your Zettel Notes experience? Check out our [Plugin API](https://github.com/damionx7/Zettel-Notes-Plugin-Api) on GitHub
 
 ## What users say about Zettel Notes
 
@@ -87,4 +88,3 @@ Zettel Notes is multi-lingual and translated in 18 languages. [Read more](transl
 ## Disclaimer
 
 The software is provided "as is," without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and noninfringement. By using this software, you agree that the developer will not be liable for any damages, including but not limited to loss of data, revenue, or profits, arising out of or connected with the application's use.
-
