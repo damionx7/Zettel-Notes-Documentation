@@ -2,6 +2,14 @@
 title: Changelog
 ---
 
+### 2.7.9
+
+⭐ Backup/Restore Keyboard Shortcuts  
+⭐ New! Keyboard shortcut to open Text Snippets  
+⭐ Settings option to disable Editor hot-words (eg. `@@`,`#?`,`::`)  
+⭐ Show Recent Notes in Navigation Drawer  
+🐛 Fix parsing images from HTML img tag
+
 ### 2.7.8
 
 ⭐ YAML Checker in Editor  
