@@ -2,6 +2,11 @@
 title: Changelog
 ---
 
+### 2.8.0
+
+⭐ Update Translations  
+🐛 Fix Spoiler Tag
+
 ### 2.7.9
 
 ⭐ Backup/Restore Keyboard Shortcuts  
