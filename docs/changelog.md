@@ -2,6 +2,11 @@
 title: Changelog
 ---
 
+### 2.8.1
+
+🐛 Fix Space between Checked Tasks  
+🐛 Fix Slow Image Loading
+
 ### 2.8.0
 
 ⭐ Update Translations  
