@@ -28,7 +28,7 @@ Checkout our **[Privacy Policy](https://thedoc.eu.org/zettel-notes/privacy)**
 -  [App Lock](./app-lock.md)
 -  Bookmark / Pin notes
 -  [Calendar View](./calendar.md)
--  [Dropbox, Git, Google Drive, WebDAV and SFTP synchronization](./repository/synchronization/index.md)
+-  [Dropbox, Git, WebDAV and SFTP synchronization](./repository/synchronization/index.md)
 -  [Different types of notes](./note/note-types.md) stored as plain text files eg. task note, audio note, bookmark note etc.
 -  Full text search
 -  [Keyboard Shortcuts](./keyboard-shortcuts.md)

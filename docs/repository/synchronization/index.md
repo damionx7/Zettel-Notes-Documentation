@@ -6,7 +6,6 @@ title: Synchronization
 
 - [Git](git.md)
 - [Dropbox](dropbox.md)
-- [Google Drive](google-drive.md)
 - [Webdav](webdav.md)
 - [SSH / SFTP](sftp.md)
 
