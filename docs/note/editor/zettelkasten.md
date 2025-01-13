@@ -18,7 +18,7 @@ Type `[[` in editor to show note list and select any note to insert markdown lin
 
     To configure note links, go to `Settings > Editor > Link Style`. You can select among `[[filename]]`, `[[filename.md]]`, `[[filename|title]]`, `[[filename.md|title]]`, `[[date]]`, `[[date]] title`, `[title](filename)` and `[title](filename.md)`.
 
-To create folder links, enter the absolute or relative folder path and add '/' at the end of link eg. `[sub-folder][/sub-folder/]`. Clicking on this link will open the `sub-folder` folder.
+To create folder links, enter the absolute or relative folder path and add '/' at the end of link eg. `[sub-folder](/sub-folder/)`. Clicking on this link will open the `sub-folder` folder.
 
 ### Tags
 
