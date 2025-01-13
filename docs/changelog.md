@@ -2,6 +2,14 @@
 title: Changelog
 ---
 
+### 2.8.2
+
+⭐ 1600+ New Icons!  
+⭐ New Tasker action: List Notes  
+⭐ Option to list non-markdown files (Settings > Misc)  
+⭐ Save Task Adapter state  
+🐛 Remove Google Drive synchronization
+
 ### 2.8.1
 
 🐛 Fix Space between Checked Tasks  

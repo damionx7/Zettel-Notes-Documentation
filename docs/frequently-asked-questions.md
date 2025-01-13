@@ -2,6 +2,10 @@
 title: Frequently Asked Questions
 ---
 
+## What is the location of notes in App Folder ?
+
+- They are located in private storage of application, which is not accessible to normal users - `/data/data/org.eu.thedoc.zettelnotes/notes`
+
 ## F-droid downloads are slow
 
 - Sometimes, it happens that the server on which f-droid repository is hosted can be slow to respond.
