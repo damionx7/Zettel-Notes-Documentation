@@ -47,7 +47,7 @@ To enable table of contents for all notes, tick `Table of Contents (TOC)` settin
 
 !!! tip
 
-    Table of contents can be customized per note using the following `[TOC:min=1,max=2,symbol=round]` syntax. Three different symbols are supported `round`, `square` and `diamond`. Here `min` and `max` are the minimum and maximum heading levels to use.
+    Table of contents can be customized per note using the following `[TOC:min=1,max=2,symbol=round]` syntax. Following symbols are supported `dash`, `diamond`,`dot`, `dot_large`,and `square`. Here `min` and `max` are the minimum and maximum heading levels to use.
 
 ### Inline Heading links
 
