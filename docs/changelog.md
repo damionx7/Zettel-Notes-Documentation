@@ -2,6 +2,14 @@
 title: Changelog
 ---
 
+### 2.8.3
+
+⭐ 4 New Editor Buttons (Rotate Screen, Add Icon, Ordered List, Unordered List)  
+⭐ Daily Note Shortcut  
+⭐ Customizable Markdown Button Icons  
+⭐ Updated Launcher Icon!  
+🐞 Fixed Dropdown Spinners
+
 ### 2.8.2
 
 ⭐ 1600+ New Icons!  
