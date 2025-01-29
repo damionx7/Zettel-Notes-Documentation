@@ -9,7 +9,7 @@ markdown_extensions:
 theme:
   name: material
   favicon: favicon.ico
-  logo: android-chrome-512x512.png
+  logo: favicon.svg
   features:
     - navigation.indexes
     - navigation.instant
