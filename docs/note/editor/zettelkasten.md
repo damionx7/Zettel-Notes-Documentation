@@ -23,12 +23,12 @@ To create folder links, enter the absolute or relative folder path and add '/' a
 ### Tags
 
 - Tags are denoted by `#tag` or specifying tag in yaml
-- type `##` or `#?` to show tag search dialog
+- Type `#?` to show tag search dialog
 
 ## Authors
 
 - Authors are denoted by `@author` or specifying author in yaml
-- type `@@` to show author search dialog
+- Type `@?` to show author search dialog
 
 ## New Note from selection
 
