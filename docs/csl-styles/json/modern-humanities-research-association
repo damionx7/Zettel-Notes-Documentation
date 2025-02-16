@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="note" version="1.0" demote-non-dropping-particle="sort-only" page-range-format="chicago" default-locale="en-GB">
   <info>
-    <title>Modern Humanities Research Association 3rd edition (note with bibliography)</title>
+    <title>Modern Humanities Research Association 4th edition (note with bibliography)</title>
     <title-short>MHRA</title-short>
     <id>http://www.zotero.org/styles/modern-humanities-research-association</id>
     <link href="http://www.zotero.org/styles/modern-humanities-research-association" rel="self"/>
@@ -17,10 +17,13 @@
       <name>Andrew Dunning</name>
       <uri>https://orcid.org/0000-0003-0464-5036</uri>
     </contributor>
+    <contributor>
+      <name>Patrick O'Brien</name>
+    </contributor>
     <category citation-format="note"/>
     <category field="generic-base"/>
     <summary>MHRA format with full notes and bibliography</summary>
-    <updated>2023-12-10T00:40:26+00:00</updated>
+    <updated>2024-10-30T16:10:40+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -99,21 +102,17 @@
       </else>
     </choose>
   </macro>
-  <macro name="disambiguate">
+  <macro name="title-subsequent">
     <choose>
-      <if disambiguate="true">
-        <choose>
-          <if variable="title" match="none">
-            <text macro="issued"/>
-          </if>
-          <else-if type="bill book graphic legal_case legislation motion_picture report song" match="any">
-            <text variable="title" font-style="italic" text-case="title" form="short"/>
-          </else-if>
-          <else>
-            <text variable="title" quotes="true" text-case="title" form="short"/>
-          </else>
-        </choose>
+      <if variable="title" match="none">
+        <text macro="issued"/>
       </if>
+      <else-if type="bill book graphic legal_case legislation motion_picture report song" match="any">
+        <text variable="title" font-style="italic" text-case="title" form="short"/>
+      </else-if>
+      <else>
+        <text variable="title" quotes="true" text-case="title" form="short"/>
+      </else>
     </choose>
   </macro>
   <macro name="title-sort-substitute">
@@ -334,10 +333,7 @@
         <text variable="publisher"/>
       </if>
       <else>
-        <group delimiter=": ">
-          <text variable="publisher-place"/>
-          <text variable="publisher"/>
-        </group>
+        <text variable="publisher"/>
       </else>
     </choose>
   </macro>
@@ -360,7 +356,10 @@
   <macro name="pages">
     <choose>
       <if type="article-journal">
-        <text variable="page" prefix=", "/>
+        <group delimiter=" " prefix=", ">
+          <label variable="page" form="short"/>
+          <text variable="page"/>
+        </group>
       </if>
       <else>
         <choose>
@@ -411,7 +410,7 @@
     </group>
     <choose>
       <if variable="DOI">
-        <text variable="DOI" prefix=" &lt;https://doi.org/" suffix="&gt;"/>
+        <text variable="DOI" prefix=", doi:"/>
       </if>
       <else>
         <choose>
@@ -446,7 +445,7 @@
         <if position="subsequent">
           <group delimiter=", ">
             <text macro="contributors-short"/>
-            <text macro="disambiguate"/>
+            <text macro="title-subsequent"/>
             <text macro="locators-specific-note"/>
           </group>
           <text macro="point-locators-subsequent"/>
