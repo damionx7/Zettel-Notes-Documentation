@@ -2,6 +2,24 @@
 title: Changelog
 ---
 
+### 2.8.5
+
+🐛 Fix persistent synchronization dialog  
+
+### 2.8.4
+
+⭐ Added 5 new attributes in markdown style  
+⭐ Added Editor Button to toggle Blockquote on selected lines  
+⭐ Option to disable double press to exit (Settings > Misc)  
+⭐ Option to keep maximum number of backup files  
+⭐ Option to rename note from Note Info dialog  
+⭐ Option to set columns in editor toolbar folder  
+⭐ Prefer existing daily note  
+⭐ Remember last chosen folder while sharing to create note  
+⭐ Widget for Task Note  
+🐛 Fix search not working after opening Note via link  
+🐛 Fix opening notes with HTML escaped links
+
 ### 2.8.3
 
 ⭐ 4 New Editor Buttons (Rotate Screen, Add Icon, Ordered List, Unordered List)  

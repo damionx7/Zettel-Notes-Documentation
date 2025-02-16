@@ -9,7 +9,8 @@ markdown_extensions:
 theme:
   name: material
   favicon: favicon.ico
-  logo: favicon.svg
+  icon:
+    logo: material/note
   features:
     - navigation.indexes
     - navigation.instant
