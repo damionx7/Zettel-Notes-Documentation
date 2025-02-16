@@ -1,4 +1,6 @@
-site_name: Zettel Notes Documentation
+site_name: Zettel Notes
+site_url: https://zettelnotes.com
+repo_url: https://github.com/damionx7/Zettel-Notes-Documentation
 markdown_extensions:
   - admonition
   - attr_list
@@ -44,6 +46,7 @@ extra_css:
 plugins:
   - search
   - privacy
+  - git-revision-date-localized
 copyright: <a href="#__consent">Change cookie settings</a>
 extra:
   generator: false
