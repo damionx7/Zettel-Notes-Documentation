@@ -2,6 +2,15 @@
 title: Changelog
 ---
 
+### 2.8.6
+
+⭐ 15 alternate App Icons (Misc > Switch App Icon)  
+⭐ New Link format `[Title](../Filename.md)`  
+⭐ Option to toggle relative path for attachments  
+⭐ Tap to share files in Storage Manager (Misc > Storage Manager)  
+🐛 Fix selecting multiple files from storage  
+🐛 Fix URL regex
+
 ### 2.8.5
 
 🐛 Fix persistent synchronization dialog  
@@ -72,7 +81,7 @@ title: Changelog
 ⭐ Add Markdown Style Blockquote Font option  
 ⭐ Options for changing Note Auto-Save timeout (Settings > Editor and Viewer)  
 ⭐ Option to import SSH key in Keys Manager  
-⭐ Support [Custom Checkboxes](https://zettelnotes.com/note/editor/markdown/#custom-checkboxes)  
+⭐ Support [Custom Checkboxes](https://www.zettelnotes.com/note/editor/markdown/#custom-checkboxes)  
 🐛 Accent color not shown in some places  
 🐛 Fix Table of Contents scroll
 

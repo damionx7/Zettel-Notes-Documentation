@@ -1,5 +1,5 @@
 site_name: Zettel Notes
-site_url: https://zettelnotes.com
+site_url: https://www.zettelnotes.com
 repo_url: https://github.com/damionx7/Zettel-Notes-Documentation
 markdown_extensions:
   - admonition

@@ -1,6 +1,6 @@
 Documentation for Zettel Notes 
 
-https://zettelnotes.com
+https://www.zettelnotes.com
 
 ## Download Links
 
