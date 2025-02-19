@@ -10,7 +10,7 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 theme:
   name: material
-  favicon: favicon.ico
+  favicon: favicon.png
   icon:
     logo: material/note
   features:
