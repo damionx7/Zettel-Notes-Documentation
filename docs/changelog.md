@@ -2,6 +2,15 @@
 title: Changelog
 ---
 
+### 2.8.7
+
+⭐ Option to change app wide date format (Settings > Theme > Misc)  
+⭐ Option to toggle relative path for attachments (Settings > Editor and Viewer)  
+⭐ Share Menu button in Markdown Viewer Fragment  
+⭐ Update Emojis  
+🐛 Fix Note List Padding and Margins  
+🐛 Fix Delete and Select Lines Editor Buttons
+
 ### 2.8.6
 
 ⭐ 15 alternate App Icons (Misc > Switch App Icon)  
