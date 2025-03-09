@@ -2,6 +2,16 @@
 title: Changelog
 ---
 
+### 2.8.8
+
+⭐ Icon support for Saved Search  
+⭐ PDF Image Link Preview `![](file.pdf)`  
+⭐ Option to disable Update Announcement  
+⭐ Select Default Template in Add Note Dialog  
+⭐ Share Note as Image  
+🐛 Fix Pasting text doesn't always update View Mode  
+🐛 Fix Icon Color in Dark Themes
+
 ### 2.8.7
 
 ⭐ Option to change app wide date format (Settings > Theme > Misc)  
