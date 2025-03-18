@@ -2,6 +2,14 @@
 title: Changelog
 ---
 
+### 2.8.9
+
+⭐ Backup and Restore Saved searches  
+⭐ Support `#@_-/` in search  
+🐛 Fix disabling Editor Toolbar buttons  
+🐛 Fix Note date in Notes List has zero seconds  
+🐛 Fix Note Widget Title
+
 ### 2.8.8
 
 ⭐ Icon support for Saved Search  
