@@ -2,7 +2,7 @@
 title: Where to download ?
 ---
 
-I hope this documentation has convinced you that Zettel Notes is the best markdown note taking application for android. 😄
+I hope this documentation has convinced you that Zettel Notes is the best markdown note taking application for android. 😃
 
 ## Links
 

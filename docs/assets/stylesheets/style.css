@@ -1,54 +1,98 @@
 :root {
-    --md-text-font: Roboto;
-    --md-code-font: "Source Code Pro";   
+  --md-text-font: 'Inter', sans-serif;
+  --md-code-font: 'Fira Code', monospace;
+  --md-heading-font: 'Playfair Display', serif;
+  --md-hue: 145deg; /* Adjusted for a greenish tone */
+
+  /* Default color shades */
+  --md-default-fg-color: hsla(145, 35%, 20%, 0.87);
+  --md-default-fg-color--light: hsla(145, 35%, 20%, 0.54);
+  --md-default-fg-color--lighter: hsla(145, 35%, 20%, 0.32);
+  --md-default-fg-color--lightest: hsla(145, 35%, 20%, 0.07);
+  --md-default-bg-color: hsla(145, 40%, 95%, 1);
+  --md-default-bg-color--light: hsla(145, 40%, 95%, 0.7);
+  --md-default-bg-color--lighter: hsla(145, 40%, 95%, 0.3);
+  --md-default-bg-color--lightest: hsla(145, 40%, 95%, 0.12);
+
+  /* Code color shades */
+  --md-code-fg-color: hsla(145, 50%, 25%, 1);
+  --md-code-bg-color: hsla(145, 50%, 90%, 1);
+
+  /* Toolbar color */
+  --md-toolbar-bg-color: hsla(145, 50%, 30%, 1);
+  --md-toolbar-fg-color: hsla(145, 100%, 95%, 1);
+
+  /* Link color */
+  --md-link-color: hsla(145, 70%, 35%, 1);
+  --md-link-hover-color: hsla(145, 80%, 25%, 1);
 }
 
-  
+[data-md-color-scheme="default"] {
+  --md-code-fg-color: rgb(34, 85, 34);
+  --md-code-bg-color: rgb(204, 238, 204);
+}
+
+[data-md-color-scheme="slate"] {
+  --md-code-fg-color: rgb(200, 255, 200);
+  --md-code-bg-color: rgb(40, 80, 40);
+}
+
 .md-typeset {
-    line-height: 1.6;
+  line-height: 1.6;
 }
 
 .md-typeset code{
-    font-size: medium;
+  font-size: medium;
 }
-
-/* https://github.com/squidfunk/mkdocs-material/blob/master/src/templates/assets/stylesheets/main/_colors.scss */
-[data-md-color-scheme="default"] {
-    --md-code-fg-color:                  rgb(44, 44, 44);
-    --md-code-bg-color:                  rgb(238, 238, 238);
-}
-
-
-[data-md-color-scheme="slate"] {
-    --md-code-fg-color:                  rgb(255, 255, 255);
-    --md-code-bg-color:                  rgb(128, 128, 128);
-}
-  
 
 .md-typeset .admonition {
-    font-size: medium;
+  font-size: medium;
 }
 
 .md-typeset h1,
 .md-typeset h2,
 .md-typeset h3,
 .md-typeset h4 {
-    font-weight: 600;
-    font-family: "Roboto Condensed";   
+  font-weight: 600;
+  font-family: var(--md-heading-font);
+  color: rgb(0, 128, 64);
 }
 
-/* a:hover { */
-    /* text-decoration: underline; */
-/* } */
+.md-typeset a {
+  color: var(--md-link-color);
+  text-decoration: underline;
+}
+
+.md-typeset a:hover {
+  color: var(--md-link-hover-color);
+  text-decoration: underline;
+}
 
 img,
 video {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 24px;
-    margin-top: 24px;
-    width: 350px;
-    text-align: center;
-    font-weight: bold;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 24px;
+  margin-top: 24px;
+  width: 350px;
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid #000;
 }
+
+.md-header {
+  background-color: var(--md-toolbar-bg-color);
+  color: var(--md-toolbar-fg-color);
+}
+
+.md-nav__link {
+  color: var(--md-link-color);
+}
+
+.md-nav__link:hover {
+  color: var(--md-link-hover-color);
+} 
+
+
+

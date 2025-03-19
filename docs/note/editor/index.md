@@ -135,7 +135,7 @@ Application has support for converting Emoji alias (in edit mode) to emojis (in 
 
 !!! information
 
-    For full list of supported emojis and aliases, [follow this link](https://github.com/vdurmont/emoji-java/blob/master/EMOJIS.md)
+    For full list of supported emojis and aliases, [follow this link](https://raw.githubusercontent.com/felldo/JEmoji/refs/heads/master/public/emojis.json)
 
 
 <figure>
