@@ -18,6 +18,9 @@ theme:
   favicon: favicon.png
   icon:
     logo: material/note
+  font:
+    text: Inter
+    code: Fira Code
   features:
     - navigation.indexes
     - navigation.instant
