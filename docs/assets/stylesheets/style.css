@@ -1,5 +1,4 @@
 :root {
-  --md-heading-font: 'Playfair Display', serif;
   --md-hue: 145deg; /* Adjusted for a greenish tone */
 
   /* Default color shades */
@@ -52,7 +51,6 @@
 .md-typeset h3,
 .md-typeset h4 {
   font-weight: 600;
-  font-family: var(--md-heading-font);
   color: rgb(0, 128, 64);
 }
 
