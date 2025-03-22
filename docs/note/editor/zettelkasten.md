@@ -24,6 +24,7 @@ To create folder links, enter the absolute or relative folder path and add '/' a
 
 - Tags are denoted by `#tag` or specifying tag in yaml
 - Type `#?` to show tag search dialog
+- [Read More](tags.md)
 
 ## Authors
 
