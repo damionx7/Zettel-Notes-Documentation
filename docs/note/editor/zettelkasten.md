@@ -42,7 +42,7 @@ You can create new note from selected text in editor. Just select some text in e
 
 ### Table of contents
 
-To display table of contents, add `[TOC]` tag anywhere in note in a new line.
+To display table of contents, add `[TOC]` at start of note or just after YAML frontmatter.
 
 To enable table of contents for all notes, tick `Table of Contents (TOC)` settings option in `Settings > Editor and Viewer`.
 

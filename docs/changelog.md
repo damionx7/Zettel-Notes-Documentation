@@ -2,6 +2,14 @@
 title: Changelog
 ---
 
+### 2.9.0
+
+⭐ YAML Property Search: Access it from Left Drawer > Add Attribute  
+⭐ Improved quality when sharing as an image  
+🐛 Fixed problems with empty tags and authors  
+🐛 Fonts now update correctly in markdown styles  
+🐛 Resolved issues with editing WebDAV details
+
 ### 2.8.9
 
 ⭐ Backup and Restore Saved searches  
