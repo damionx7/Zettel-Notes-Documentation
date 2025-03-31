@@ -121,7 +121,7 @@ The expander may also contain date and/or time placeholders in [SimpleDateFormat
 
 !!! tip
 
-    You can quickly search for and insert text snippets by typing `:?` or `::` while editing.
+    You can quickly search for and insert text snippets by typing `:?` while editing.
 
 ### Citations Button
 
