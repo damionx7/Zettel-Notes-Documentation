@@ -2,6 +2,13 @@
 title: Changelog
 ---
 
+### 2.9.1
+
+⭐ Editor Button to Toggle Meta Keys Toolbar  
+⭐ Filter Chips in Gallery  
+🐛 Fix Attribute Search  
+🐛 Fix Bigger Headings
+
 ### 2.9.0
 
 ⭐ YAML Property Search: Access it from Left Drawer > Add Attribute  
