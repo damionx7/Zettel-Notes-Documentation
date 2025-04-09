@@ -2,6 +2,13 @@
 title: Changelog
 ---
 
+### 2.9.2
+
+⭐ Swipe Right on Notes List to open Left Drawer  
+⭐ Sequential Tag search in Notes List  
+⭐ In `[]()` links, space will be replaced with `%20`  
+🐛 Fix crash in Editor
+
 ### 2.9.1
 
 ⭐ Editor Button to Toggle Meta Keys Toolbar  
