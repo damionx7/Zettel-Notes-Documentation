@@ -2,6 +2,15 @@
 title: Changelog
 ---
 
+### 2.9.3
+
+⭐ Option to Export All Templates and Themes  
+⭐ Updated Icons (3872+)  
+⭐ Open daily note if exists on storage  
+⭐ Regex in search and replace dialog  
+🐛 Fix Randomly Hiding Folder Icons  
+🐛 Fix Status Bar Color
+
 ### 2.9.2
 
 ⭐ Swipe Right on Notes List to open Left Drawer  
