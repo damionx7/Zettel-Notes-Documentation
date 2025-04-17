@@ -2,6 +2,13 @@
 title: Changelog
 ---
 
+### 2.9.4
+
+⭐ Option to Backup and Restore Text Snippets  
+⭐ Replace spaces in "Zettel Link format" with `%20`  
+🐛 Fix Restoring Note on Screen Rotation  
+🐛 Fix Fullscreen Editor Button
+
 ### 2.9.3
 
 ⭐ Option to Export All Templates and Themes  
