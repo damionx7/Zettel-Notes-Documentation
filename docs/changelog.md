@@ -2,6 +2,14 @@
 title: Changelog
 ---
 
+### 2.9.5
+
+⭐ Option to Backup and Restore Markdown Buttons  
+⭐ Tabs in Right Drawer (Outline, Navigation, Backlinks, Tags)  
+⭐ Long press to pin / unpin navigation history  
+⭐ Replace `[TOC]` with table of contents anywhere in text  
+🐛 Fix Get Commits Crash
+
 ### 2.9.4
 
 ⭐ Option to Backup and Restore Text Snippets  
