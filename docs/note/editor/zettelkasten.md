@@ -42,13 +42,13 @@ You can create new note from selected text in editor. Just select some text in e
 
 ### Table of contents
 
-To display table of contents, add `[TOC]` at start of note or just after YAML frontmatter.
+To display table of contents, add `[TOC]` anywhere in the note.
 
 To enable table of contents for all notes, tick `Table of Contents (TOC)` settings option in `Settings > Editor and Viewer`.
 
 !!! tip
 
-    Table of contents can be customized per note using the following `[TOC:min=1,max=2,symbol=round]` syntax. Following symbols are supported `dash`, `diamond`,`dot`, `dot_large`,and `square`. Here `min` and `max` are the minimum and maximum heading levels to use.
+    Table of contents can be customized per note using the following `[TOC:min=1,max=2,symbol=round]` syntax. Following symbols are supported `arrow` ➔,`check` ✔,`circle` ◯,`dash` -, `diamond` ◆,`dot` •, `dot_large` ⬤,`square` ■,`star` ★,and `triangle` ▶. Here `min` and `max` are the minimum and maximum heading levels to use.
 
 ### Inline Heading links
 
