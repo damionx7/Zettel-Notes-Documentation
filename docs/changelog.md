@@ -8,6 +8,7 @@ title: Changelog
 ⭐ Tabs in Right Drawer (Outline, Navigation, Backlinks, Tags)  
 ⭐ Long press to pin / unpin navigation history  
 ⭐ Replace `[TOC]` with table of contents anywhere in text  
+⭐ Repository option to use first line of note as title  
 🐛 Fix Get Commits Crash
 
 ### 2.9.4
