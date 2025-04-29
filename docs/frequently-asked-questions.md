@@ -44,3 +44,10 @@ synchronization,replace `SUBFOLDER` with the name of your subfolder such as `zno
 - Decryption can only be done by zettel notes app on user device
 - If you uninstall zettel notes app or forget password, notes can\'t be decrypted.
 - Password is not stored in zettel notes. Only asymmetric password hash is stored, which is compared with the user entered password on app start. So, you should be extra careful when setting password.
+
+## Why can't I attach other files on storage in Zettel Notes?
+
+- This is due to Android storage access restrictions and the introduction of Scoped Storage in recent Android versions
+- Apps are no longer allowed unrestricted access to all files on the device
+- Zettel Notes can only access files within its own app-specific storage or files that you explicitly select through the system file picker
+- This limitation is necessary to protect user privacy and security.
