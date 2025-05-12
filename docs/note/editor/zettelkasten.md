@@ -20,6 +20,8 @@ Type `[[` in editor to show note list and select any note to insert markdown lin
 
 To create folder links, enter the absolute or relative folder path and add '/' at the end of link eg. `[sub-folder](/sub-folder/)`. Clicking on this link will open the `sub-folder` folder.
 
+Notes can also be linked using their `id`. The `id` is derived from the filename or the `id` property in the YAML frontmatter. You can configure the `id` detection pattern (regex) in the repository settings.
+
 ### Tags
 
 - Tags are denoted by `#tag` or specifying tag in yaml

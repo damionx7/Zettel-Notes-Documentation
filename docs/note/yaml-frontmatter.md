@@ -12,14 +12,15 @@ title: Note Title
 This is body of the note.
 ```
 
-Following YAML properties are supported
+Following YAML Properties are supported
 
-1. **Title**
-2. **Tag(s)**
-3. **Author(s)**
-4. **Source or Url**
-5. **Bookmark or Pin or Star**
-6. **Id or uid** : should be a number with minimum length of 6
+1. **title** – The title of the note.  
+2. **tag(s)** – One or more tags associated with the note.  
+3. **author(s)** – The author(s) of the note.  
+4. **source** or **url** – The original source or URL reference.  
+5. **bookmark**, **pin**, or **star** – Used to mark important notes.  
+6. **id** or **uid** – Must match the repository's Id regex pattern.  
+7. **date** – At least 6 digits, typically in the format `yyyyMMddHHmmss`.
 
 To specify multiple sources for a note, use array format. eg.
 
