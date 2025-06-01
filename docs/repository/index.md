@@ -70,14 +70,25 @@ Following file extensions are supported `md`, `org`,`txt`,`text`, `mkd`, `mdwn`,
     - It should start with `/`
 - Subfolder in same folder as note
 
-## Encryption
+### [8. Encryption](./encryption.md)
 
-- Enryption can be set per-repository. [Read more](./encryption.md).
+### [9. Synchronization](synchronization/index.md)
 
-## Synchronization
+## Additional properties
 
-- To setup synchronization, [follow this guide](synchronization/index.md).
+Zettel Notes allows you to configure certain additional properties for each repository. These can be set by clicking the Edit button in the top-right corner of the repository dialog.
 
+The properties are saved in the Zettel Notes configuration folder, under the specific path for that repository.
+
+### 1. UID Regex (`uid_regex`)
+
+- Defines how the id of a note is determined.
+- Example: If set to `^\d{6,}`, and a note filename is `20201210 Note File.md`, the note ID will be `20201210`.
+- This ID can be used for linking between notes.
+
+### 2. Mount (`mount`)
+
+- Specifies whether the repository should be accessible via the Android Documents app.
 
 ## Mounting internal repositories
 

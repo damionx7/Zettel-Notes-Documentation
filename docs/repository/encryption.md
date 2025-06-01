@@ -2,27 +2,37 @@
 title: Note Encryption
 ---
 
-You can encrypt notes per repository. To enable note encryption, go to `Repositories > Long press specific repositoy > Encryption`
+You can encrypt notes on a per-repository basis. To enable encryption for a specific repository:
 
-## Methods of encryption
+Go to: `Repositories → Long press on a repository → Encryption`
 
-1. End to end encryption
+## Encryption Methods
 
-      - In this mode all newly created notes will be encrypted.
-      - User password is stored in Android Keystore.
-      - Salt and other details required for decrypting notes are stored in note files.
-      - This means you can share encrypted notes with other users via e-mail and the other user just needs password to decrypt them.
+### 1. End-to-End Encryption
 
+- All **newly created notes** in this repository will be encrypted.  
+- Your **password** is securely stored in the **Android Keystore**.  
+- The **salt** and other decryption details are embedded within each encrypted note file.  
+- You can **share encrypted notes** with others (e.g., via email); the recipient only needs the **password** to decrypt them.
 
-2. Password
+### 2. Password-Based Encryption
 
-      - Use password for encrypting notes.
-      - If you uninstall the Zettel Notes app (which clears the SALT) or forget the password, notes cannot be decrypted.
-      - Decryption is possible between android devices. For that you will have to use same `salt` for both devices. Copy from `Settings > Encryption Salt`. 
-      - If encryption salt is similar on two devices using Zettel Notes, then user can share the encrypted note and decrypt on other device with user password.
-      - Only an asymmetric password hash (argon2) is stored (on device), which is then compared with the user-entered password. 
-      - User password is not stored in Zettel Notes. It is impossible as of now to recover user password from the stored hash if strength of user password is reasonable.
+- Notes are encrypted using a **user-defined password**.  
+- If you **uninstall Zettel Notes** (which clears the SALT) or **forget the password**, the notes **cannot be decrypted**.  
+- Decryption is possible **between Android devices** if the same `salt` is used.  
+  - To do this, copy the salt from `Settings` → `Encryption Salt`  
+- If two devices have the **same salt** and the user knows the password, encrypted notes can be **shared and decrypted** across devices.  
+- Only an **asymmetric password hash** (using Argon2) is stored **locally**. This hash is used to verify the password during decryption.  
+- The **user password is never stored** in Zettel Notes.  
+- If the password is reasonably strong, it is **not possible** to recover it from the stored hash.
 
-3. OpenPGP
-      - PGP Key is used for encrypted notes.
-      - It is provided via intergration with [OpenKeychain: Easy PGP](https://play.google.com/store/apps/details?hl=en&id=org.sufficientlysecure.keychain) application.
+### 3. OpenPGP Encryption
+
+- Notes are encrypted using a **PGP key provided by an external OpenPGP application**.  
+- This is enabled through integration with [**OpenKeychain: Easy PGP**](https://play.google.com/store/apps/details?hl=en&id=org.sufficientlysecure.keychain).  
+
+### 4. PGP Key Encryption
+
+- An **in-app PGP key** is used for encryption.  
+- You can **generate the key** via `Settings` → `Keys Manager`  
+- Note encryption and decryption are **seamless**, similar to **End-to-End Encryption**.

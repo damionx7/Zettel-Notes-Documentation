@@ -5,7 +5,7 @@ slug: /
 tags: [Introduction]
 ---
 
-Welcome to documentation for [Zettel Notes](./download.md) Markdown Note taking app for android devices.
+Welcome to documentation for [Zettel Notes](./download.md) Markdown Note taking application for android devices.
 
 ## Why Choose Zettel Notes ? 🚀
 
@@ -47,7 +47,7 @@ Checkout our **[Privacy Policy](https://thedoc.eu.org/zettel-notes/privacy)**
 -  Subfolder support
 -  Customizable [Material Themes](./themes/app-theme.md) and [Fonts](./themes/font-downloader.md)
 -  [Templates](./templates.md)
--  [Tasker Plugin](./tasker.md)
+-  [Tasker Integration](./tasker.md)
 -  [Zettelkasten support](./note/editor/zettelkasten.md)
 
 !!! information

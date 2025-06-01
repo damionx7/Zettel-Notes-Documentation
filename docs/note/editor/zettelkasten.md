@@ -64,4 +64,4 @@ To create inline heading links add # in front of link eg. `[Heading](#heading)`.
 
 This note taking method is based on zettel or short notes based on a single idea. Main strength of this method lies in interlinking notes and backlinks.
 
-Sascha has described this method is more detail. Please checkout his blog post at https://zettelkasten.de/introduction/.
+Sascha has described this method in more detail. Please checkout his blog post at <https://zettelkasten.de/introduction/>.

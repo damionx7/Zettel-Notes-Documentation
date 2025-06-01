@@ -19,7 +19,7 @@ theme:
   icon:
     logo: material/note
   font:
-    text: Inter
+    text: Roboto
     code: Fira Code
   features:
     - navigation.indexes

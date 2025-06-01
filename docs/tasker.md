@@ -1,22 +1,23 @@
 ---
-title: Tasker Plugin
+title: Tasker Integration
 ---
 
-[Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm) is a popular automation application for android. 
+[Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm) is a popular automation application for Android.
 
-Zettel notes has new note action plugin for tasker. With this plugin, you can use variable title and content for a note in pre selected location.
+Zettel Notes supports integration with Tasker through its **New Note Action Plugin**. This allows you to create notes using **dynamic variables** for the title and content in a pre-selected location.
 
-To create a new tasker action:
+## How to Create a Tasker Action
 
-1. Install [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm)
-2. Open tasker and create a new task
-3. Select Zettel Notes from Action plugin category
-4. Enter tasker variables for content and filename
+1. Install [**Tasker**](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm).  
+2. Open Tasker and create a **new task**.  
+3. From the **Plugin > Action** category, select **Zettel Notes**.  
+4. Configure the plugin by entering **Tasker variables** for the note’s **content** and **filename**.
 
-Following action plugins are available for use with tasker
+## Available Actions
 
-1. Create Note
-2. Get Note Content
+1. Create Note  
+2. Get Note Content  
+3. List Notes
 
 <figure>
 <img src="/assets/img/tasker_action.png" alt="Tasker plugin"/>
@@ -32,3 +33,14 @@ Following action plugins are available for use with tasker
 <img src="/assets/img/tasker_create_note_info.png" alt="Action info"/>
  <figcaption>Tasker action</figcaption>
 </figure>
+
+
+## Trigger Notes Scanner via Intent
+
+- Use the **Send Intent** action in Tasker.  
+- Use the following details:  
+  - **Action:** `org.eu.thedoc.zettelnotes.action.SCAN_NOTES`  
+  - **Extra:** `EXTRAS_REPOSITORY:<REPOSITORY_NAME>`  
+  - **Package:** `org.eu.thedoc.zettelnotes`  
+  - **Target:** `Service`
+- Replace `REPOSITORY_NAME` with the name of the repository for which you want to trigger the notes scanner.
