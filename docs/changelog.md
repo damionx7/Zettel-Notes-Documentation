@@ -2,6 +2,27 @@
 title: Changelog
 ---
 
+### 2.9.7
+
+⭐ New Encryption Method: In-App PGP Key Encryption  
+⭐ Provide Intent to trigger Notes Scanner (eg. via tasker)  
+⭐ Option to change Text Shortcuts (Settings > Editor and Viewer)  
+⭐ Support `<details>` HTML Tag  
+🐛 Fix Deleting More than 999 Files  
+🐛 Fix Audio Recording limit of 3 minutes  
+🐛 Fix Arrow Keys movement in Editor
+
+### 2.9.6
+
+⭐ Add all shared images into a single note  
+⭐ New option to define Repository UID using regex  
+⭐ Long press links in the editor to open them  
+⭐ Share rendered HTML directly to the clipboard  
+⭐ Display hex color values in the viewer  
+⭐ Option to insert logs at the beginning of the log note  
+⭐ New widgets for folder, recent notes, and tags  
+🐛 Fix ED25519 key
+
 ### 2.9.5
 
 ⭐ Option to Backup and Restore Markdown Buttons  
