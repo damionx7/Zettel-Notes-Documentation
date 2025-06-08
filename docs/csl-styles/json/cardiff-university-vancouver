@@ -13,9 +13,8 @@
       <email>YoungZ@cardiff.ac.uk</email>
     </author>
     <category citation-format="numeric"/>
-    <category field="generic-base"/>
     <summary>Cardiff University adapted Vancouver style as outlined by International Committee of Medical Journal Editors Uniform Requirements for Manuscripts Submitted to Biomedical Journals: Sample References</summary>
-    <updated>2018-02-08T05:26:22+00:00</updated>
+    <updated>2025-05-18T00:55:38+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -177,9 +176,16 @@
   <macro name="date">
     <choose>
       <if type="article-journal article-magazine article-newspaper review review-book" match="any">
-        <group suffix=";" delimiter=" ">
-          <date variable="issued" form="text"/>
-        </group>
+        <choose>
+          <if match="none" variable="volume page">
+            <group suffix=";" delimiter=" ">
+              <date variable="issued" form="text"/>
+            </group>
+          </if>
+          <else>
+            <date date-parts="year" form="text" variable="issued" suffix=";"/>
+          </else>
+        </choose>
       </if>
       <else-if type="bill legislation" match="any">
         <group delimiter=", ">

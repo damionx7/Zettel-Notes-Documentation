@@ -17,9 +17,10 @@
       <name>Sebastian Karcher</name>
     </contributor>
     <category citation-format="numeric"/>
+    <category field="generic-base"/>
     <category field="medicine"/>
     <summary>Vancouver style as outlined by International Committee of Medical Journal Editors Uniform Requirements for Manuscripts Submitted to Biomedical Journals: Sample References</summary>
-    <updated>2023-06-24T19:29:06+00:00</updated>
+    <updated>2025-05-18T00:55:38+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">

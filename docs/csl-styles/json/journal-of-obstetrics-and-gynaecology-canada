@@ -11,10 +11,9 @@
       <name>Patrick O'Brien</name>
     </author>
     <category citation-format="numeric"/>
-    <category field="generic-base"/>
     <issn>1701-2163</issn>
     <eissn>2665-9867</eissn>
-    <updated>2024-09-11T09:25:45+00:00</updated>
+    <updated>2025-05-18T00:55:38+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
