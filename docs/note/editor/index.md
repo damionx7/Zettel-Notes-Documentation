@@ -115,7 +115,7 @@ A text snippet has 2 parts: *Expander* and *Expansion*. When a user taps on an e
 
 For example, if the expander is `otoh` and the expansion is `on the other hand`, clicking on the expander `otoh` in Text Snippets will enter `on the other hand` in the editor. See the built-in "Heading with Subtasks" snippet for example.
 
-The expander may also contain date and/or time placeholders in [SimpleDateFormat](https://docs.oracle.com/javase/8/docs/api/java/text/SimpleDateFormat.html); surrounding these with `$$` will cause the expansion to expand them using the current date and time. For example, `## $$yyy-MM-hh (EE)$$` will be expanded to to the current date, formatted like `2024-07-26 (Fri)`.
+The expander may also contain date and/or time placeholders in [SimpleDateFormat](https://docs.oracle.com/javase/8/docs/api/java/text/SimpleDateFormat.html); surrounding these with `$$` will cause the expansion to expand them using the current date and time. For example, `## $$yyy-MM-dd (EE)$$` will be expanded to to the current date, formatted like `2024-07-26 (Fri)`.
 
 > To add a new text snippet or edit an existing one, just tap on the floating edit button.
 
