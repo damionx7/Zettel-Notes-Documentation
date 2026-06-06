@@ -100,17 +100,32 @@ The properties are saved in the Zettel Notes configuration folder, under the spe
 
 ### 3. Exclude files and folders (`excluded_paths`)
 
-Defines which files and folders should be ignored for this repository. Enter a comma-separated list of patterns, for example: *.tmp,backup/,note-?.md.
+Since Zettel Notes v3.0.7, there is a useful feature to define which files and folders should be "ignored" for this repository.
 
-Supported patterns:
+<img src="/assets/img/repository-property-exclude-files-and-folders-1.webp" alt="Exclude files and folders" width="250"/>
 
-    * matches any number of characters.
-    Example: *.md matches all Markdown files.
+Enter a comma-separated list of patterns, for example:
 
-    ? matches exactly one character.
-    Example: note-?.md matches note-1.md or note-a.md, but not note-10.md.
+```
+'excluded_paths = /backupFolder/,/*.tmp,/note-?.md'
+```
 
-    A pattern ending with / matches a folder and everything inside it.
-    Example: temp/ excludes the temp folder and all its files and subfolders.
+**Clarification:**
 
-Patterns are matched against file and folder paths using / as the separator.
+1. By the term "ignoring files and folders", we mean a repository setting that:
+   - hides files and folders in the "Notes List",
+   - hides tags in the Navigation Drawer "Attributes",
+   - turns links to hidden files into "Note Link not valid".
+   - hides backlinks to hidden files in the "Backlinks" tab of the Right Drawer and the "Info" window.
+2. To format the path correctly, use the absolute link rule within the repository: the path must start with `/` (`/Folder/,/File.md`).
+3. Patterns are matched against file and folder paths using `/` as the separator.
+4. Spaces are allowed in file and folder names (`/Example Folder/,/Example File.md`).
+
+**Supported patterns:**
+
+- A pattern ending with `/` matches a folder and everything inside it.  
+    _Example:_ `temp/` excludes the **temp** folder and all its files and subfolders.
+- `*` matches any number of characters.  
+    _Example:_ `*.md` matches all Markdown files.
+- `?` matches exactly one character.  
+    _Example:_ `note-?.md` matches `note-1.md` or `note-a.md`, but not `note-10.md`.
