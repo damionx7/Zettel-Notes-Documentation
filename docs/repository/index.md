@@ -100,7 +100,7 @@ The properties are saved in the Zettel Notes configuration folder, under the spe
 
 ### 3. Exclude files and folders (`excluded_paths`)
 
-Since Zettel Notes v3.0.7, there is a useful feature to define which files and folders should be "ignored" for this repository.
+Since Zettel Notes v3.0.7, there is a feature to define which files and folders should be "ignored" for this repository.
 
 <img src="/assets/img/repository-property-exclude-files-and-folders-1.webp" alt="Exclude files and folders" width="250"/>
 
@@ -112,14 +112,14 @@ Enter a comma-separated list of patterns, for example:
 
 **Clarification:**
 
-1. By the term "ignoring files and folders", we mean a repository setting that:
-   - hides files and folders in the "Notes List",
-   - hides tags in the Navigation Drawer "Attributes",
-   - turns links to hidden files into "Note Link not valid".
-   - hides backlinks to hidden files in the "Backlinks" tab of the Right Drawer and the "Info" window.
-2. To format the path correctly, use the absolute link rule within the repository: the path must start with `/` (`/Folder/,/File.md`).
-3. Patterns are matched against file and folder paths using `/` as the separator.
-4. Spaces are allowed in file and folder names (`/Example Folder/,/Example File.md`).
+- By the term "ignoring files and folders", we mean a repository setting that:
+    - hides files and folders in the "Notes List",
+    - hides tags in the Navigation Drawer "Attributes",
+    - turns links to hidden files into "Note Link not valid".
+    - hides backlinks to hidden files in the "Backlinks" tab of the Right Drawer and the "Info" window.
+- To format the path correctly, use the absolute link rule within the repository: the path must start with `/` (`/Folder/,/File.md`).
+- Patterns are matched against file and folder paths using `/` as the separator.
+- Spaces are allowed in file and folder names (`/Example Folder/,/Example File.md`).
 
 **Supported patterns:**
 
