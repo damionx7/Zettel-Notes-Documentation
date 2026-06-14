@@ -2,6 +2,17 @@
 title: Changelog
 ---
 
+### 3.0.8
+
+⭐ Escape author and tags with '\' eg. \#tag  
+⭐ Highlight double space endings in editor  
+⭐ Option to add text to draft notes on long pressing editor button  
+⭐ Share text to add to draft notes  
+⭐ Support quotes in repository excluded_paths option  
+⭐ Use max lines for note content in notes list instead of word limit  
+🐛 Fix initial editor selection and scroll on pasting text  
+🐛 Fix swipe refresh not working after initial refresh in notes list  
+
 ### 3.0.7
 
 ⭐ Include Font Files in Backup  
