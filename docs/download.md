@@ -6,7 +6,7 @@ I hope this documentation has convinced you that Zettel Notes is the best markdo
 
 ## Links
 
-- [Play  Store](https://thedoc.eu.org/redirect/zettel-notes)
+- [Play Store](https://thedoc.eu.org/redirect/zettel-notes)
 - [F-Droid Repository](https://thedoc.eu.org/fdroid/)
 
 !!! information "Become a beta tester"
@@ -36,5 +36,3 @@ In case f-droid downloads are slow. [Read this FAQ](frequently-asked-questions.m
 
 - [Official Client](https://f-droid.org/en/packages/org.fdroid.fdroid/)
 - [Droidify - Recommended](https://f-droid.org/en/packages/com.looker.droidify/)
-
-

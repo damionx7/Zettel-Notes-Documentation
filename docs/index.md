@@ -68,6 +68,7 @@ If you have any suggestion or feedback regarding my projects or this site, you c
 
 - [Email](mailto:info@thedoc.eu.org)
 - [Google Group](https://groups.google.com/g/znotes)
+- [Play Store](https://thedoc.eu.org/redirect/zettel-notes)
 - [Reddit post](https://www.reddit.com/r/Zettelkasten/comments/npr00a/introducing_my_new_android_app_for_zettelkasten/)
 - [Telegram Channel](https://t.me/zettelnotes)
 - [Telegram Support Group](https://t.me/joinchat/DZ2eFcOk3Mo4MDk1)

@@ -2,6 +2,21 @@
 title: Changelog
 ---
 
+### 3.1.0
+
+⭐ Add new background colors  
+⭐ Change 'Draft Notes' to 'Memo'  
+⭐ Change default repository icon  
+⭐ Option to open images with other apps  
+⭐ Upgrade target android sdk to 36 and min sdk to 26  
+🐛 Fix divider color  
+🐛 Fix double space line ending highlight  
+🐛 Fix selecting none option for viewer and editor font
+
+### 3.0.9
+
+🐛 Fix crash in search view
+
 ### 3.0.8
 
 ⭐ Escape author and tags with '\' eg. \#tag  
@@ -1044,4 +1059,4 @@ Change default repository text to title only
 ⭐ Option to disable patch (Settings > Note Preference)  
 ⭐ Option to disable spellcheck (Settings > Note Preference)  
 ⭐ Option to load last note on opening repo (Settings > Load last opened note)  
-⭐ Option to load custom repo on app start (Settings > Load Custom Repo on Start)  
+⭐ Option to load custom repo on app start (Settings > Load Custom Repo on Start)
