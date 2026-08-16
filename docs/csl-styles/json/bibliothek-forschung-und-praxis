@@ -4,7 +4,6 @@
     <title>Bibliothek &#8211; Forschung und Praxis</title>
     <id>http://www.zotero.org/styles/bibliothek-forschung-und-praxis</id>
     <link href="http://www.zotero.org/styles/bibliothek-forschung-und-praxis" rel="self"/>
-    <link href="http://www.zotero.org/styles/chicago-fullnote-bibliography-16th-edition" rel="template"/>
     <link href="https://www.degruyter.com/publication/journal_key/BFUP/downloadAsset/BFUP_Instructions%20for%20Authors.pdf" rel="documentation"/>
     <author>
       <name>Jens Mittelbach</name>
@@ -16,7 +15,7 @@
     <issn>1865-7648</issn>
     <issn>0341-4183</issn>
     <summary>The BFP citation style based on the Chicago Manual of Style</summary>
-    <updated>2023-05-18T02:55:36+00:00</updated>
+    <updated>2025-07-14T15:39:42+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="de">

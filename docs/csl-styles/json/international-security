@@ -4,7 +4,7 @@
     <title>International Security</title>
     <id>http://www.zotero.org/styles/international-security</id>
     <link href="http://www.zotero.org/styles/international-security" rel="self"/>
-    <link href="http://www.zotero.org/styles/chicago-fullnote-bibliography" rel="template"/>
+    <link href="http://www.zotero.org/styles/chicago-notes-bibliography" rel="template"/>
     <link href="https://www.belfercenter.org/journal-international-security/overview#!style-guide" rel="documentation"/>
     <author>
       <name>Patrick O'Brien</name>
@@ -13,7 +13,7 @@
     <category field="humanities"/>
     <issn>0162-2889</issn>
     <eissn>1531-4804</eissn>
-    <updated>2018-10-29T01:37:06+00:00</updated>
+    <updated>2025-07-14T15:39:42+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">

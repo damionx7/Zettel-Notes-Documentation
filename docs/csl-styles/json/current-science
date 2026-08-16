@@ -4,7 +4,6 @@
     <title>Current Science</title>
     <id>http://www.zotero.org/styles/current-science</id>
     <link href="http://www.zotero.org/styles/current-science" rel="self"/>
-    <link href="http://www.zotero.org/styles/dna-research" rel="template"/>
     <link href="http://www.currentscience.ac.in/php/inst_authors.php" rel="documentation"/>
     <author>
       <name>Patrick O'Brien</name>
@@ -12,7 +11,7 @@
     <category citation-format="numeric"/>
     <category field="science"/>
     <issn>0011-3891</issn>
-    <updated>2017-10-06T04:10:54+00:00</updated>
+    <updated>2026-01-03T21:21:12+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">

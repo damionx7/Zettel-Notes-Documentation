@@ -4,7 +4,7 @@
     <title>European Union - Interinstitutional Style Guide (note)</title>
     <id>http://www.zotero.org/styles/european-union-interinstitutional-style-guide</id>
     <link href="http://www.zotero.org/styles/european-union-interinstitutional-style-guide" rel="self"/>
-    <link href="http://www.zotero.org/styles/chicago-note-bibliography" rel="template"/>
+    <link href="http://www.zotero.org/styles/chicago-shortened-notes-bibliography" rel="template"/>
     <link href="https://docs.google.com/file/d/0B-opIuO3xlZsYkV4dXVfVm1PYWM/edit" rel="documentation"/>
     <link href="http://publications.europa.eu/code/en/en-000500.htm" rel="documentation"/>
     <author>
@@ -13,7 +13,7 @@
     <category citation-format="note"/>
     <category field="generic-base"/>
     <summary>Format based on the EU's Interinstitutional Style Guide, with additional guidance by David Wright of Trilateral Research  Consulting based on OUP's New Hart's Rules. Funding for the creation and maintenance of the style from The Hague Center of Strategic Studies is gratefully acknowledged.</summary>
-    <updated>2019-10-12T21:04:02+00:00</updated>
+    <updated>2025-07-14T15:39:42+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">

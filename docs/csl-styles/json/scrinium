@@ -6,7 +6,7 @@
     <id>http://www.zotero.org/styles/scrinium</id>
     <link href="http://www.zotero.org/styles/scrinium" rel="self"/>
     <link href="http://www.zotero.org/styles/society-of-biblical-literature-fullnote-bibliography" rel="template"/>
-    <link href="http://www.zotero.org/styles/chicago-fullnote-bibliography-no-ibid" rel="template"/>
+    <link href="http://www.zotero.org/styles/chicago-notes-bibliography-no-ibid" rel="template"/>
     <link href="http://www.brill.com/sites/default/files/ftp/authors_instructions/SCRI.pdf" rel="documentation"/>
     <author>
       <name>Carl Johan Berglund</name>
@@ -17,7 +17,7 @@
     <issn>1817-7530</issn>
     <eissn>1817-7565</eissn>
     <summary>Format for Scrinium: Journal of Patrology and Critical Hagiography. More info at http://brill.com/scri.</summary>
-    <updated>2016-01-26T04:44:25+00:00</updated>
+    <updated>2025-07-14T15:39:42+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">

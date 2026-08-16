@@ -4,7 +4,7 @@
     <title>Law, Technology and Humans</title>
     <id>http://www.zotero.org/styles/law-technology-and-humans</id>
     <link href="http://www.zotero.org/styles/law-technology-and-humans" rel="self"/>
-    <link href="http://www.zotero.org/styles/chicago-note-bibliography" rel="documentation"/>
+    <link href="http://www.zotero.org/styles/chicago-shortened-notes-bibliography" rel="documentation"/>
     <link href="https://lthj.qut.edu.au/public/journals/5/LTH_Author_Guidelines_2020_2021.pdf" rel="documentation"/>
     <contributor>
       <name>Aaron Timoshanko</name>
@@ -14,7 +14,7 @@
     <category field="law"/>
     <eissn>2652-4074</eissn>
     <summary>Journal house style for Law, Technology and Humans</summary>
-    <updated>2020-09-12T04:05:34+00:00</updated>
+    <updated>2025-07-14T15:39:42+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">

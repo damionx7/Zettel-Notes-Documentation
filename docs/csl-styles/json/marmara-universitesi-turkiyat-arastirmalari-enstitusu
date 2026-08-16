@@ -5,7 +5,7 @@
     <title>Marmara Üniversitesi - Türkiyat Araştırmaları Enstitüsü (Türkçe)</title>
     <id>http://www.zotero.org/styles/marmara-universitesi-turkiyat-arastirmalari-enstitusu</id>
     <link href="http://www.zotero.org/styles/marmara-universitesi-turkiyat-arastirmalari-enstitusu" rel="self"/>
-    <link href="http://www.zotero.org/styles/chicago-fullnote-bibliography" rel="template"/>
+    <link href="http://www.zotero.org/styles/chicago-notes-bibliography" rel="template"/>
     <link href="http://dosya.marmara.edu.tr/tae/Ara%C5%9Ft%C4%B1rma/tae-tez-yazim-klavuzu05.12.2014.doc" xml:lang="tr" rel="documentation"/>
     <author>
       <name>Muhammet Tarakçı</name>
@@ -14,7 +14,7 @@
     <category citation-format="note"/>
     <category field="social_science"/>
     <summary xml:lang="tr">Marmara Üniversitesi Türkiyat Araştırmaları Enstitüsü'nde yüksek lisans ve doktora tezi yazan öğrencilerimiz için tez yazım kılavuzuna uygun olarak hazırlanmıştır.</summary>
-    <updated>2021-02-15T03:41:57+00:00</updated>
+    <updated>2025-07-14T15:39:42+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="tr">

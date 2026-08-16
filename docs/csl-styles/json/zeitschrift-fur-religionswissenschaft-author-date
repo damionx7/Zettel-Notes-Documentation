@@ -17,7 +17,7 @@
     <issn>0943-8610</issn>
     <eissn>2194-508X</eissn>
     <summary>Author-year style for the Zeitschrift für Religionswissenschaft. Based on the ASA style.</summary>
-    <updated>2016-02-25T04:55:40+00:00</updated>
+    <updated>2025-08-22T14:44:38+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="de">
@@ -38,7 +38,7 @@
   </macro>
   <macro name="author">
     <names variable="author">
-      <name and="text" name-as-sort-order="first" sort-separator=", " delimiter=", " delimiter-precedes-last="contextual" initialize="false" initialize-with=". "/>
+      <name and="text" name-as-sort-order="first" sort-separator=", " delimiter=", " delimiter-precedes-last="after-inverted-name" initialize="false" initialize-with=". "/>
       <label form="short" prefix=", "/>
       <substitute>
         <names variable="editor"/>

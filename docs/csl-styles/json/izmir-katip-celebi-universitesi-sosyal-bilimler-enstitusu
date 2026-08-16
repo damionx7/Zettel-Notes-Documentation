@@ -4,7 +4,7 @@
     <title>İzmir Katip Çelebi Üniversitesi - Sosyal Bilimler Enstitüsü (Türkçe)</title>
     <id>http://www.zotero.org/styles/izmir-katip-celebi-universitesi-sosyal-bilimler-enstitusu</id>
     <link href="http://www.zotero.org/styles/izmir-katip-celebi-universitesi-sosyal-bilimler-enstitusu" rel="self"/>
-    <link href="http://www.zotero.org/styles/chicago-fullnote-bibliography" rel="template"/>
+    <link href="http://www.zotero.org/styles/chicago-notes-bibliography" rel="template"/>
     <link href="http://sosyalbilimler.ikc.edu.tr/Share/8B70923243C5673C1A7E71C85E2E9DEC" xml:lang="tr" rel="documentation"/>
     <author>
       <name>Ömer Faruk Görücü</name>
@@ -13,7 +13,7 @@
     <category citation-format="note"/>
     <category field="social_science"/>
     <summary xml:lang="tr">İzmir Katip Çelebi Üniversitesi Sosyal Bilimler Enstitüsü tez yazım kılavuzuna uygun olarak hazırlanmıştır.</summary>
-    <updated>2021-02-15T03:41:57+00:00</updated>
+    <updated>2025-07-14T15:39:42+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="tr">

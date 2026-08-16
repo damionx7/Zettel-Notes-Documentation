@@ -4,15 +4,15 @@
     <title>Research Evaluation</title>
     <id>http://www.zotero.org/styles/research-evaluation</id>
     <link href="http://www.zotero.org/styles/research-evaluation" rel="self"/>
-    <link href="http://www.zotero.org/styles/oxford-university-press-humsoc" rel="independent-parent"/>
-    <link href="http://www.oxfordjournals.org/our_journals/rev/for_authors/manuscript_instructions.html#Journal%20copyediting%20style" rel="documentation"/>
+    <link href="http://www.zotero.org/styles/new-harts-rules-author-date-space-publisher" rel="independent-parent"/>
+    <link href="https://academic.oup.com/rev/pages/Manuscript_Instructions" rel="documentation"/>
     <category citation-format="author-date"/>
     <category field="science"/>
     <category field="social_science"/>
     <category field="political_science"/>
     <issn>0958-2029</issn>
     <eissn>1471-5449</eissn>
-    <updated>2014-04-12T01:20:52+00:00</updated>
+    <updated>2026-01-03T21:21:12+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
 </style>

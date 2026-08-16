@@ -4,7 +4,7 @@
     <title>University of Bologna - Liberal Arts College (Università di Bologna - Facoltà di Lettere e Filosofia) (Italiano)</title>
     <id>http://www.zotero.org/styles/universita-di-bologna-lettere</id>
     <link href="http://www.zotero.org/styles/universita-di-bologna-lettere" rel="self"/>
-    <link href="http://www.zotero.org/styles/chicago-fullnote-bibliography" rel="template"/>
+    <link href="http://www.zotero.org/styles/chicago-notes-bibliography" rel="template"/>
     <link href="http://corsi.unibo.it/lettere/Pagine/norme-redazionali-tesi-triennale.aspx" rel="documentation"/>
     <author>
       <name>Sasa Sekulic</name>
@@ -16,7 +16,7 @@
     <category field="linguistics"/>
     <category field="philosophy"/>
     <summary>University of Bologna, Liberal Arts College citation style - Stile di citazione dell'Universita' di Bologna, Facolta' di Lettere e Filosofia</summary>
-    <updated>2021-02-14T05:16:25+00:00</updated>
+    <updated>2025-07-14T15:39:42+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="it-IT">

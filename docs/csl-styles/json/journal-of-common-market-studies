@@ -5,7 +5,6 @@
     <title-short>JCMS</title-short>
     <id>http://www.zotero.org/styles/journal-of-common-market-studies</id>
     <link href="http://www.zotero.org/styles/journal-of-common-market-studies" rel="self"/>
-    <link href="http://www.zotero.org/styles/socio-economic-review" rel="template"/>
     <link href="http://onlinelibrary.wiley.com/journal/10.1111/%28ISSN%291468-5965/homepage/ForAuthors.html#Style" rel="documentation"/>
     <author>
       <name>Sebastian Karcher</name>
@@ -14,7 +13,7 @@
     <category field="social_science"/>
     <issn>0021-9886</issn>
     <eissn>1468-5965</eissn>
-    <updated>2014-03-29T23:07:46+00:00</updated>
+    <updated>2026-01-03T21:21:12+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">

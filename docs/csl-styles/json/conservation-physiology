@@ -5,14 +5,14 @@
     <id>http://www.zotero.org/styles/conservation-physiology</id>
     <link href="http://www.zotero.org/styles/conservation-physiology" rel="self"/>
     <link href="http://www.zotero.org/styles/elsevier-harvard" rel="template"/>
-    <link href="http://www.oxfordjournals.org/our_journals/conphys/for_authors/" rel="documentation"/>
+    <link href="https://academic.oup.com/conphys/pages/general_instructions" rel="documentation"/>
     <author>
       <name>Sebastian Karcher</name>
     </author>
     <category citation-format="author-date"/>
     <category field="biology"/>
     <eissn>2051-1434</eissn>
-    <updated>2018-10-28T01:43:31+00:00</updated>
+    <updated>2026-01-03T21:21:12+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="container">

@@ -4,7 +4,7 @@
     <title>Zeitschrift für die Geschichte des Oberrheins (Deutsch)</title>
     <id>http://www.zotero.org/styles/zeitschrift-fur-die-geschichte-des-oberrheins</id>
     <link href="http://www.zotero.org/styles/zeitschrift-fur-die-geschichte-des-oberrheins" rel="self"/>
-    <link href="http://www.zotero.org/styles/chicago-note-bibliography" rel="template"/>
+    <link href="http://www.zotero.org/styles/chicago-shortened-notes-bibliography" rel="template"/>
     <link href="https://www.kgl-bw.de/a_publ_zgo.htm" rel="documentation"/>
     <author>
       <name>Patrick O'Brien</name>
@@ -13,7 +13,7 @@
     <category citation-format="note"/>
     <category field="history"/>
     <issn>0044-2607</issn>
-    <updated>2021-02-10T05:28:52+00:00</updated>
+    <updated>2025-07-14T15:39:42+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="secondary-contributors">

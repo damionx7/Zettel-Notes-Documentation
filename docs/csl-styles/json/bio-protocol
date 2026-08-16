@@ -9,9 +9,12 @@
     <author>
       <name>Sebastian Karcher</name>
     </author>
+    <contributor>
+      <name>jianguoruan</name>
+    </contributor>
     <category citation-format="author-date"/>
     <category field="biology"/>
-    <updated>2025-04-18T15:07:59+00:00</updated>
+    <updated>2026-06-25T08:45:25+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -136,8 +139,7 @@
                   </if>
                 </choose>
               </else-if>
-              <!-- Only year: article article-journal book chapter entry entry-dictionary entry-encyclopedia dataset figure graphic
-                   manuscript map musical_score paper-conference[published] patent report review review-book thesis -->
+              <!-- Only year: article article-journal book chapter entry entry-dictionary entry-encyclopedia dataset figure graphic manuscript map musical_score paper-conference[published] patent report review review-book thesis -->
             </choose>
           </if>
           <else-if variable="status">
@@ -920,7 +922,7 @@
               </substitute>
             </names>
             <group delimiter=": " font-style="italic">
-              <text variable="container-title"/>
+              <text variable="container-title" form="short"/>
               <!-- Replace with volume-title as that becomes available -->
               <choose>
                 <if is-numeric="volume" match="none">
@@ -969,13 +971,6 @@
         <else-if type="article-journal article-magazine article-newspaper post-weblog" match="none">
           <group delimiter=": ">
             <text variable="publisher-place"/>
-            <text variable="publisher"/>
-          </group>
-        </else-if>
-      </choose>
-      <group delimiter=", ">
-        <choose>
-          <if variable="archive-place">
             <!-- With `archive-place`: physical archives. Without: online archives. -->
             <!-- For physical archives, print the location before the archive name.
                 For electronic archives, these are printed in macro="description". -->
@@ -984,6 +979,13 @@
                 With collection: archive_collection (archive_location), archive, archive-place
                 No collection: archive (archive_location), archive-place
             -->
+            <text variable="publisher"/>
+          </group>
+        </else-if>
+      </choose>
+      <group delimiter=", ">
+        <choose>
+          <if variable="archive-place">
             <text variable="archive_location"/>
           </if>
         </choose>
@@ -1091,7 +1093,7 @@
       <text variable="citation-number"/>
     </layout>
   </citation>
-  <bibliography hanging-indent="true" et-al-min="11" et-al-use-first="10">
+  <bibliography et-al-min="11" et-al-use-first="10" entry-spacing="0">
     <sort>
       <key variable="citation-number"/>
     </sort>

@@ -5,7 +5,7 @@
     <title-short>İSNAD</title-short>
     <id>http://www.zotero.org/styles/isnad-dipnotlu</id>
     <link href="http://www.zotero.org/styles/isnad-dipnotlu" rel="self"/>
-    <link href="http://www.zotero.org/styles/chicago-fullnote-bibliography" rel="template"/>
+    <link href="http://www.zotero.org/styles/chicago-notes-bibliography" rel="template"/>
     <link href="https://www.isnadsistemi.org" rel="documentation"/>
     <link href="https://www.isnadsistemi.org/guide" rel="documentation"/>
     <author>
@@ -17,7 +17,7 @@
     <category field="humanities"/>
     <category field="social_science"/>
     <summary>ISNAD Citation Style full notes and bibliography format.</summary>
-    <updated>2022-06-26T00:58:19+00:00</updated>
+    <updated>2025-07-14T15:39:42+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <!--

@@ -4,7 +4,6 @@
     <title>Brachytherapy</title>
     <id>http://www.zotero.org/styles/brachytherapy</id>
     <link href="http://www.zotero.org/styles/brachytherapy" rel="self"/>
-    <link href="http://www.zotero.org/styles/the-journals-of-gerontology-series-a" rel="template"/>
     <link href="https://www.elsevier.com/journals/brachytherapy/1538-4721/guide-for-authors" rel="documentation"/>
     <author>
       <name>Patrick O'Brien</name>
@@ -13,7 +12,7 @@
     <category field="medicine"/>
     <issn>1538-4721</issn>
     <eissn>1873-1449</eissn>
-    <updated>2020-05-06T03:03:02+00:00</updated>
+    <updated>2026-01-03T21:21:12+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">

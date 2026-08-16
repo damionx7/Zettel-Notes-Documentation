@@ -4,7 +4,6 @@
     <title>Current Opinion in Endocrinology, Diabetes and Obesity</title>
     <id>http://www.zotero.org/styles/current-opinion-in-endocrinology-diabetes-and-obesity</id>
     <link href="http://www.zotero.org/styles/current-opinion-in-endocrinology-diabetes-and-obesity" rel="self"/>
-    <link href="http://www.zotero.org/styles/age-and-ageing" rel="template"/>
     <link href="https://journals.lww.com/co-endocrinology/Pages/informationforauthors.aspx" rel="documentation"/>
     <link href="http://edmgr.ovid.com/coe/accounts/ifauth.pdf" rel="documentation"/>
     <author>
@@ -14,7 +13,7 @@
     <category field="medicine"/>
     <issn>1752-296X</issn>
     <eissn>1752-2978</eissn>
-    <updated>2020-04-28T04:33:28+00:00</updated>
+    <updated>2026-01-03T21:21:12+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">

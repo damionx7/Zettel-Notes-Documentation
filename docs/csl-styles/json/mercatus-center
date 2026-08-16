@@ -4,7 +4,7 @@
     <title>Mercatus Center</title>
     <id>http://www.zotero.org/styles/mercatus-center</id>
     <link href="http://www.zotero.org/styles/mercatus-center" rel="self"/>
-    <link href="http://www.zotero.org/styles/chicago-fullnote-bibliography" rel="template"/>
+    <link href="http://www.zotero.org/styles/chicago-notes-bibliography" rel="template"/>
     <link href="https://chimsit.sharepoint.com/Mercatus/Mercatus%20Document%20Library/Mercatus-StyleGuide_v2.1.pdf" rel="documentation"/>
     <author>
       <name>Eli Dourado</name>
@@ -12,7 +12,7 @@
     </author>
     <category citation-format="note"/>
     <summary>Mercatus Center house style v2.1. Essentially Chicago format with full notes and no bibliography</summary>
-    <updated>2025-05-18T00:55:38+00:00</updated>
+    <updated>2025-07-14T15:39:42+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">

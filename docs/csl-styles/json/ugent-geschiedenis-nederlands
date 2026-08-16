@@ -4,7 +4,7 @@
     <title>Universiteit Gent Geschiedenis (Nederlands)</title>
     <id>http://www.zotero.org/styles/ugent-geschiedenis-nederlands</id>
     <link href="http://www.zotero.org/styles/ugent-geschiedenis-nederlands" rel="self"/>
-    <link href="http://www.zotero.org/styles/chicago-fullnote-bibliography" rel="template"/>
+    <link href="http://www.zotero.org/styles/chicago-notes-bibliography" rel="template"/>
     <link href="http://www.chicagomanualofstyle.org/tools_citationguide.html" rel="documentation"/>
     <author>
       <name>Julian Onions</name>
@@ -34,7 +34,7 @@
     </contributor>
     <category citation-format="note"/>
     <summary>Adaptatie van Chicago stijl met voetnoten</summary>
-    <updated>2025-05-18T00:55:38+00:00</updated>
+    <updated>2025-07-14T15:39:42+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="nl">

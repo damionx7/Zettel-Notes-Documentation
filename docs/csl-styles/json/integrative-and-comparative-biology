@@ -4,7 +4,6 @@
     <title>Integrative &amp; Comparative Biology</title>
     <id>http://www.zotero.org/styles/integrative-and-comparative-biology</id>
     <link href="http://www.zotero.org/styles/integrative-and-comparative-biology" rel="self"/>
-    <link href="http://www.zotero.org/styles/cerebral-cortex" rel="template"/>
     <link href="https://academic.oup.com/icb/pages/Manuscript_Preparation_Submission" rel="documentation"/>
     <author>
       <name>Patrick O'Brien</name>
@@ -14,7 +13,7 @@
     <category field="biology"/>
     <issn>1540-7063</issn>
     <eissn>1557-7023</eissn>
-    <updated>2017-04-14T03:39:50+00:00</updated>
+    <updated>2026-01-03T21:21:12+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="container">

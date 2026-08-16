@@ -4,7 +4,7 @@
     <title>University College Dublin - School of History &amp; Archives</title>
     <id>http://www.zotero.org/styles/university-college-dublin-school-of-history-and-archives</id>
     <link href="http://www.zotero.org/styles/university-college-dublin-school-of-history-and-archives" rel="self"/>
-    <link href="http://www.zotero.org/styles/chicago-fullnote-bibliography" rel="template"/>
+    <link href="http://www.zotero.org/styles/chicago-notes-bibliography" rel="template"/>
     <link href="http://www.ucd.ie/historyarchives/undergraduateprogrammes/essayssubmissions/stylesheet/" rel="documentation"/>
     <author>
       <name>Fiachra Byrne</name>
@@ -13,7 +13,7 @@
     <category citation-format="note"/>
     <category field="history"/>
     <summary>This is the style currently used by the School of History and Archives, University College Dublin, Ireland. In all essentials it is in the Chicago Manual Style format with full notes and bibliography. It differs significantly only in the use of minimal page ranges and single rather than double quotation marks. While the introductory remarks on the School of History and Archives style sheet indicate that the school style is identical with that of the journal Irish Historical Studies (available in the Zotero style repository), the examples that they provide in the style sheet indicate that it actually differs significantly. For a discussion of these issues please see the following thread on the Zotero forum: http://forums.zotero.org/discussion/24431/new-style-university-dept-school-of-history-and-archives-university-college-dublin-ireland/</summary>
-    <updated>2018-05-22T00:59:23+00:00</updated>
+    <updated>2025-07-14T15:39:42+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
