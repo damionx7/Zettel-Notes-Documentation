@@ -9,8 +9,10 @@ To have a sustained income model, I created Plugins. These are seperate apps dow
 Currently following plugins are available in play store and f-droid repository.
 
 1. [AI Chat plugin](./chat-ai-plugin.md)
+2. [AI Actions](./ai-actions-plugin.md)
 2. [Alarm plugin](./alarm-plugin.md)
 3. [Anki plugin](./anki-plugin.md)
+4. [Barcode plugin](./barcode-plugin.md)
 4. [Document Scanner plugin](./doc-scanner-plugin.md)
 5. [Donation plugin](./donation-plugin.md)
 6. [Latex plugin](./latex-plugin.md)
