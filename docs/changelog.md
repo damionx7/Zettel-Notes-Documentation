@@ -2,6 +2,18 @@
 title: Changelog
 ---
 
+### 3.1.2
+
+⭐ Feature to exclude certain tags via Repository config (excluded_tags)  
+🐛 Fix foreground service crash
+
+### 3.1.1
+
+⭐ Bump Plugins Api to v30  
+⭐ Open external images in WebView  
+⭐ Pin Memo on long press  
+🐛 Fix TOC headings in code blocks showing in outline
+
 ### 3.1.0
 
 ⭐ Add new background colors  
