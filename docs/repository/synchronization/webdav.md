@@ -15,7 +15,8 @@ If you want to synchronize with specific subfolder, then `WebDav url` should inc
     Dot files and directories are not synchronized (eg. `.attachments/` directories are ignored)
 
 
-To setup Nextcloud synchronization, [checkout this faq](../../frequently-asked-questions.md#how-to-use-nextcloud-synchronization-)
+To setup Nextcloud synchronization, [checkout this faq](../../frequently-asked-questions.md#how-to-use-nextcloud-synchronization)
+
 ## Demo Video
 
 <video controls>

@@ -607,7 +607,7 @@ WARN! Editor buttons will be reset with this update. Please setup them again.
 ### 2.3.0
 
 ⭐ Manual synchronization button in left drawer  
-⭐ [Mount](./repository/index.md/#mounting-internal-repositories) internal repositories using documents provider (open in native Files app)  
+⭐ [Mount](./repository/index.md/#additional-properties) internal repositories using documents provider (open in native Files app)  
 🐛 Fix saved searches counter  
 
 ### 2.2.9 

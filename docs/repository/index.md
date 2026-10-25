@@ -100,7 +100,9 @@ The properties are saved in the Zettel Notes configuration folder, under the spe
 
 ### 3. Exclude files and folders (`excluded_paths`)
 
-Since Zettel Notes v3.0.7, there is a feature to define which files and folders should be "ignored" for this repository.
+[v3.0.7](../changelog.md#312){ .zn-version }
+
+Define files and folders that should be "ignored" in this repository.
 
 <img src="/assets/img/repository-property-exclude-files-and-folders-1.webp" alt="Exclude files and folders" width="250"/>
 
@@ -129,3 +131,11 @@ Enter a comma-separated list of patterns, for example:
     _Example:_ `*.md` matches all Markdown files.
 - `?` matches exactly one character.  
     _Example:_ `note-?.md` matches `note-1.md` or `note-a.md`, but not `note-10.md`.
+
+### 4. Exclude tags (`excluded_tags`)
+
+[v3.1.2](../changelog.md#312){ .zn-version }
+
+Define tags that should be "ignored" in this repository. Enter a comma-separated list of tags:
+
+`excluded_tags = archive,private`

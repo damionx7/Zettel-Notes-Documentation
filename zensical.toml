@@ -1,0 +1,93 @@
+[project]
+site_name = "Zettel Notes"
+site_url = "https://www.zettelnotes.com"
+docs_dir = "docs"
+repo_name = "damionx7/zettel-Notes-Documentation"
+repo_url = "https://github.com/damionx7/Zettel-Notes-Documentation"
+copyright = '<a href="#__consent">Change cookie settings</a>'
+extra_css = ["assets/stylesheets/style.css"]
+
+# Markdown
+[project.markdown_extensions.admonition]
+[project.markdown_extensions.attr_list]
+[project.markdown_extensions.md_in_html]
+[project.markdown_extensions.pymdownx.emoji]
+emoji_index = "zensical.extensions.emoji.twemoji"
+emoji_generator = "zensical.extensions.emoji.to_svg"
+
+# Theme
+[project.theme]
+variant = "modern"
+favicon = "favicon-48.png"
+logo = "favicon.png"
+features = [
+  "navigation.indexes",
+  "navigation.instant",
+  "navigation.instant.progress",
+  "navigation.footer",
+  "search.suggest",
+  "search.highlight",
+  "content.code.copy",
+]
+
+# Palette toggle for automatic mode
+[[project.theme.palette]]
+media = "(prefers-color-scheme)"
+toggle.icon = "material/brightness-auto"
+toggle.name = "Switch to light mode"
+
+# Palette toggle for light mode
+[[project.theme.palette]]
+media = "(prefers-color-scheme: light)"
+scheme = "default"
+primary = "green"
+accent = "green"
+toggle.icon = "material/brightness-7"
+toggle.name = "Switch to dark mode"
+
+# Palette toggle for dark mode
+[[project.theme.palette]]
+media = "(prefers-color-scheme: dark)"
+scheme = "slate"
+primary = "green"
+accent = "green"
+toggle.icon = "material/brightness-4"
+toggle.name = "Switch to light mode"
+
+# Plugins
+[project.plugins.search]
+
+[project.plugins.privacy]
+assets_exclude = ["imasdk.googleapis.com/*"]
+
+# Extra
+[project.extra]
+generator = false
+
+[project.extra.analytics]
+provider = "google"
+property = "G-R1E2DWQVC1"
+
+[project.extra.consent]
+title = "Cookie consent"
+description = "We use cookies to recognize your repeated visits and preferences, as well as to measure the effectiveness of our documentation and whether users find what they're searching for. With your consent, you're helping us to use"
+
+[[project.extra.social]]
+icon = "fontawesome/solid/paper-plane"
+link = "https://t.me/zettelnotes"
+
+[[project.extra.social]]
+icon = "fontawesome/brands/youtube"
+link = "https://youtube.com/@zettelnotes"
+
+[[project.extra.social]]
+icon = "fontawesome/brands/reddit"
+link = "https://www.reddit.com/r/Zettelkasten/comments/npr00a/introducing_my_new_android_app_for_zettelkasten/"
+
+[[project.extra.social]]
+icon = "fontawesome/brands/github"
+link = "https://github.com/damionx7/Zettel-Notes-Documentation/"
+
+[[project.extra.social]]
+icon = "fontawesome/solid/envelope"
+link = "mailto:info@thedoc.eu.org"
