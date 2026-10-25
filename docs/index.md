@@ -80,7 +80,7 @@ If you have any suggestion or feedback regarding my projects or this site, you c
 
 ![](assets/img/review-play-store-1.png){: style="width:100%"}
 
-![](assets/img/review-play-store-2.png){: style="width:100%"}
+![Play Store review](assets/img/review-play-store-2.png){: style="width:100%"}
 
 ## Translations
 

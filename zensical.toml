@@ -4,6 +4,7 @@ site_url = "https://www.zettelnotes.com"
 docs_dir = "docs"
 repo_name = "damionx7/zettel-Notes-Documentation"
 repo_url = "https://github.com/damionx7/Zettel-Notes-Documentation"
+edit_uri = "edit/master/docs/"
 copyright = '<a href="#__consent">Change cookie settings</a>'
 extra_css = ["assets/stylesheets/style.css"]
 
@@ -17,6 +18,8 @@ emoji_generator = "zensical.extensions.emoji.to_svg"
 
 # Theme
 [project.theme]
+font.text = "Inter"
+font.code = "JetBrains Mono"
 variant = "modern"
 favicon = "favicon-48.png"
 logo = "favicon.png"
@@ -28,6 +31,12 @@ features = [
   "search.suggest",
   "search.highlight",
   "content.code.copy",
+  "navigation.top",
+  "navigation.tracking",
+  "toc.follow",
+  "search.share",
+  "content.action.edit",
+  "content.tooltips",
 ]
 
 # Palette toggle for automatic mode
@@ -59,6 +68,9 @@ toggle.name = "Switch to light mode"
 
 [project.plugins.privacy]
 assets_exclude = ["imasdk.googleapis.com/*"]
+
+[project.plugins.minify]
+minify_html = true
 
 # Extra
 [project.extra]
