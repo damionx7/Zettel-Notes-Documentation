@@ -1,5 +1,8 @@
 ---
 title: SFTP (SSH) Synchronization
+tags:
+  - sync
+  - ssh
 ---
 
 To set up SFTP sync, go to `Repositories > Setup Sync > SFTP (SSH)` and enter:

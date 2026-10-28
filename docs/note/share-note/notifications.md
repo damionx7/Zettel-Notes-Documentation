@@ -1,5 +1,8 @@
 ---
 title: Pinned Notification
+tags:
+  - sharing
+  - quick capture
 ---
 
 Pin a note as a notification for quick access.

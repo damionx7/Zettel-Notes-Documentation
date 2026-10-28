@@ -1,5 +1,8 @@
 ---
 title: Frequently Asked Questions
+tags:
+  - getting started
+  - troubleshooting
 ---
 
 ## What is the location of notes in App Folder?

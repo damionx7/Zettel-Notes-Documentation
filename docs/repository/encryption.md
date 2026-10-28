@@ -1,5 +1,9 @@
 ---
 title: Note Encryption
+tags:
+  - repositories
+  - security
+  - encryption
 ---
 
 Encryption is configured per repository. To enable it, go to `Repositories > Long press on a repository > Encryption`
@@ -34,3 +38,9 @@ Encryption is configured per repository. To enable it, go to `Repositories > Lon
 - An **in-app PGP key** is used for encryption.  
 - You can **generate the key** via `Settings` > `Keys Manager`  
 - Note encryption and decryption are **seamless**, similar to **End-to-End Encryption**.
+
+## Encryption and search
+
+Encrypted notes are decrypted only when you open them. By default, their content is still indexed so that search can find them. To keep encrypted content out of the search index, change the option in `Settings > Security`.
+
+[Note history](../note/editor/index.md#revision-note-history-button) of encrypted notes is encrypted as well.

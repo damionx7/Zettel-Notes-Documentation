@@ -1,5 +1,8 @@
 ---
 title: App Themes
+tags:
+  - customisation
+  - themes
 ---
 
 Zettel Notes has light and dark base themes, and can follow the Android system setting.
@@ -7,6 +10,10 @@ Zettel Notes has light and dark base themes, and can follow the Android system s
 Each base theme can be customised with `Accent Color`, `Background Color`, `Viewer Font`, `Editor Font` and `Markdown Style`.
 
 To configure theme, go to `Settings > Theme`.
+
+## App icon
+
+Choose from 15 alternate launcher icons in `Misc > Switch App Icon` [v2.8.6](../changelog.md#286){ .zn-version }.
 
 ## Font
 

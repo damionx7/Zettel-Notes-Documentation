@@ -1,5 +1,8 @@
 ---
 title: Translate Plugin
+tags:
+  - plugins
+  - languages
 ---
 
 !!! info

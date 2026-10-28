@@ -1,5 +1,9 @@
 ---
 title: Share via Pandoc
+tags:
+  - sharing
+  - export
+  - termux
 ---
 
 To export a note with Pandoc, tap the menu button next to the note. Choose `Share > via Pandoc > as DOCX / EPUB / HTML / ODT`

@@ -1,5 +1,8 @@
 ---
 title: Translations
+tags:
+  - community
+  - languages
 ---
 
 Zettel Notes is translated by its community. You can contribute at

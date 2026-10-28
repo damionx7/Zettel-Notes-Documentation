@@ -1,5 +1,8 @@
 ---
 title: Location Plugin
+tags:
+  - plugins
+  - location
 ---
 
 !!! info

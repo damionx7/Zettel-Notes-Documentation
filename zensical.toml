@@ -13,9 +13,12 @@ nav = [
     "index.md",
     "download.md",
     "frequently-asked-questions.md",
+    "navigation.md",
+    "notes-list.md",
   ] },
   { "Notes" = [
     "note/index.md",
+    "note/memo.md",
     "note/editor/index.md",
     "note/editor/markdown.md",
     "note/editor/zettelkasten.md",
@@ -86,6 +89,7 @@ nav = [
     "plugins/translate-plugin.md",
   ] },
   { "Changelog" = "changelog.md" },
+  { "Tags" = "tags.md" },
 ]
 
 # Markdown
@@ -145,6 +149,8 @@ toggle.name = "Switch to light mode"
 
 # Plugins
 [project.plugins.search]
+
+[project.plugins.tags]
 
 [project.plugins.privacy]
 assets_exclude = ["imasdk.googleapis.com/*"]

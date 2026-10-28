@@ -1,6 +1,7 @@
 ---
 title: Introduction
-tags: [Introduction]
+tags:
+  - getting started
 ---
 
 **Zettel Notes** is a Markdown note-taking app for Android. Your notes stay as plain-text files in folders you control, so no app ever locks you in.

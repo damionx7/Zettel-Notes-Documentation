@@ -1,5 +1,9 @@
 ---
 title: Anki Plugin
+tags:
+  - plugins
+  - study
+  - integration
 ---
 
 !!! info

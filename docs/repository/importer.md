@@ -1,5 +1,8 @@
 ---
 title: Import Notes
+tags:
+  - repositories
+  - import
 ---
 
 To import notes from another app, go to `Repositories > Long Press Repository > Import Notes`.

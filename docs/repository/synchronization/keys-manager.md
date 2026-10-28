@@ -1,5 +1,9 @@
 ---
 title: Keys Manager
+tags:
+  - sync
+  - ssh
+  - security
 ---
 
 Keys Manager generates SSH keys for Git and SFTP sync. Open it from `Settings > Keys Manager`.
@@ -15,6 +19,8 @@ Supported algorithms:
 <img src="/assets/img/keys-manager.png" alt="Keys Manager"/>
  <figcaption>Keys Manager Dialog</figcaption>
 </figure>
+
+To use an existing key instead of generating one, import it into Keys Manager [v2.7.6](../../changelog.md#276){ .zn-version }.
 
 !!! tip
 

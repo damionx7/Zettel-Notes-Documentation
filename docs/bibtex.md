@@ -1,5 +1,8 @@
 ---
 title: BibTeX
+tags:
+  - citations
+  - research
 ---
 
 Zettel Notes includes a citation manager that reads BibTeX (`.bib`) and CSL JSON (`.json`) files.

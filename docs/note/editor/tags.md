@@ -1,5 +1,9 @@
 ---
 title: Tags
+tags:
+  - editor
+  - zettelkasten
+  - organisation
 ---
 
 Tags are labels that facilitate efficient organization and retrieval of your notes.
@@ -21,6 +25,12 @@ tags:
 !!! note
 
     For tags with space, special formatting (e.g., `#tag with space#`) is required when creating tag in content.
+
+In YAML, tag values may contain commas.
+
+## Escaping
+
+To write a `#` or `@` that should not become a tag or author, put a backslash before it, e.g. `\#not-a-tag` [v3.0.8](../../changelog.md#308){ .zn-version }.
 
 ## Nested / Hierarchical Tags
 

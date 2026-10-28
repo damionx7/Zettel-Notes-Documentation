@@ -1,5 +1,7 @@
 ---
 title: Notes
+tags:
+  - notes
 ---
 
 A note in Zettel Notes is a plain-text file with a supported extension (e.g. `md`, `org`, `txt`). Zettel Notes indexes every file in a [repository](../repository/index.md) for fast search.
@@ -30,6 +32,13 @@ In view mode, tap the top-right menu button to open **Note Information**.
 <img src="/assets/img/note-information-dialog.png" alt="Note information dialog"/>
  <figcaption>Note Info Dialog</figcaption>
 </figure>
+
+The dialog shows details such as word and character count, read time and [backlinks](./editor/zettelkasten.md#backlinks). From it you can also:
+
+- **rename** the note [v2.8.4](../changelog.md#284){ .zn-version }
+- **delete** the note [v2.7.4](../changelog.md#274){ .zn-version }
+- **share** the note
+- **see the note's UID** by long-pressing its title [v2.9.9](../changelog.md#299){ .zn-version }
 
 !!! info
 

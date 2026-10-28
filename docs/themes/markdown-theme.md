@@ -1,5 +1,9 @@
 ---
 title: Markdown Style
+tags:
+  - customisation
+  - themes
+  - markdown
 ---
 
 Markdown styles control how formatted text looks, separately from the [app theme](./app-theme.md).

@@ -1,5 +1,8 @@
 ---
 title: Git Synchronization
+tags:
+  - sync
+  - git
 ---
 
 Git synchronization works only with repositories in the app's private storage, because of Android storage restrictions.
@@ -41,6 +44,12 @@ Configure the following:
 !!! tip
 
 	For GitHub, use a [personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) instead of your password.
+
+## Git settings
+
+- **`.gitignore`:** edit the repository's `.gitignore` from the Git settings [v2.5.7](../../changelog.md#257){ .zn-version }.
+- **Certificates:** Git sync trusts both system and user-installed CA certificates, so servers with self-signed certificates work once their CA is installed on the device [v2.1.4](../../changelog.md#214){ .zn-version }.
+- **List Commits:** browse the commit history and all branches of the repository.
 
 ## How sync handles conflicts
 

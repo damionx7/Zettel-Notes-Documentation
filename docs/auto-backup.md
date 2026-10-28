@@ -1,5 +1,8 @@
 ---
 title: Backups
+tags:
+  - backup
+  - security
 ---
 
 Zettel Notes can back up your notes automatically at a set interval.
@@ -35,9 +38,23 @@ Available intervals:
 - Daily
 - Weekly
 
-!!! tip
-    
-    Backup settings can also delete backups older than a chosen number of days.
+### Backup options
+
+- **What to include:** choose which data goes into a backup. Font files can be included [v3.0.7](changelog.md#307){ .zn-version }.
+- **Password protection:** encrypt automatic backups with a password in `Settings > Backup and Restore` [v2.9.8](changelog.md#298){ .zn-version }. Without the password, the backup cannot be restored.
+- **Retention:** keep only a maximum number of backup files [v2.8.4](changelog.md#284){ .zn-version }, or delete backups older than a chosen number of days.
+
+### Other data you can back up
+
+Besides the full app backup, these can be backed up and restored on their own:
+
+- Markdown buttons and editor toolbar buttons
+- Text snippets
+- Saved searches
+- Keyboard shortcuts
+- Fonts
+- Templates and themes (exported together)
+- [Memo](note/memo.md) notes (export and import)
 
 
 ## Restore a backup
@@ -50,7 +67,7 @@ Tap **Restore backup** in Backup and Restore. Backups stored in app data are lis
 </figure>
 
 
-In the restore dialog, choose what to restore: **Databases**, **Settings** and/or **Templates**.
+In the restore dialog, choose what to restore from the data contained in the backup, such as **Databases**, **Settings** and **Templates**. If the backup is password-protected, you are asked for the password.
 
 <figure>
 <img src="/assets/img/auto-backup-restore.png" alt="restore dialog"/>

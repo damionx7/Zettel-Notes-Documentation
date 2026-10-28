@@ -1,5 +1,8 @@
 ---
 title: Barcode Plugin
+tags:
+  - plugins
+  - camera
 ---
 !!! info
     Download from [Play Store](https://play.google.com/store/apps/details?id=org.eu.thedoc.zettelnotes.buttons.barcode) or F-Droid

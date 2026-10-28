@@ -1,5 +1,9 @@
 ---
 title: OCR Plugin
+tags:
+  - plugins
+  - camera
+  - text recognition
 ---
 
 !!! info

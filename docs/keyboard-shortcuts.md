@@ -1,5 +1,9 @@
 ---
 title: Keyboard Shortcuts
+tags:
+  - customisation
+  - shortcuts
+  - keyboard
 ---
 
 Zettel Notes supports hardware keyboards. Built-in actions can be triggered with key combinations, and every shortcut can be remapped.

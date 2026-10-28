@@ -1,5 +1,9 @@
 ---
 title: Telegraph Plugin
+tags:
+  - plugins
+  - sharing
+  - publishing
 ---
 
 !!! info

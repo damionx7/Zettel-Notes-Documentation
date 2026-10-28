@@ -1,5 +1,8 @@
 ---
 title: Zettel Links
+tags:
+  - sharing
+  - links
 ---
 
 To share a Zettel link, tap the menu button next to the note. Choose `Share > as Zettel Link`.
