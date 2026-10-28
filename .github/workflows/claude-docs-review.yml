@@ -55,6 +55,28 @@ jobs:
       - name: Baseline build
         run: zensical build
 
+      - name: Check nav coverage
+        id: nav
+        run: |
+          python3 - <<'EOF' >> "$GITHUB_OUTPUT"
+          import pathlib, re, tomllib
+          cfg = tomllib.load(open("zensical.toml", "rb"))["project"]
+          def walk(items):
+              for i in items:
+                  if isinstance(i, str): yield i
+                  elif isinstance(i, dict):
+                      for v in i.values():
+                          yield from (walk(v) if isinstance(v, list) else [v])
+          in_nav = set(walk(cfg.get("nav", [])))
+          pages = {str(p.relative_to("docs")) for p in pathlib.Path("docs").rglob("*.md")
+                   if not str(p).startswith("docs/csl-styles/")}
+          missing = sorted(pages - in_nav)
+          stale = sorted(p for p in in_nav if p.endswith(".md") and p not in pages)
+          print("missing=" + (", ".join(missing) or "none"))
+          print("stale=" + (", ".join(stale) or "none"))
+          EOF
+          cat "$GITHUB_OUTPUT"
+
       - name: Review docs with Claude
         uses: anthropics/claude-code-action@v1
         with:
@@ -63,6 +85,8 @@ jobs:
             REPO: ${{ github.repository }}
             PUSHED RANGE: ${{ github.event.before }}..${{ github.sha }}
             TRIGGER: ${{ github.event_name }}
+            PAGES MISSING FROM NAV: ${{ steps.nav.outputs.missing }}
+            NAV ENTRIES WITH NO PAGE: ${{ steps.nav.outputs.stale }}
 
             You maintain the Zettel Notes documentation site. Follow CLAUDE.md
             in the repository root for style, structure and verification rules.
@@ -90,6 +114,15 @@ jobs:
                  In the body, list each fix with the file, and add a
                  "Please verify" checklist for anything inferred from the changelog.
                If nothing needs fixing, do not create a branch or PR; just say so.
+
+            Navigation (always, whatever the push touched):
+               - Add every page listed under PAGES MISSING FROM NAV to the most
+                 fitting section of `nav` in zensical.toml, next to related pages.
+                 Make sure each has `title` and `tags` frontmatter.
+               - For NAV ENTRIES WITH NO PAGE, find where the page moved
+                 (`git log --diff-filter=R --name-status`) and update the entry,
+                 or remove it if the page was deleted, and fix links to it.
+               - If any page you create while documenting features is new, add it to `nav` too.
 
             Never push to master. Keep changes small and focused on what the push touched.
           claude_args: |
