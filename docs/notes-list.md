@@ -17,7 +17,7 @@ Choose between three layouts [v2.2.0](changelog.md#220){ .zn-version }:
 
 In `Settings > Notes List` you can also:
 
-- show or hide note content, and set how many lines and what text size it uses
+- show or hide note content, and set how many lines and what text size it uses (the preview is built from the first 50 words of the note, so it can be shorter than the line limit)
 - show the filename instead of, or with, the title
 - show an icon for each [note type](note/note-types.md) (`Modify Info Shown > Icons`)
 - turn the divider between notes on or off [v3.0.2](changelog.md#302){ .zn-version }

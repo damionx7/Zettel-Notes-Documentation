@@ -13,7 +13,7 @@ Zettel Notes indexes the contents of every note, so full-text search returns res
 |---|---|
 | `tag tag1` | both words |
 | `tag OR tag1` | either word |
-| `tag -tag1` | `tag` but not `tag1` |
+| `tag -tag1` | `tag` but not `tag1` (an excluded term needs at least one normal term before it) |
 | `tag*` | words starting with `tag` |
 | `#tag` | the tag `#tag` |
 
