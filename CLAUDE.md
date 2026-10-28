@@ -20,7 +20,7 @@ Source for <https://www.zettelnotes.com>, the docs for the Zettel Notes Android 
 - UI labels in bold: tap **Save**.
 - Product names: Zettel Notes, Git, GitHub, WebDAV, Nextcloud, LaTeX, BibTeX, F-Droid, Markdown, YAML, Android, Play Store, Termux, Pandoc.
 - Admonitions: `!!! info`, `!!! tip`, `!!! note`, `!!! warning` only.
-- Headings are nouns or tasks ("Restore a backup"), not questions; no space before `?`.
+- Headings are nouns or tasks ("Restore a backup"), not questions; no space before `?`. Exception: the FAQ page uses question headings.
 - Prefer tables for options/reference lists; numbered lists for steps.
 - Code samples must be correct and copy-pasteable.
 
