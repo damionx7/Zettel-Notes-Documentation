@@ -11,7 +11,8 @@ name: Docs review (Gemini)
 #      (Settings > Secrets and variables > Actions > New repository secret).
 #   2. Settings > Actions > General > Workflow permissions: tick
 #      "Allow GitHub Actions to create and approve pull requests".
-#   Optional: set the repository variable GEMINI_MODEL to pick a model.
+#   Optional: set the repository variable GEMINI_MODEL to pick a model
+#   (default: flash; a failed run is retried once with flash-lite).
 #
 # To skip a run, put [skip review] in the commit message. The bot's own PRs
 # carry this marker so merging them does not trigger another review.
@@ -43,11 +44,11 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
         with:
           fetch-depth: 50
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: 3.x
 
@@ -106,15 +107,12 @@ jobs:
           EOF
           cat "$GITHUB_OUTPUT"
 
-      - name: Review docs with Gemini
-        uses: google-github-actions/run-gemini-cli@v0
-        env:
-          GEMINI_CLI_TRUST_WORKSPACE: "true"
-        with:
-          gemini_api_key: ${{ secrets.GEMINI_API_KEY }}
-          gemini_model: ${{ vars.GEMINI_MODEL }}
-          workflow_name: docs-review
-          settings: |-
+      - name: Prepare Gemini inputs
+        id: inputs
+        run: |
+          {
+            echo 'settings<<SETTINGS_EOF'
+            cat <<'JSON_EOF'
             {
               "model": { "maxSessionTurns": 40 },
               "tools": {
@@ -132,7 +130,10 @@ jobs:
                 ]
               }
             }
-          prompt: |
+          JSON_EOF
+            echo 'SETTINGS_EOF'
+            echo 'prompt<<PROMPT_EOF'
+            cat <<'TEXT_EOF'
             You maintain the Zettel Notes documentation site in this repository.
             First read CLAUDE.md in the repository root: it holds the structure,
             style and verification rules. Follow them exactly.
@@ -168,6 +169,41 @@ jobs:
             Rules: edit files only; do not commit, push or create branches. Do not
             edit docs/changelog.md content or anything in docs/csl-styles/. Keep
             changes small and focused.
+          TEXT_EOF
+            echo 'PROMPT_EOF'
+          } >> "$GITHUB_OUTPUT"
+
+      # The free tier's Pro model is often overloaded (HTTP 503), so default
+      # to Flash and retry once with Flash-Lite after a pause.
+      - name: Review docs with Gemini
+        id: gemini
+        continue-on-error: true
+        uses: google-github-actions/run-gemini-cli@v0
+        env:
+          GEMINI_CLI_TRUST_WORKSPACE: "true"
+        with:
+          gemini_api_key: ${{ secrets.GEMINI_API_KEY }}
+          gemini_model: ${{ vars.GEMINI_MODEL || 'flash' }}
+          workflow_name: docs-review
+          settings: ${{ steps.inputs.outputs.settings }}
+          prompt: ${{ steps.inputs.outputs.prompt }}
+
+      - name: Wait before retry
+        if: steps.gemini.outcome == 'failure'
+        run: sleep 120
+
+      - name: Retry review with Gemini Flash-Lite
+        id: gemini_retry
+        if: steps.gemini.outcome == 'failure'
+        uses: google-github-actions/run-gemini-cli@v0
+        env:
+          GEMINI_CLI_TRUST_WORKSPACE: "true"
+        with:
+          gemini_api_key: ${{ secrets.GEMINI_API_KEY }}
+          gemini_model: flash-lite
+          workflow_name: docs-review
+          settings: ${{ steps.inputs.outputs.settings }}
+          prompt: ${{ steps.inputs.outputs.prompt }}
 
       - name: Open PR with fixes
         env:
