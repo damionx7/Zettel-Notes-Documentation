@@ -43,4 +43,4 @@ Zettel Notes supports integration with Tasker through its **New Note Action Plug
   - **Extra:** `EXTRAS_REPOSITORY:<REPOSITORY_NAME>`  
   - **Package:** `org.eu.thedoc.zettelnotes`  
   - **Target:** `Service`
-- Replace `REPOSITORY_NAME` with the name of the repository for which you want to trigger the notes scanner.
+- Replace `<REPOSITORY_NAME>` with the name of the repository to scan.

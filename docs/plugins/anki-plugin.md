@@ -2,31 +2,36 @@
 title: Anki Plugin
 ---
 
-!!! information
+!!! info
 
     Download from [Play Store](https://play.google.com/store/apps/details?id=org.eu.thedoc.zettelnotes.buttons.anki) or F-Droid
 
-Plugin to add Anki cards from markdown file. 
+Creates Anki flashcards from your notes.
 
-# Usage 
+## Requirements
 
-For eg. this is the note file 
+- [AnkiDroid](https://play.google.com/store/apps/details?id=com.ichi2.anki)
+- In AnkiDroid, go to `Settings > Advanced` and enable **Enable AnkiDroid API**
+
+## Usage
+
+Given this note:
 
 ```
 ---
 title: Anki Notes
 ---
 
-# What is Solis Lacus ?
+# What is Solis Lacus?
 
 Eye of Mars
 ```
 
-When you click on Anki Plugin button in Editor Toolbar in Zettel Notes, then a new card will be added in Anki with front content `What is Solis Lacus ?` and back content as `Eye of Mars`.
+tapping the Anki button in the editor toolbar adds a card with `What is Solis Lacus?` on the front and `Eye of Mars` on the back.
 
-# Following formats are supported for basic QA cards.
+## Supported card formats
 
-> Heading
+**Heading**
 
 ```
 # Question
@@ -34,7 +39,7 @@ When you click on Anki Plugin button in Editor Toolbar in Zettel Notes, then a n
 Answer
 ```
 
-> Ruled
+**Ruled**
 
 ```
 Question
@@ -42,14 +47,9 @@ Question
 Answer
 ```
 
-> QA
+**Q/A**
 
 ```
 Q: Question
 A: Answer
 ```
-
-Requirements:
-
-- Anki <https://play.google.com/store/apps/details?id=com.ichi2.anki>
-- Open the AnkiDroid settings, go to Advanced, and check `Enable AnkiDroid API`

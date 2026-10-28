@@ -2,7 +2,7 @@
 title: YAML Frontmatter
 ---
 
-Zettel Notes support YAML frontmatter to define various note properties. It should be the first text in a note and defined by surrounding yaml with `---` and new line. For example following YAML sets note title as `Note Title`.
+Zettel Notes supports YAML frontmatter for note properties. The frontmatter must be the first thing in the note, enclosed by `---` lines. For example, this sets the title to `Note Title`:
 
 ```
 ---
@@ -12,7 +12,7 @@ title: Note Title
 This is body of the note.
 ```
 
-Following YAML Properties are supported
+The following properties are supported:
 
 1. **title** – The title of the note.  
 2. **tag(s)** – One or more tags associated with the note.  
@@ -39,19 +39,19 @@ source:
 ## YAML Variables
 
 
-These are static variables, defined by `${yaml-property}$` in content of the note.
+Reference any frontmatter property in the note body with `${property}$`.
 
 ```YAML
 ---
 account: savings
 ---
 
-We should have atleast ${account} type of account. 
+We should have at least ${account}$ type of account.
 ```
 
-This will render as `We should have atleast savings type of account` in view mode.
+This will render as `We should have at least savings type of account` in view mode.
 
-Apart from this following static YAML variables are supported. These variables are populated from the note.
+The following built-in variables are also available; their values come from the note itself.
 
 - `${id}$`
 - `${title}$`
@@ -62,6 +62,6 @@ Apart from this following static YAML variables are supported. These variables a
 - `${$yyyyMM$}$`
   - In this variable `yyyyMM` will be replaced by the corresponding date time. To learn more about this format read [official documentation](https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html).
 
-!!! information
+!!! info
 
       To disable YAML variables, toggle `Settings > Editor and Viewer > YAML variables`.

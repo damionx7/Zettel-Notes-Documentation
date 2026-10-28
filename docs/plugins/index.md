@@ -1,36 +1,33 @@
 ---
-title: Plugins for Zettel Notes
+title: Plugins
 ---
 
-Zettel Notes main application is provided free of charge and will always will be.
+Plugins are small companion apps that add features to Zettel Notes. They are installed separately from the Play Store or the [F-Droid repository](../download.md#f-droid-repository). Most add a button to the editor toolbar.
 
-To have a sustained income model, I created Plugins. These are seperate apps downloadable from both play store and f-droid. Some are provided as paid apps and some free. Plugins add additional functionality in Zettel Notes. 
+The main app is, and will remain, free. Some plugins are paid; buying them funds ongoing development.
 
-Currently following plugins are available in play store and f-droid repository.
+| Plugin | What it does |
+|---|---|
+| [AI Actions](ai-actions-plugin.md) | Summarise, rewrite or expand text with an on-device model |
+| [AI Chat](chat-ai-plugin.md) | Chat with an OpenAI-compatible model alongside your notes |
+| [Alarm](alarm-plugin.md) | Set reminders on text and tasks |
+| [Anki](anki-plugin.md) | Create Anki flashcards from notes |
+| [Barcode](barcode-plugin.md) | Scan barcodes into notes or turn text into a barcode |
+| [Document Scanner](doc-scanner-plugin.md) | Scan documents and attach them as PDFs |
+| [Donation](donation-plugin.md) | Support development (adds no features) |
+| [LaTeX](latex-plugin.md) | Search and insert LaTeX symbols |
+| [Location](location-plugin.md) | Insert your current location |
+| [OCR](ocr-plugin.md) | Extract text from images |
+| [Speech to Text](speech-to-text-plugin.md) | Dictate into a note |
+| [Speed Read](speed-read-plugin.md) | Read text one word at a time |
+| [Telegraph](telegraph.md) | Publish a note as a public Telegraph page |
+| [Text Utils](text-utils.md) | Change case, split lines, build task lists and tables |
+| [Todo.txt](todo-txt-plugin.md) | Manage todo.txt tasks |
+| [Translate](translate-plugin.md) | Translate selected text on-device |
 
-1. [AI Chat plugin](./chat-ai-plugin.md)
-2. [AI Actions](./ai-actions-plugin.md)
-2. [Alarm plugin](./alarm-plugin.md)
-3. [Anki plugin](./anki-plugin.md)
-4. [Barcode plugin](./barcode-plugin.md)
-4. [Document Scanner plugin](./doc-scanner-plugin.md)
-5. [Donation plugin](./donation-plugin.md)
-6. [Latex plugin](./latex-plugin.md)
-7. [Location plugin](./location-plugin.md)
-8. [OCR plugin](./ocr-plugin.md)
-9. [Speech to Text plugin](./speech-to-text-plugin.md)
-10. [Speed Read plugin](./speed-read-plugin.md)
-11. [Text Utils plugin](./text-utils.md)
-12. [Translate plugin](./translate-plugin.md)
-13. [Todo.txt plugin](./todo-txt-plugin.md)
+## Build your own plugin
 
-!!! tip
+The plugin API and the source code of the existing plugins are on GitHub:
 
-    Show your love ❤️ for Zettel Notes by [purchasing donation plugin](https://play.google.com/store/apps/details?id=org.eu.thedoc.zettelnotes.buttons.dummy).
-
-**Source code for plugins and plugin api is available on Github**
-
-- [Zettel-Notes-Plugin-Api <i class='fa fa-github'></i>](https://github.com/damionx7/Zettel-Notes-Plugin-Api)
-    - Library used to develop plugins
-    - Any developer can use this library to create new plugins
-- [Zettel-Notes-Plugin-Buttons <i class='fa fa-github'></i>](https://github.com/damionx7/Zettel-Notes-Plugin-Buttons/)
+- [Zettel-Notes-Plugin-Api](https://github.com/damionx7/Zettel-Notes-Plugin-Api): the library for building plugins
+- [Zettel-Notes-Plugin-Buttons](https://github.com/damionx7/Zettel-Notes-Plugin-Buttons/): source code of the existing plugins

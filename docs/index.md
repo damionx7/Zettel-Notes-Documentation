@@ -1,91 +1,85 @@
 ---
 title: Introduction
-sidebar_position: 1
-slug: /
 tags: [Introduction]
 ---
 
-Welcome to documentation for [Zettel Notes](./download.md) Markdown Note taking application for android devices.
+**Zettel Notes** is a Markdown note-taking app for Android. Your notes stay as plain-text files in folders you control, so no app ever locks you in.
 
-## Why Choose Zettel Notes ? 🚀
+[Download](download.md){ .md-button .md-button--primary } [Privacy Policy](https://thedoc.eu.org/zettel-notes/privacy){ .md-button }
 
-1. Store your notes as separate markdown files, ensuring no vendor lock-in like other apps
-3. Easily import your existing notes by adding the repository/folder through the Repositories option in the menu
-4. Free of cost, without ads, and no hidden permissions
-5. No collection of user data
-6. Offline, synchronization is optional.
+## Why Zettel Notes?
 
-Notes are stored as separate text files. Application starts with an introductary note. After installing, add folder / repository containing your existing notes from the repositories option in menu.
+- **Plain-text files.** Every note is a separate Markdown, text or Org file that any other app can open.
+- **Use your existing notes.** Add any folder as a [repository](repository/index.md) and your notes appear immediately.
+- **Free, with no ads.** No hidden permissions and no collection of user data.
+- **Offline first.** Everything works without an internet connection; [sync](repository/synchronization/index.md) is optional.
 
-Checkout our **[Privacy Policy](https://thedoc.eu.org/zettel-notes/privacy)**
+## Getting started
 
-!!! info
-    
-    [Download Now!](download.md) Experience the convenience and privacy of Zettel Notes for your note taking needs. 
+1. [Install Zettel Notes](download.md). The app opens with an introductory note.
+2. Open the menu, select **Repositories**, and add the folder that holds your notes (or start fresh in the app's own folder).
+3. Read about [notes](note/index.md), the [editor](note/editor/index.md) and [Markdown formatting](note/editor/markdown.md).
 
-## Features List
+## Features
 
--  [App Lock](./app-lock.md)
--  Bookmark / Pin notes
--  [Calendar View](./calendar.md)
--  [Dropbox, Git, WebDAV and SFTP synchronization](./repository/synchronization/index.md)
--  [Different types of notes](./note/note-types.md) stored as plain text files eg. task note, audio note, bookmark note etc.
--  Full text search
--  [Keyboard Shortcuts](./keyboard-shortcuts.md)
--  [Keys Manager](./repository/synchronization/keys-manager.md)
--  [Latex support](./note/editor/markdown.md#latex)
--  [Markdown Formatting](./note/editor/markdown.md)
--  MD / TXT / ORG file support
--  [Multiple note folders / vaults / repositories](./repository/index.md)
--  [PGP key / Password encryption](./repository/encryption.md)
--  [Plugins](./plugins/index.md)
--  [Recycle Bin](./recycle-bin.md)
--  [Saved searches](./saved-searches.md)
--  [Share Note as PDF, HTML, launcher shortcut or pinned notifications](./note/share-note/index.md)
--  Share Web page or text from any app to create new note or append to existing note
--  Sort notes by alphabetical, edited time, creation time, words, frequency of opening
--  Subfolder support
--  Customizable [Material Themes](./themes/app-theme.md) and [Fonts](./themes/font-downloader.md)
--  [Templates](./templates.md)
--  [Tasker Integration](./tasker.md)
--  [Zettelkasten support](./note/editor/zettelkasten.md)
+**Writing and linking**
 
-!!! information
+- [Markdown formatting](note/editor/markdown.md) with [LaTeX](note/editor/markdown.md#latex), tables and task lists
+- [Zettelkasten support](note/editor/zettelkasten.md): wiki links, backlinks, tags and authors
+- [Note types](note/note-types.md): task, drawing, audio, bookmark and log notes
+- [Templates](templates.md) and [YAML frontmatter](note/yaml-frontmatter.md)
+- [Citation manager](bibtex.md) for BibTeX and CSL JSON
 
-    To make new feature requests, sign up at <https://github.com/damionx7/Zettel-Notes-Documentation/discussions>
+**Organising and finding**
 
-## Support my work
+- Multiple [repositories](repository/index.md) with subfolders; MD, TXT and Org files
+- Full-text search and [saved searches](saved-searches.md)
+- Sort by name, edit time, creation time, word count or how often a note is opened
+- Bookmark and pin notes, [calendar view](calendar.md), [gallery](gallery.md) and [recycle bin](recycle-bin.md)
 
-If my work has positively impacted your life and you'd like to support my ongoing projects, consider showing your appreciation by [donating](https://www.buymeacoffee.com/dr.rohit) or becoming a member at [buymeacoffee](https://www.buymeacoffee.com/dr.rohit/membership).  
+**Sync and security**
 
-It means a lot to me as a solo developer!  
+- [Git, Dropbox, WebDAV and SFTP sync](repository/synchronization/index.md) with a built-in [keys manager](repository/synchronization/keys-manager.md)
+- [Note encryption](repository/encryption.md) with a password or PGP key
+- [App lock](app-lock.md) with biometrics
+- [Automatic backups](auto-backup.md)
 
-[Purchase membership](https://www.buymeacoffee.com/dr.rohit/membership){ .md-button .md-button--primary} [Donate :simple-buymeacoffee:](https://www.buymeacoffee.com/dr.rohit){ .md-button }
+**Customisation and integration**
 
-## Join our Community
+- [App themes](themes/app-theme.md), [Markdown styles](themes/markdown-theme.md) and [fonts](themes/font-downloader.md)
+- [Keyboard shortcuts](keyboard-shortcuts.md)
+- [Share notes](note/share-note/index.md) as PDF, HTML, launcher shortcuts, widgets or pinned notifications
+- [Clip web pages](web-clipper.md) or share text from any app into a note
+- [Tasker integration](tasker.md) and [plugins](plugins/index.md)
 
-If you have any suggestion or feedback regarding my projects or this site, you can contact via 
+!!! tip "Request a feature"
+
+    Suggest new features in [GitHub Discussions](https://github.com/damionx7/Zettel-Notes-Documentation/discussions).
+
+## Community and support
 
 - [Email](mailto:info@thedoc.eu.org)
 - [Google Group](https://groups.google.com/g/znotes)
-- [Play Store](https://thedoc.eu.org/redirect/zettel-notes)
-- [Reddit post](https://www.reddit.com/r/Zettelkasten/comments/npr00a/introducing_my_new_android_app_for_zettelkasten/)
-- [Telegram Channel](https://t.me/zettelnotes)
-- [Telegram Support Group](https://t.me/joinchat/DZ2eFcOk3Mo4MDk1)
-- [Zettelkasten.de post](https://forum.zettelkasten.de/discussion/1844/introducing-my-new-android-app-for-zettelkasten-zettel-notes/)
+- [Telegram channel](https://t.me/zettelnotes) and [support group](https://t.me/joinchat/DZ2eFcOk3Mo4MDk1)
+- [Reddit](https://www.reddit.com/r/Zettelkasten/comments/npr00a/introducing_my_new_android_app_for_zettelkasten/) and [Zettelkasten.de forum](https://forum.zettelkasten.de/discussion/1844/introducing-my-new-android-app-for-zettelkasten-zettel-notes/)
+- [Rate on the Play Store](https://thedoc.eu.org/redirect/zettel-notes)
 
-## What users say about Zettel Notes
+Zettel Notes is translated into many languages by its community. [See the list or help translate](translations.md).
 
-![](assets/img/review-play-store.png){: style="width:100%"}
+## Support development
 
-![](assets/img/review-play-store-1.png){: style="width:100%"}
+Zettel Notes is built by a solo developer. If it has helped you, consider supporting its development with a one-time donation or a membership.
+
+[Become a member](https://www.buymeacoffee.com/dr.rohit/membership){ .md-button .md-button--primary } [Donate :simple-buymeacoffee:](https://www.buymeacoffee.com/dr.rohit){ .md-button }
+
+## What users say
+
+![Play Store review](assets/img/review-play-store.png){: style="width:100%"}
+
+![Play Store review](assets/img/review-play-store-1.png){: style="width:100%"}
 
 ![Play Store review](assets/img/review-play-store-2.png){: style="width:100%"}
 
-## Translations
-
-Zettel Notes is multi-lingual and translated in 18 languages. [Read more](translations.md)
-
 ## Disclaimer
 
-The software is provided "as is," without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and noninfringement. By using this software, you agree that the developer will not be liable for any damages, including but not limited to loss of data, revenue, or profits, arising out of or connected with the application's use.
+The software is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement. By using this software, you agree that the developer will not be liable for any damages, including but not limited to loss of data, revenue or profits, arising out of or connected with the use of the application.

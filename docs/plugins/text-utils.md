@@ -2,12 +2,12 @@
 title: Text Utils Plugin
 ---
 
-!!! information
+!!! info
 
     Download from [Play Store](https://play.google.com/store/apps/details?id=org.eu.thedoc.zettelnotes.buttons.textutils) or F-Droid
 
 
-Following utilities are provided:
+Text transformations available from the editor toolbar:
 
 1. Remove Newlines
 2. Split to Newlines

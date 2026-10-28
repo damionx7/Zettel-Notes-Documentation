@@ -1,13 +1,10 @@
 ---
 title: Notes
-sidebar_position: 1
 ---
 
-**What is a note ?**
+A note in Zettel Notes is a plain-text file with a supported extension (e.g. `md`, `org`, `txt`). Zettel Notes indexes every file in a [repository](../repository/index.md) for fast search.
 
-A note in Zettel Notes is a plain text file. It can have any of the supported file extensions (eg. `md`, `org`, `txt` etc.). Zettel Notes parses all the files in a [repository / folder / vault](../repository/index.md) defined by the user and saves in database. 
-
-Whatever changes are made by the user are automatically saved in the note file. This way you can use any application you want to read your notes and are not dependent on Zettel Notes (vendor agnostic).
+Edits are saved directly to the file, so any other app can read your notes and you are never locked in.
 
 !!! tip
 
@@ -16,24 +13,24 @@ Whatever changes are made by the user are automatically saved in the note file. 
 
 ## Viewer and Editor Modes
 
-There are 2 modes for any note
+Every note has two modes:
 
 - View mode
 - [Edit mode](./editor/index.md)
 
-View mode shows the parsed markdown. It shows different layouts depending on the [Note Type](./note-types.md).
+View mode shows the rendered Markdown. Its layout depends on the [note type](./note-types.md).
 
-[Edit](./editor/index.md) mode allows to edit files with [markdown formatting](./editor/markdown.md). You can insert tags, authors and note links in editor. It has deep integration with [Zettelkasten Method](./editor/zettelkasten.md)
+[Edit mode](./editor/index.md) is where you write with [Markdown formatting](./editor/markdown.md) and insert tags, authors and links. See also [Zettelkasten method](./editor/zettelkasten.md).
 
 ## Note Information
 
-In view mode you can see **Note Information** by clicking on top right menu button.
+In view mode, tap the top-right menu button to open **Note Information**.
 
 <figure>
 <img src="/assets/img/note-information-dialog.png" alt="Note information dialog"/>
  <figcaption>Note Info Dialog</figcaption>
 </figure>
 
-!!! information
+!!! info
 
-    You can share in various formats, to learn more [click here](./share-note/index.md)
+    Notes can be shared in several formats. See [Share Notes](./share-note/index.md).

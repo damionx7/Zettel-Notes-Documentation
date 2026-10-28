@@ -1,23 +1,22 @@
 ---
 title: Editor
-sidebar_position: 1
 ---
 
-You can enter edit mode by clicking on edit button in View Mode. 
+To edit a note, tap the **Edit** button in view mode.
 
 !!! tip
 
-    You can directly open note in edit mode. Just change `Settings > Editor > Default Mode > Edit`
+    To open notes directly in edit mode, set `Settings > Editor > Default Mode` to **Edit**.
 
 
-Editor has text editing area in center and editor buttons at bottom of the screen.
+The editor has a text area in the centre and a row of editor buttons at the bottom of the screen.
 
 <figure>
 <img src="/assets/img/editor.png" alt="Editor"/>
  <figcaption>Editor</figcaption>
 </figure>
 
-When you first open the editor then last edited position is focused. To change the initial selection position for a note file, go to `Settings > Editor and Viewer > Initial Cursor Position`. 4 options are provided 
+By default, the editor places the cursor at the last edited position. To change this, go to `Settings > Editor and Viewer > Initial Cursor Position` and choose one of:
 
 1. Start of note
 2. End of note
@@ -32,7 +31,7 @@ The editor buttons are shown in a row at the bottom of the screen. You can scrol
 
 - This is the first editor button.
 - Eleven Markdown buttons are provided by default.
-- Clicking on the button will enter specific markdown format (eg. `*` for bold) in editor.
+- Clicking on the button will enter specific markdown format (e.g. `**` for bold) in editor.
 - If you select some text and then click on markdown button, then that text will be surrounded with markdown format defined in the button.
 - To add new markdown button, just select edit button (floating pencil button).
 
@@ -64,7 +63,7 @@ The folder where attachments are stored is defined by [attachment location in re
 - File from storage
 - Media file from [Gallery](../../gallery.md)
 
-!!! information
+!!! info
 
     You can also download the link, if it is an image file.
 
@@ -105,9 +104,7 @@ Zettel Notes stores patch or diff of changes made in a note. You can browse and 
 
 ### Coffee Button
 
-This button keeps screen awake for the pre-defined time. Single press will trigger the button while long press will stop it.
-
-Coffee duration of 5 min, 10 mins and 30 mins are provided.
+Keeps the screen awake for a set time (5, 10 or 30 minutes). Tap to start; long-press to stop.
 
 ### Text Snippets Button
 
@@ -115,7 +112,7 @@ A text snippet has 2 parts: *Expander* and *Expansion*. When a user taps on an e
 
 For example, if the expander is `otoh` and the expansion is `on the other hand`, clicking on the expander `otoh` in Text Snippets will enter `on the other hand` in the editor. See the built-in "Heading with Subtasks" snippet for example.
 
-The expander may also contain date and/or time placeholders in [SimpleDateFormat](https://docs.oracle.com/javase/8/docs/api/java/text/SimpleDateFormat.html); surrounding these with `$$` will cause the expansion to expand them using the current date and time. For example, `$$yyy-MM-dd (EE)$$` will be expanded to the current date, formatted like `2024-07-26 (Fri)`.
+The expander may also contain date and/or time placeholders in [SimpleDateFormat](https://docs.oracle.com/javase/8/docs/api/java/text/SimpleDateFormat.html); surrounding these with `$$` will cause the expansion to expand them using the current date and time. For example, `$$yyyy-MM-dd (EE)$$` will be expanded to the current date, formatted like `2024-07-26 (Fri)`.
 
 > To add a new text snippet or edit an existing one, just tap on the floating edit button.
 
@@ -133,7 +130,7 @@ Click to enter citation and long press button to generate bibliography.
 
 Application has support for converting Emoji alias (in edit mode) to emojis (in view mode). Eg. `:smile:` is converted to 😄 in view mode. Clicking on an emoji will insert its alias in editor.
 
-!!! information
+!!! info
 
     For full list of supported emojis and aliases, [follow this link](https://raw.githubusercontent.com/felldo/JEmoji/refs/heads/master/public/emojis.json)
 
@@ -169,4 +166,4 @@ You can configure the order of editor buttons or enable / disable editor buttons
 
 !!! tip
 
-        Click on a group to change its icon.
+    Tap a group to change its icon.

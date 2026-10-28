@@ -1,7 +1,7 @@
 ---
 title: Barcode Plugin
 ---
-!!! information
+!!! info
     Download from [Play Store](https://play.google.com/store/apps/details?id=org.eu.thedoc.zettelnotes.buttons.barcode) or F-Droid
 
 Barcode plugin for Zettel Notes — scan and generate barcodes right from your notes.

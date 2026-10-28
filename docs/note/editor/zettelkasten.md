@@ -2,17 +2,17 @@
 title: Zettelkasten Method
 ---
 
-Zettel Notes has first class support for Zettelkasten note taking method.
+Zettel Notes has first-class support for the Zettelkasten method.
 
 ## Features
 
 ### Backlinks
 
-Backlinks are the notes which contain link for the existing note. In [note information dialog](../index.md#note-information), all note backlinks are listed. You can click on any backlink note to open it.
+Backlinks are notes that link to the current note. In [note information dialog](../index.md#note-information), all note backlinks are listed. You can click on any backlink note to open it.
 
 ### Wiki style links
 
-Type `[[` in editor to show note list and select any note to insert markdown link for the note. eg `[[note.md]]`
+Type `[[` in the editor to pick a note and insert a link to it, e.g. `[[note.md]]`.
 
 !!! tip
 
@@ -54,14 +54,14 @@ To enable table of contents for all notes, tick `Table of Contents (TOC)` settin
 
 ### Inline Heading links
 
-To create inline heading links add # in front of link eg. `[Heading](#heading)`. Clicking on inline heading link will scroll to the specific heading. You will need to replace spaces and non-alphanumeric characters in heading with hypen in the link. 
+To create inline heading links add # in front of link eg. `[Heading](#heading)`. Clicking on inline heading link will scroll to the specific heading. You will need to replace spaces and non-alphanumeric characters in heading with hyphen in the link. 
 
 !!! example
 
     Inline link for `# This is a heading` will be `[link](#this-is-a-heading)`.
 
-## Lean more about Zettelkasten method 📖
+## Learn more about Zettelkasten method 📖
 
-This note taking method is based on zettel or short notes based on a single idea. Main strength of this method lies in interlinking notes and backlinks.
+The Zettelkasten method builds knowledge from short notes, each holding a single idea, that are densely linked to each other.
 
-Sascha has described this method in more detail. Please checkout his blog post at <https://zettelkasten.de/introduction/>.
+For a thorough introduction, see [zettelkasten.de/introduction](https://zettelkasten.de/introduction/).

@@ -2,7 +2,7 @@
 title: AI Chat Plugin
 ---
 
-!!! information
+!!! info
     Download from [Play Store](https://play.google.com/store/apps/details?id=org.eu.thedoc.zettelnotes.buttons.chat) or F-Droid
 
 AI chat plugin for Zettel Notes, letting you chat and take notes side by side.

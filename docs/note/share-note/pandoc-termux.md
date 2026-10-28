@@ -2,13 +2,13 @@
 title: Share via Pandoc
 ---
 
-To share notes via Pandoc, click on menu button to right of note. Choose `Share > via Pandoc > as DOCX / EPUB / HTML / ODT`
+To export a note with Pandoc, tap the menu button next to the note. Choose `Share > via Pandoc > as DOCX / EPUB / HTML / ODT`
 
 !!! info    
     
     [Termux](https://f-droid.org/packages/com.termux/) needs to be installed for this.
 
-Step by step guide to setup share via pandoc:
+One-time setup:
 
 1. Install Termux
       - Installing Termux application allows us to execute command line instructions (you will only have to setup it once, then Zettel Notes will use it as an intermediary for format conversions).
@@ -18,11 +18,11 @@ Step by step guide to setup share via pandoc:
 3. Select the output file format
 4. Configure storage access in Termux. 
     - To do this you need to open Termux and type the command `termux-setup-storage`.
-    - In Android 14 it is possible that Termux shows, an aborted operation message. To fix it you have to tell Termux to install Termux-am with the following instruction `pkg install termux-am` and setup storage access using `termux-setup-storage`.
+    - On Android 14, if Termux reports an aborted operation, run `pkg install termux-am` and then `termux-setup-storage` again.
   
 5. Enable external application access in Termux.
      - To enable it you have to edit from Termux itself its properties file `~/.termux/termux.properties`. [Read more on Github](https://github.com/termux/termux-tasker#allow-external-apps-property-optional)
-     - Or you can paste the following command in termux `echo allow-external-apps=true >> /data/data/com.termux/files/home/.termux/termux.properties"'`
+     - Or you can paste the following command in termux `echo "allow-external-apps=true" >> ~/.termux/termux.properties`
 
 6. Install Pandoc
      - To do this paste `pkg install pandoc` in termux.

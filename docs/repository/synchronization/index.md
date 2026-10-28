@@ -6,28 +6,28 @@ title: Synchronization
 
 - [Git](git.md)
 - [Dropbox](dropbox.md)
-- [Webdav](webdav.md)
+- [WebDAV](webdav.md)
 - [SSH / SFTP](sftp.md)
 
 ## Features
 
-You can choose to synchronize with subfolder while setting up synchronization. For eg. if you have `root` folder then you can synchronize only with `root/notes`.
+You can sync a subfolder instead of the whole remote folder, e.g. only `root/notes` within `root`.
 
 You can generate private and public ssh keys within Zettel Notes. [Git](./git.md) and [SSH](./sftp.md) synchronization support keys generated via Keys Manager. See [Keys Manager](./keys-manager.md)
 
-To trigger synchronization after saving note, toggle settings option in `Settings > Synchronization > Trigger sync on saving note`.
+To sync every time a note is saved, enable `Settings > Synchronization > Trigger sync on saving note`.
 
 ## Background synchronization
 
-To enable background synchronization go to, `Settings > Synchronization > Enable background synchronization`
+To enable background sync, turn on `Settings > Synchronization > Enable background synchronization`
 
-You can choose among following Synchronization Constraints
+Optional constraints:
 
 - Only sync while device is charging
 - Only sync while on WiFi
 - Only sync when battery level is above defined level
 
-Following synchronization intervals are supported
+Available intervals:
 
 - 15 mins
 - 30 mins
@@ -37,15 +37,15 @@ Following synchronization intervals are supported
 - 12 hours
 - 24 hours
 
-If synchronization takes time, you can also toggle the option to synchronize only while the application is in background.
+If syncing is slow, you can restrict it to run only while the app is in the background.
 
 !!! tip
 
-    You can override synchronization settings, per repository. That means that for one repository you can set synchronization only on wifi while for other only during charging. To override go to, `Repositories > <Repository> Setting > Edit Synchronization > Configure synchronization`.
+    Sync settings can be overridden per repository, e.g. Wi-Fi only for one and charging only for another. Go to `Repositories > <Repository> Setting > Edit Synchronization > Configure synchronization`.
 
 ### Manual synchronization
 
-To enable manual synchronization only, disable following options in `Settings > Synchronization`
+To sync only manually, disable these options in `Settings > Synchronization`
 
 - Enable background synchronization
 - Trigger synchronization on
@@ -53,27 +53,27 @@ To enable manual synchronization only, disable following options in `Settings > 
     - Saving note 
     - Swipe refresh
 
-After this you can trigger synchronization by clicking on synchronize button in left navigation drawer in main screen.
+Then sync by tapping the sync button in the left navigation drawer.
 
 ![manual synchronization](../../assets/img/nav-drawer-manual-synchronization.jpeg)
 
 ## Configure Conflict Resolution 
 
-You can configure how conflicts are resolved via options in Settings > Synchronization > Conflict Resolution and Merge Strategy options
+Configure conflict handling in `Settings > Synchronization` with the **Conflict Resolution** and **Merge Strategy** options. These apply to all sync methods.
 
 - **Conflict Resolution**
     - Auto
         - The default strategy
     - Prefer Local Changes
-        - Changes made on zettel notes will overwrite changes made on server
+        - Changes in Zettel Notes overwrite changes on the server
     - Prefer Remote Changes
-        - Changes made on server will overwrite changes made on zettel notes
+        - Changes on the server overwrite changes in Zettel Notes
 - **Merge Strategy**
     - These options are enabled only for Auto Conflict Resolution strategy
     - 3 options are provided
         - Default
-            - Merge changes made on zettel notes and server
+            - Merge changes from Zettel Notes and the server
         - Prefer Old Changes
-            - Latest changes will be overwritten with old changes made on either zettel notes or server
+            - Older changes win, from either side
         - Prefer New Changes (Preferred Option)
-            - Old changes will be overwritten with latest changes made on either zettel notes or server
+            - Newer changes win, from either side

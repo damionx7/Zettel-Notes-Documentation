@@ -1,28 +1,27 @@
 ---
 title: Repository
-sidebar_position: 2
 ---
 
-Repository in Zettel Notes is root folder for your collection of notes. It is comparable to Vault in Obsidian. 
+A repository is the root folder for a collection of notes, similar to a vault in Obsidian.
 
-To create a repository, click on menu button on main screen, select `Repositories` option. And click on floating create repository button.
+To create one, open the main menu, select **Repositories** and tap the floating **+** button.
 
 !!! tip
 
-    Long pressing create repository button, creates a new repository in private storage of application.
+    Long-press the **+** button to create a repository in the app's private storage.
 
 
 ## Properties of a Repository
 
-A repository can have following properties
+A repository has the following properties.
 
 ### 1. Title
 
-It should be unique for each repository. Title can be edited after creating a repository
+Must be unique. It can be changed later.
 
 ### 2. Default text
 
-This text will be added to new note files. You can use any of these variables `$title$`, `$id$`, `$filename$`, `$$yyyMMdd$$`.
+This text will be added to new note files. You can use any of these variables `$title$`, `$id$`, `$filename$`, `$$yyyyMMdd$$`.
 
 <img src="/assets/img/repository-property-default-text.webp" alt="Default Text" width="250"/>
 
@@ -34,7 +33,7 @@ This text will be added to new note files. You can use any of these variables `$
 
 ### 3. Date Format 
 
-It contains [date time format](https://docs.oracle.com/javase/7/docs/api/java/util/Formatter.html) which will be replaced with the present date and time when creating new note.
+It contains [date format](https://docs.oracle.com/javase/8/docs/api/java/text/SimpleDateFormat.html) which will be replaced with the present date and time when creating new note.
 
 <img src="/assets/img/repository-property-date-format.webp" alt="Date Format" width="250"/>
 
@@ -46,12 +45,12 @@ Click to select BibTex file for citations from internal storage. [Read More](../
 
 ### 5. File Extension
 
-Following file extensions are supported `md`, `org`,`txt`,`text`, `mkd`, `mdwn`, `mdown`, `mdtxt`, `mdtext`,`markdown`.
+Supported extensions: `md`, `org`,`txt`,`text`, `mkd`, `mdwn`, `mdown`, `mdtxt`, `mdtext`,`markdown`.
 
 ### 6. Prefer Title From
 
 - Default
-    - Repository will use following order of preference for parsing title.
+    - Uses the first available of:
     -  `YAML Metadata` > `First Heading` > `File name`
 - YAML Metadata
     - YAML Property `title: Note Title` is used to set title as `Note Title`.
@@ -66,7 +65,7 @@ Following file extensions are supported `md`, `org`,`txt`,`text`, `mkd`, `mdwn`,
     - The root folder will be used for storing attachments
 - Same folder as note
 - Specific subfolder
-    - Specific subfoler set by user will be used for storing attachments.
+    - Specific subfolder set by user will be used for storing attachments.
     - It should start with `/`
 - Subfolder in same folder as note
 
@@ -90,7 +89,7 @@ The properties are saved in the Zettel Notes configuration folder, under the spe
 
 - Specifies whether the repository should be accessible via the Android Documents app.
 - Mounting internal repositories
-    - Repositories can be assessed via the android [Documents](https://source.android.com/docs/core/ota/modular-system/documentsui) application.
+    - Repositories can be accessed via the android [Documents](https://source.android.com/docs/core/ota/modular-system/documentsui) application.
     - To disable mounting internal repositories, go to `Settings > Security` and disable `Mount internal repositories`.
     - ![mounted repository](../assets/img/repository-mount.png)
 
@@ -100,7 +99,7 @@ The properties are saved in the Zettel Notes configuration folder, under the spe
 
 ### 3. Exclude files and folders (`excluded_paths`)
 
-[v3.0.7](../changelog.md#312){ .zn-version }
+[v3.0.7](../changelog.md#307){ .zn-version }
 
 Define files and folders that should be "ignored" in this repository.
 
@@ -109,7 +108,7 @@ Define files and folders that should be "ignored" in this repository.
 Enter a comma-separated list of patterns, for example:
 
 ```
-'excluded_paths = /backupFolder/,/*.tmp,/note-?.md'
+excluded_paths = /backupFolder/,/*.tmp,/note-?.md
 ```
 
 **Clarification:**

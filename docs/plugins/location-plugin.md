@@ -2,8 +2,8 @@
 title: Location Plugin
 ---
 
-!!! information
+!!! info
 
     Download from [Play Store](https://play.google.com/store/apps/details?id=org.eu.thedoc.zettelnotes.buttons.location) or F-Droid
 
-Add current location in user defined format
+Inserts your current location into the note, in a format you define.

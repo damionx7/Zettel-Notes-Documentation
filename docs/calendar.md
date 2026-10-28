@@ -2,7 +2,7 @@
 title: Calendar View
 ---
 
-To open calendar view, open left navigation drawer and click on `Calendar`.
+To open the calendar, open the left navigation drawer and tap **Calendar**.
 
 <figure>
 <img src="/assets/img/nav-bar-calendar.png" alt="Calendar View"/>
@@ -11,23 +11,23 @@ To open calendar view, open left navigation drawer and click on `Calendar`.
 
 ## Features 
 
-- Highlight dates when notes were created or last modified
+- Dates with notes created or modified are highlighted.
 
 <figure>
 <img src="/assets/img/calendar.webp" alt="Calendar View"/>
  <figcaption>Calendar View</figcaption>
 </figure>
 
-- Long press to create note for that date
+- Long-press a date to create a note for it.
 
 <figure>
 <img src="/assets/img/calendar1.webp" alt="Calendar View"/>
  <figcaption>Calendar View</figcaption>
 </figure>
 
-- Click on date to search notes which were created on that date.
+- Tap a date to list notes created on it.
 
 !!! info
 
-    Calendar works best when your notes have date format in front of filenames. eg. `202310082210 Note.md`.
-    To automatically add this in front of filename, edit date format in [Repository](repository/index.md#3-date-format) settings.
+    The calendar works best when filenames start with a date, e.g. `202310082210 Note.md`.
+    To add this automatically, set the [Date Format](repository/index.md#3-date-format) in repository settings.

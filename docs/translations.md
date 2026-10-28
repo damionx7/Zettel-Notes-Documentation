@@ -2,11 +2,7 @@
 title: Translations
 ---
 
-Zettel Notes is translated in many lanuages. 
-
-It is crowd sourced and translated by users like you and me.
-
-Contribute to translation at
+Zettel Notes is translated by its community. You can contribute at
 [https://translate.thedoc.eu.org/projects/zettel-notes/android/](https://translate.thedoc.eu.org/projects/zettel-notes/android/)
 
 <a href="https://translate.thedoc.eu.org/engage/zettel-notes/">
@@ -14,9 +10,9 @@ Contribute to translation at
 </a>
 
 
-!!! information
+!!! info
 
-    If you want to translate application in your language. Sign up and drop a message.
+    To add a new language, sign up on the translation site and leave a message.
 
 
 ## Languages supported

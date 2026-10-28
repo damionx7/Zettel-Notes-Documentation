@@ -2,7 +2,7 @@
 title: AI Actions Plugin
 ---
 
-!!! information
+!!! info
 
     Download from [Play Store](https://play.google.com/store/apps/details?id=org.eu.thedoc.zettelnotes.buttons.llm) or F-Droid
 

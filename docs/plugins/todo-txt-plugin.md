@@ -1,23 +1,18 @@
 ---
-title: Todo.txt plugin
+title: Todo.txt Plugin
 ---
 
-!!! information
+!!! info
 
     Download from [Play Store](https://play.google.com/store/apps/details?id=org.eu.thedoc.zettelnotes.buttons.todotxt) or F-Droid
 
-Todo.txt plugin for Zettel Notes Markdown Note Taking App
-
-Following methods are provided from editor button
+Manage [todo.txt](https://github.com/todotxt/todo.txt)-format tasks from the editor toolbar:
 
 - Toggle Task
 - Change priority
 - Set Due date
 - Set Completion date
 
-Setting completion date automatically ticks the task
+Setting a completion date also marks the task as done.
 
-To be recognised as a valid todo.txt task, the task should have priority and task
-eg. <code>(A) This is a task</code>
-
-For more details read [official documentation of todo.txt](https://github.com/todotxt/todo.txt).
+A line is recognised as a task only if it starts with a priority, e.g. `(A) This is a task`.

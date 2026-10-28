@@ -1,8 +1,8 @@
 ---
-title: Bibtex 
+title: BibTeX
 ---
 
-Zettel Notes can also be used as a citation manager.
+Zettel Notes includes a citation manager that reads BibTeX (`.bib`) and CSL JSON (`.json`) files.
 
 1. Go to `Menu > Repositories`
 2. Edit specific repository and click on `BibTex File`
@@ -10,22 +10,17 @@ Zettel Notes can also be used as a citation manager.
 4. Save the repository.
 5. To browse this BibTex file, Select `BibTex` from left navigation drawer on main screen.
 
-!!! tip
+To export a citations file from Zotero, see [this guide](https://thedoc.eu.org/blog/bibtex-manager).
 
-    Zettel Notes supports `bib` and `json` files for citation
+## Standalone BibTeX Manager
 
-
-To learn how to create citations file in zotero follow this blog post https://thedoc.eu.org/blog/bibtex-manager
-
-## What if only want to use BibTex feature ?
-
-- BibTex Manager is available as a seperate application 
+- The citation manager is also available as a standalone app, BibTeX Manager.
 - Download via [Play Store](https://play.google.com/store/apps/details?id=org.eu.thedoc.bibtexmanager) or [F-Droid](https://thedoc.eu.org/fdroid/) 
 
 ## Demo Video
 
-<iframe width="100%" height="550px" src="https://www.youtube-nocookie.com/embed/70-TkT_Hhx0?si=gsf9WQJpcNMETvys" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe style="width:100%;aspect-ratio:16/9" src="https://www.youtube-nocookie.com/embed/70-TkT_Hhx0?si=gsf9WQJpcNMETvys" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-### How to change CSL Style for bibliography ?
+## Change the bibliography style (CSL)
 
-Go to bibtex screen, click on top right menu button to open CSL Style manager. Click on download and select from 2,594 CSL styles to use in app.
+On the BibTeX screen, open the top-right menu and select **CSL Style manager**. Tap **Download** to choose from over 2,500 citation styles.

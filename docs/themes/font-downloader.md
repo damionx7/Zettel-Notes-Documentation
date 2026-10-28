@@ -2,7 +2,7 @@
 title: Fonts
 ---
 
-Zettel Notes provides option to select different fonts for viewer and editor. You can also select fonts specific to each [base theme](./app-theme.md).
+You can set separate fonts for the viewer and editor, per [base theme](./app-theme.md).
 
 ## Pre-installed fonts 
 
@@ -12,9 +12,9 @@ Zettel Notes provides option to select different fonts for viewer and editor. Yo
 4. Open Dyslexic
 5. Roboto
 
-!!! information
+!!! info
 
-    Long press font title to delete font file from Zettel Notes
+    Long-press a font to delete it.
 
 <figure>
   <img src="/assets/img/font-chooser-dialog.png" alt="Font chooser" />
@@ -23,15 +23,15 @@ Zettel Notes provides option to select different fonts for viewer and editor. Yo
 
 ## Downloading from Google Fonts
 
-Zettel Notes features built-in font downloader for Google fonts. 
+Zettel Notes can download any Google Font.
 
-To use it, click on Download button in Font chooser. Select any font you want and again choose download. This font will be added to initial Font chooser screen.
+In the font chooser, tap **Download**, pick a font and tap **Download** again. It then appears in the font chooser.
 
-To use font weight other than regular, click on button to the right on font and choose specific font weight.
+For a weight other than Regular, tap the button to the right of the font and choose a weight.
 
-!!! information
+!!! info
 
-    You can also search and sort fonts. Following sort filters are provided `display`, `handwriting`, `monospace`, `sans-serif` and `serif`
+    Fonts can be searched and filtered by category: `display`, `handwriting`, `monospace`, `sans-serif` and `serif`
 
 
 <figure>
@@ -42,5 +42,5 @@ To use font weight other than regular, click on button to the right on font and 
 ### Demo Video
 
 <p align="center">
-<iframe width="460px" height="550px" src="https://www.youtube.com/embed/Q29zimZCib0?si=RCQNIFIaS_fDDtXm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe style="width:100%;max-width:460px;aspect-ratio:9/16" src="https://www.youtube.com/embed/Q29zimZCib0?si=RCQNIFIaS_fDDtXm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </p>

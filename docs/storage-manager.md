@@ -2,10 +2,10 @@
 title: Storage Manager
 ---
 
-Zettel Notes provides storage manager to manage files stored in private app storage of Zettel Notes.
+The Storage Manager shows and manages files in the app's private storage.
 
-To access it go to `Android Settings > Apps > Zettel Notes > Storage and Cache > Manage Space`
+To open it, go to `Android Settings > Apps > Zettel Notes > Storage and Cache > Manage Space`
 
-Initial screen shows internal repositories including App Folder, Cache, Fonts and Database Files sorted according to size.
+It lists internal repositories, App Folder, Cache, Fonts and Database files, sorted by size.
 
 ![storage-manager](assets/img/storage-manager.png)

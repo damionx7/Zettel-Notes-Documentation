@@ -2,7 +2,7 @@
 title: Share Notes
 ---
 
-You can share note as
+A note can be shared as:
 
 - [Launcher shortcut](launcher-shortcuts.md)
 - [PDF or HTML](pdf.md)

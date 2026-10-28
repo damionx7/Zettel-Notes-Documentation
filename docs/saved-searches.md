@@ -2,35 +2,31 @@
 title: Saved Searches
 ---
 
-Zettel Notes has powerful full-text search. It can search in file contents almost instantly.
+Zettel Notes has fast full-text search across file contents. To sort or filter results, tap the **Sort** icon in the menu.
 
-Search can be filtered by clicking on `Sort` icon in menu.
+!!! info
 
-!!! information
-
-    6 note filters are provided. You can sort notes by `Date`, `Title`, `Word Count`, `Last Modified`, `Times Accessed` and `Filename`.
+    Results can be sorted by `Date`, `Title`, `Word Count`, `Last Modified`, `Times Accessed` and `Filename`.
 
 
-You can also save your search queries. 
+## Saved searches
 
-To assess this feature, open left navigation drawer and scroll down to `Saved Searches`.
+Frequently used queries can be saved. They appear under **Saved Searches** in the left navigation drawer.
 
 <figure>
 <img src="/assets/img/nav-bar-saved-searches.jpeg" alt="Saved searches screen"/>
  <figcaption>Left Navigation Drawer</figcaption>
 </figure>
 
-To edit saved searches, click on `Edit` button in saved searches section. This will open a dialog listing all the searches. Click on any search item to edit it.
+To manage them, tap **Edit** in the Saved Searches section and select a search to edit.
 
 <figure>
 <img src="/assets/img/saved-searches-edit-dialog.png" alt="Saved searches screen"/>
  <figcaption>Edit dialog for saved search</figcaption>
 </figure>
 
-Edit you search name and search query. To set specific filter click on the respective filter chip. And click on save.
-
-To search just click on the saved search in navigation drawer.
+Set the name and query, choose a filter chip if needed, and tap **Save**. To run a saved search, tap it in the navigation drawer.
 
 !!! tip
 
-    You can long press on tag in tags screen to add it as saved search.
+    Long-press a tag on the Tags screen to save it as a search.
