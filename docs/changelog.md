@@ -1,5 +1,7 @@
 ---
 title: Changelog
+tags:
+  - reference
 ---
 
 ### 3.1.2

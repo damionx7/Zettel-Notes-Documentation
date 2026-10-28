@@ -1,5 +1,9 @@
 ---
 title: Formatting
+tags:
+  - editor
+  - formatting
+  - markdown
 ---
 
 Zettel Notes follows the [CommonMark](https://spec.commonmark.org/0.30/) Markdown specification, with the extensions listed below.
@@ -57,6 +61,11 @@ Zettel Notes follows the [CommonMark](https://spec.commonmark.org/0.30/) Markdow
 ```
 Code blocks
 ```
+
+Code blocks are syntax-highlighted when you name the language after the opening backticks, e.g. ` ```bash `. Tap a code block in view mode to copy its contents.
+
+- For a dark code theme, tick **Dark Theme** in the [Markdown style](../../themes/markdown-theme.md).
+- Syntax highlighting can be turned off in `Settings > Editor and Viewer`.
 
 ### Link
 
@@ -135,6 +144,9 @@ The character in task bracket can be modified to show different statuses. The fo
 
 - Defined as `![Description](image-location.png)`
 - Image location has to be relative to the note file or use `/` in start if absolute location is used.
+- Obsidian-style embeds such as `![[image.png]]` are also supported. The format used when inserting images can be changed in `Settings > Editor and Viewer`.
+- `![](file.pdf)` shows a preview of a PDF. See [Gallery and Media](../../gallery.md) for viewing, editing and pasting images.
+- To centre an image, wrap it in `<center>` tags.
 
 !!! tip
 
@@ -162,11 +174,24 @@ $$
 $$
 ```
 
+!!! tip
+
+    The single-`$` inline syntax can be turned off in settings if it conflicts with prices or other uses of `$`. LaTeX also renders in notes [shared as PDF](../share-note/pdf.md).
+
+### Maps
+
+`![map](latlong:LATITUDE,LONGITUDE)` shows a map image for that location. The [Location plugin](../../plugins/location-plugin.md) can insert the current location.
+
+### Colours
+
+Hex colour values such as `#FF5722` are displayed as colours in view mode [v2.9.6](../../changelog.md#296){ .zn-version }.
+
 ## Supported HTML tags
 
 * Blockquote (`blockquote`)
 * Center (`center`)
 * Code (`code`, `pre`)
+* Collapsible section (`details`, `summary`) [v2.9.7](../../changelog.md#297){ .zn-version }
 * Emphasis (`<i>`, `<em>`, `<cite>`, `<dfn>`)
 * Heading (`h1`, `h2`, `h3`, `h4`, `h5`, `h6`)
 * Highlight (`mark`)

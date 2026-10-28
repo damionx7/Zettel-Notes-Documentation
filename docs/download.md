@@ -1,5 +1,8 @@
 ---
 title: Download
+tags:
+  - getting started
+  - installation
 ---
 
 Zettel Notes is available from the Play Store and from its own F-Droid repository.

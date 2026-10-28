@@ -1,5 +1,8 @@
 ---
 title: Donation Plugin
+tags:
+  - plugins
+  - support
 ---
 
 !!! info

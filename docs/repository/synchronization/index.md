@@ -1,5 +1,7 @@
 ---
 title: Synchronization
+tags:
+  - sync
 ---
 
 ## Supported protocols
@@ -29,6 +31,8 @@ Optional constraints:
 
 Available intervals:
 
+- 5 mins [v3.0.2](../../changelog.md#302){ .zn-version }
+- 10 mins [v3.0.2](../../changelog.md#302){ .zn-version }
 - 15 mins
 - 30 mins
 - 1 hour

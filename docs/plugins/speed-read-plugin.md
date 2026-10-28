@@ -1,5 +1,8 @@
 ---
 title: Speed Read Plugin
+tags:
+  - plugins
+  - reading
 ---
 
 !!! info

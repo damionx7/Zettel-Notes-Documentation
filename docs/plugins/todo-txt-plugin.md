@@ -1,5 +1,8 @@
 ---
 title: Todo.txt Plugin
+tags:
+  - plugins
+  - tasks
 ---
 
 !!! info

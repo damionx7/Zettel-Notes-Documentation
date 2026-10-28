@@ -1,5 +1,9 @@
 ---
 title: WebDAV Synchronization
+tags:
+  - sync
+  - webdav
+  - nextcloud
 ---
 
 To set up WebDAV sync, go to `Repositories > Setup Sync > WebDav` and enter the WebDAV URL, username and password.

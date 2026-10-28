@@ -1,5 +1,7 @@
 ---
 title: App Lock
+tags:
+  - security
 ---
 
 To lock the app, go to `Settings > Security`, select **App Lock** and choose **Passcode**. Enter a passcode and confirm. You will be asked for it whenever the app restarts or the lock timeout expires.

@@ -1,5 +1,9 @@
 ---
 title: Document Scanner Plugin
+tags:
+  - plugins
+  - camera
+  - attachments
 ---
 
 !!! info

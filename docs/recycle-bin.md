@@ -1,5 +1,8 @@
 ---
 title: Recycle Bin
+tags:
+  - repositories
+  - backup
 ---
 
 Each [repository](./repository/index.md) has its own recycle bin.

@@ -1,5 +1,8 @@
 ---
 title: Speech To Text Plugin
+tags:
+  - plugins
+  - voice
 ---
 
 !!! info

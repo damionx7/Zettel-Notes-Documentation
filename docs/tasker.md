@@ -1,5 +1,8 @@
 ---
 title: Tasker Integration
+tags:
+  - automation
+  - integration
 ---
 
 [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm) is a popular automation application for Android.

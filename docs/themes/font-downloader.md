@@ -1,5 +1,8 @@
 ---
 title: Fonts
+tags:
+  - customisation
+  - fonts
 ---
 
 You can set separate fonts for the viewer and editor, per [base theme](./app-theme.md).

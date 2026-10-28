@@ -1,5 +1,8 @@
 ---
 title: LaTeX Plugin
+tags:
+  - plugins
+  - formatting
 ---
 
 !!! info

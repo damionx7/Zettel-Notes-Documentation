@@ -1,5 +1,8 @@
 ---
 title: Dropbox Synchronization
+tags:
+  - sync
+  - dropbox
 ---
 
 To set up Dropbox sync, go to `Repositories > Setup Sync > Dropbox`, sign in, and choose the folder to sync.

@@ -1,5 +1,9 @@
 ---
 title: Zettelkasten Method
+tags:
+  - editor
+  - zettelkasten
+  - links
 ---
 
 Zettel Notes has first-class support for the Zettelkasten method.
@@ -16,7 +20,9 @@ Type `[[` in the editor to pick a note and insert a link to it, e.g. `[[note.md]
 
 !!! tip
 
-    To configure note links, go to `Settings > Editor > Link Style`. You can select among `[[filename]]`, `[[filename.md]]`, `[[filename|title]]`, `[[filename.md|title]]`, `[[date]]`, `[[date]] title`, `[title](filename)` and `[title](filename.md)`.
+    To configure note links, go to `Settings > Editor > Link Style`. You can select among `[[filename]]`, `[[filename.md]]`, `[[filename|title]]`, `[[filename.md|title]]`, `[[date]]`, `[[date]] title`, `[title](filename)`, `[title](filename.md)` and `[Title](../Filename.md)`.
+
+Links can be relative to the current note, e.g. `[[../file.md]]` [v2.7.2](../../changelog.md#272){ .zn-version }. To always insert absolute links (from the repository root), enable the absolute note links option in `Settings > Editor and Viewer`. Spaces in `[]()` links are written as `%20`.
 
 To create folder links, enter the absolute or relative folder path and add '/' at the end of link eg. `[sub-folder](/sub-folder/)`. Clicking on this link will open the `sub-folder` folder.
 

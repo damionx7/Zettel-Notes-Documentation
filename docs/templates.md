@@ -1,5 +1,8 @@
 ---
 title: Templates
+tags:
+  - notes
+  - templates
 ---
 
 Templates are reusable starting text for new notes.
@@ -12,8 +15,11 @@ These variables can appear anywhere in a template and are replaced when the note
 - `$title$` : Note Title
 - `$filename$` : Filename
 - `$$yyyyMMdd$$` : Date variable
+- `$uuid$` : A random UUID [v2.9.9](changelog.md#299){ .zn-version }
 - `$default-text$`: Add Repository Default Text
 - `$custom$` : Custom variable
+
+`$uuid$` also works in [text snippets](note/editor/index.md#text-snippets-button).
 
 !!! tip
 

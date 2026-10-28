@@ -1,5 +1,8 @@
 ---
 title: Storage Manager
+tags:
+  - repositories
+  - storage
 ---
 
 The Storage Manager shows and manages files in the app's private storage.

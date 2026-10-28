@@ -1,5 +1,8 @@
 ---
 title: Text Utils Plugin
+tags:
+  - plugins
+  - editor
 ---
 
 !!! info

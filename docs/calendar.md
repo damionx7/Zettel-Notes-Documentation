@@ -1,5 +1,8 @@
 ---
 title: Calendar View
+tags:
+  - organisation
+  - dates
 ---
 
 To open the calendar, open the left navigation drawer and tap **Calendar**.

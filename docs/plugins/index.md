@@ -1,5 +1,7 @@
 ---
 title: Plugins
+tags:
+  - plugins
 ---
 
 Plugins are small companion apps that add features to Zettel Notes. They are installed separately from the Play Store or the [F-Droid repository](../download.md#f-droid-repository). Most add a button to the editor toolbar.
@@ -24,6 +26,14 @@ The main app is, and will remain, free. Some plugins are paid; buying them funds
 | [Text Utils](text-utils.md) | Change case, split lines, build task lists and tables |
 | [Todo.txt](todo-txt-plugin.md) | Manage todo.txt tasks |
 | [Translate](translate-plugin.md) | Translate selected text on-device |
+
+## Manage plugins
+
+Installed plugins appear in the left drawer and as editor buttons. Each plugin can be enabled or disabled, and plugins that are not signed by the developer can also be loaded [v2.4.8](../changelog.md#248){ .zn-version }.
+
+!!! warning
+
+    Plugins use the plugin API version of the app. After a major app update, update your plugins too.
 
 ## Build your own plugin
 

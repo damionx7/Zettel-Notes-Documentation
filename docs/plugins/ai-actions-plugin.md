@@ -1,5 +1,8 @@
 ---
 title: AI Actions Plugin
+tags:
+  - plugins
+  - ai
 ---
 
 !!! info

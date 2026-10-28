@@ -1,8 +1,9 @@
 ---
 title: Note Creation Date
 tags:
-  - date
-  - time
+  - notes
+  - yaml
+  - dates
 ---
 
 Android does not record when a file was created, and synced files lose that information anyway (see [issue #392](https://github.com/damionx7/Zettel-Notes-Documentation/issues/392#issuecomment-2844946465)). To show a reliable creation date in the **Notes List**, store it in the filename or in the frontmatter.

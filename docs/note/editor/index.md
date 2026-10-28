@@ -1,5 +1,7 @@
 ---
 title: Editor
+tags:
+  - editor
 ---
 
 To edit a note, tap the **Edit** button in view mode.
@@ -34,6 +36,7 @@ The editor buttons are shown in a row at the bottom of the screen. You can scrol
 - Clicking on the button will enter specific markdown format (e.g. `**` for bold) in editor.
 - If you select some text and then click on markdown button, then that text will be surrounded with markdown format defined in the button.
 - To add new markdown button, just select edit button (floating pencil button).
+- Each Markdown button can have its own icon [v2.8.3](../../changelog.md#283){ .zn-version }.
 
 <figure>
 <img src="/assets/img/editor-buttons-markdown-button.png" alt="Markdown Buttons"/>
@@ -77,6 +80,9 @@ The folder where attachments are stored is defined by [attachment location in re
 - Lock / Unlock editing
 - Wrap / Unwrap
 - Text Settings
+- Select Paragraph
+- Toggle Keyboard
+- Fullscreen
 
 ### Line manipulation buttons
 
@@ -92,6 +98,31 @@ The folder where attachments are stored is defined by [attachment location in re
 !!! tip
 
     If you long press Goto Previous Line or Goto Next Line buttons, selection will be set to start or end of file respectively.
+
+### Formatting and list buttons
+
+- Toggle Blockquote on the selected lines [v2.8.4](../../changelog.md#284){ .zn-version }
+- Ordered List and Unordered List [v2.8.3](../../changelog.md#283){ .zn-version }
+- Toggle Checkbox, and Check / Uncheck All tasks
+- Bold, italics, underline and highlight are also offered in the text selection menu
+
+### Navigation buttons
+
+- Go to Line [v2.4.3](../../changelog.md#243){ .zn-version }
+- Scroll to Top and Scroll to Bottom
+- Rotate Screen [v2.8.3](../../changelog.md#283){ .zn-version }
+
+### Search and replace
+
+The search and replace button finds text in the note and replaces it. Regular expressions are supported [v2.9.3](../../changelog.md#293){ .zn-version }, and the replacement can be empty to delete matches.
+
+### Other buttons
+
+- **Download online images:** downloads online images in the note to local storage [v2.4.4](../../changelog.md#244){ .zn-version }.
+- **Meta keys toolbar:** shows a row of keys such as Ctrl and arrows, for keyboard shortcuts on touch screens [v2.9.1](../../changelog.md#291){ .zn-version }.
+- **Clean sync tags:** cleans up sync tags in the note [v2.7.6](../../changelog.md#276){ .zn-version }.
+- **Memo:** opens the [Memo](../memo.md); long-press to add text to it.
+- **Add Icon:** inserts an icon [v2.8.3](../../changelog.md#283){ .zn-version }
 
 ### Revision (Note History) Button
 
@@ -118,7 +149,7 @@ The expander may also contain date and/or time placeholders in [SimpleDateFormat
 
 !!! tip
 
-    You can quickly search for and insert text snippets by typing `:?` while editing.
+    You can quickly search for and insert text snippets by typing `:?` or `::` while editing. Text snippets can also use the `$uuid$` variable.
 
 ### Citations Button
 
@@ -162,8 +193,45 @@ Click to enable / disable focus mode while editing.
 
 ### Settings Button
 
-You can configure the order of editor buttons or enable / disable editor buttons with this button. Click on add button in setting screen to add groups. All the buttons below a group will be added in the group.
+You can configure the order of editor buttons or enable / disable editor buttons with this button. Click on add button in setting screen to add groups. All the buttons below a group will be added in the group. Swipe a button to remove it from the toolbar.
 
 !!! tip
 
-    Tap a group to change its icon.
+    Tap a group to change its icon and the number of columns it shows [v2.8.4](../../changelog.md#284){ .zn-version }. The icon of every built-in button can be changed too.
+
+The toolbar layout can be included in [backups](../../auto-backup.md#other-data-you-can-back-up).
+
+## Typing shortcuts
+
+Type these while editing to open a picker:
+
+| Type | To insert |
+|---|---|
+| `[[` | a link to a note |
+| `#?` | a tag |
+| `@?` | an author |
+| `:?` or `::` | a text snippet |
+
+The trigger text can be changed, and given several aliases separated by spaces, in `Settings > Editor and Viewer > Text Shortcuts` [v3.0.0](../../changelog.md#300){ .zn-version }. They can also be turned off.
+
+## Links in the editor
+
+Long-press a link in the editor to open it [v2.9.6](../../changelog.md#296){ .zn-version }. In view mode, long-press a link to see its URL.
+
+## Editor settings
+
+These options are in `Settings > Editor and Viewer`:
+
+| Setting | Effect |
+|---|---|
+| Auto-Save when Idle | Saves the note automatically after a pause; the timeout can be changed |
+| Large headings | Shows headings in proportionate sizes while editing |
+| Line numbers | Shows line numbers in the editor |
+| Line wrap | Wraps long lines in the editor and viewer |
+| Margins | Changes the note margins |
+| Spellcheck | Turns the keyboard spellchecker on or off |
+| Automatic list numbering | Continues ordered lists automatically |
+| Highlight double-space endings | Marks lines ending with two spaces (a Markdown line break) [v3.0.8](../../changelog.md#308){ .zn-version } |
+| Focus Mode | Enables focus mode for all notes |
+
+A YAML checker in the editor flags invalid [frontmatter](../yaml-frontmatter.md) [v2.7.8](../../changelog.md#278){ .zn-version }.

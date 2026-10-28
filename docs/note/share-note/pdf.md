@@ -1,5 +1,8 @@
 ---
 title: Share PDF or HTML
+tags:
+  - sharing
+  - export
 ---
 
 Tap the menu button next to the note. Choose `Share > as HTML` or `Share > as PDF`.

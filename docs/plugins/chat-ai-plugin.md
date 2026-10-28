@@ -1,5 +1,8 @@
 ---
 title: AI Chat Plugin
+tags:
+  - plugins
+  - ai
 ---
 
 !!! info

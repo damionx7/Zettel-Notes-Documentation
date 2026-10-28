@@ -1,5 +1,10 @@
 ---
 title: Note Types
+tags:
+  - notes
+  - tasks
+  - audio
+  - drawing
 ---
 
 Every note type is a plain-text file; the type is set by the `note_type` frontmatter property. Only view mode differs between types; edit mode is the same.
@@ -13,6 +18,13 @@ note_type: task
 ```
 
 This note shows all the [markdown style tasks](./editor/markdown.md#task-lists) as a simple task list. You can toggle task or add new task from the floating add button. To delete task swipe from left on the task and click on delete button. You can also show / hide completed tasks.
+
+Task note options:
+
+- Swipe a task to rename or delete it; drag tasks to reorder them.
+- After checking a task, an **Undo** option appears [v2.9.9](../changelog.md#299){ .zn-version }.
+- In `Settings > Note Formats` you can strike through completed tasks, delete tasks when they are checked, or show each task on a single line [v2.9.8](../changelog.md#298){ .zn-version }.
+- A [Task Note widget](share-note/widgets.md) shows the tasks on your home screen.
 
 !!! tip
 
@@ -92,7 +104,7 @@ note_type: log
 ---
 ```
 
-Inspired by the `.LOG` feature of Windows Notepad: each time you open the editor, a timestamp is added on a new line.
+Inspired by the `.LOG` feature of Windows Notepad: each time you open the editor, a timestamp is added on a new line. An option adds new entries at the beginning of the note instead of the end [v2.9.6](../changelog.md#296){ .zn-version }.
 
 !!! info
 

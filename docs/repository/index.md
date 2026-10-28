@@ -1,5 +1,8 @@
 ---
 title: Repository
+tags:
+  - repositories
+  - setup
 ---
 
 A repository is the root folder for a collection of notes, similar to a vault in Obsidian.
@@ -11,6 +14,12 @@ To create one, open the main menu, select **Repositories** and tap the floating 
     Long-press the **+** button to create a repository in the app's private storage.
 
 
+## Managing repositories
+
+- **Switch quickly:** repositories are listed in the left drawer, and long-pressing the home button lets you change repository.
+- **Hide** repositories you rarely use, and **sort** the repository list.
+- **Open on start:** the app can load a specific repository, or the last opened note, when it starts.
+
 ## Properties of a Repository
 
 A repository has the following properties.
@@ -18,6 +27,8 @@ A repository has the following properties.
 ### 1. Title
 
 Must be unique. It can be changed later.
+
+Each repository also has an icon, shown in the repository list and the left drawer. You can change it in the repository settings [v3.0.0](../changelog.md#300){ .zn-version }.
 
 ### 2. Default text
 
@@ -58,6 +69,8 @@ Supported extensions: `md`, `org`,`txt`,`text`, `mkd`, `mdwn`, `mdown`, `mdtxt`,
     - First Heading `# Note Title` is used to set title as `Note Title`.
 - Filename
     - Filename `Note Title.md` is used to set title as `Note Title`.
+- First line [v2.9.5](../changelog.md#295){ .zn-version }
+    - The first line of the note is used as the title, whether or not it is a heading.
 
 ### 7. Default location for attachments
 

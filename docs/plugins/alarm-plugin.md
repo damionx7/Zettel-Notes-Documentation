@@ -1,5 +1,9 @@
 ---
 title: Alarm Plugin
+tags:
+  - plugins
+  - tasks
+  - reminders
 ---
 
 !!! info
