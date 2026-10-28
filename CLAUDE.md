@@ -1,5 +1,7 @@
 # Zettel Notes Documentation
 
+Rules for anyone editing these docs, human or AI. The automated docs review (`.github/workflows/docs-review.yml`, Gemini) follows this file.
+
 Source for <https://www.zettelnotes.com>, the docs for the Zettel Notes Android app. Built with Zensical (`zensical build`, `zensical serve`); pages live in `docs/`, navigation and theme in `zensical.toml`.
 
 ## Structure rules
