@@ -1,0 +1,218 @@
+name: Docs review (Gemini)
+
+# Runs Gemini (free tier) on every push to master that touches the docs.
+# Gemini reviews the changed pages and edits files only; the workflow then
+# verifies the build and opens a PR with the fixes. Nothing is pushed to
+# master directly.
+#
+# Setup (one time):
+#   1. Create a free API key at https://aistudio.google.com/apikey and save it
+#      as the repository secret GEMINI_API_KEY
+#      (Settings > Secrets and variables > Actions > New repository secret).
+#   2. Settings > Actions > General > Workflow permissions: tick
+#      "Allow GitHub Actions to create and approve pull requests".
+#   Optional: set the repository variable GEMINI_MODEL to pick a model.
+#
+# To skip a run, put [skip review] in the commit message. The bot's own PRs
+# carry this marker so merging them does not trigger another review.
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - "docs/**"
+      - "zensical.toml"
+      - "CLAUDE.md"
+  workflow_dispatch:
+
+concurrency:
+  group: docs-review
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  review:
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      (!contains(github.event.head_commit.message, '[skip review]') &&
+       !contains(github.event.head_commit.message, '/docs-review/'))
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 50
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: 3.x
+
+      - name: Install Zensical
+        run: pip install -r requirements.txt
+
+      - name: Baseline build
+        run: zensical build
+
+      - name: Find changed pages
+        id: changed
+        env:
+          BEFORE: ${{ github.event.before }}
+          EVENT: ${{ github.event_name }}
+        run: |
+          if [ "$EVENT" = "workflow_dispatch" ]; then
+            files=$(git ls-files 'docs/*.md' | grep -v '^docs/csl-styles/')
+          elif git cat-file -e "$BEFORE^{commit}" 2>/dev/null; then
+            files=$(git diff --name-only "$BEFORE" HEAD -- docs zensical.toml | grep -v '^docs/csl-styles/' || true)
+          else
+            files=$(git diff --name-only HEAD~1 HEAD -- docs zensical.toml | grep -v '^docs/csl-styles/' || true)
+          fi
+          echo "files=$(echo $files | tr ' ' ',')" >> "$GITHUB_OUTPUT"
+          if echo "$files" | grep -q '^docs/changelog.md$'; then
+            if git cat-file -e "$BEFORE^{commit}" 2>/dev/null; then base="$BEFORE"; else base="HEAD~1"; fi
+            git diff "$base" HEAD -- docs/changelog.md | grep '^+⭐' | sed 's/^+⭐ *//' > /tmp/new-features.txt || true
+          else
+            : > /tmp/new-features.txt
+          fi
+          {
+            echo 'features<<EOF'
+            cat /tmp/new-features.txt
+            echo 'EOF'
+          } >> "$GITHUB_OUTPUT"
+          echo "Changed: $files"; echo "New changelog features:"; cat /tmp/new-features.txt
+
+      - name: Check nav coverage
+        id: nav
+        run: |
+          python3 - <<'EOF' >> "$GITHUB_OUTPUT"
+          import pathlib, tomllib
+          cfg = tomllib.load(open("zensical.toml", "rb"))["project"]
+          def walk(items):
+              for i in items:
+                  if isinstance(i, str): yield i
+                  elif isinstance(i, dict):
+                      for v in i.values():
+                          yield from (walk(v) if isinstance(v, list) else [v])
+          in_nav = set(walk(cfg.get("nav", [])))
+          pages = {str(p.relative_to("docs")) for p in pathlib.Path("docs").rglob("*.md")
+                   if not str(p).startswith("docs/csl-styles/")}
+          missing = sorted(pages - in_nav)
+          stale = sorted(p for p in in_nav if p.endswith(".md") and p not in pages)
+          print("missing=" + (", ".join(missing) or "none"))
+          print("stale=" + (", ".join(stale) or "none"))
+          EOF
+          cat "$GITHUB_OUTPUT"
+
+      - name: Review docs with Gemini
+        uses: google-github-actions/run-gemini-cli@v0
+        env:
+          GEMINI_CLI_TRUST_WORKSPACE: "true"
+        with:
+          gemini_api_key: ${{ secrets.GEMINI_API_KEY }}
+          gemini_model: ${{ vars.GEMINI_MODEL }}
+          workflow_name: docs-review
+          settings: |-
+            {
+              "model": { "maxSessionTurns": 40 },
+              "tools": {
+                "core": [
+                  "list_directory",
+                  "glob",
+                  "grep_search",
+                  "read_file",
+                  "read_many_files",
+                  "replace",
+                  "write_file",
+                  "run_shell_command(git diff)",
+                  "run_shell_command(git log)",
+                  "run_shell_command(zensical build)"
+                ]
+              }
+            }
+          prompt: |
+            You maintain the Zettel Notes documentation site in this repository.
+            First read CLAUDE.md in the repository root: it holds the structure,
+            style and verification rules. Follow them exactly.
+
+            CHANGED FILES: ${{ steps.changed.outputs.files }}
+            PAGES MISSING FROM NAV: ${{ steps.nav.outputs.missing }}
+            NAV ENTRIES WITH NO PAGE: ${{ steps.nav.outputs.stale }}
+            NEW CHANGELOG FEATURE ENTRIES:
+            ${{ steps.changed.outputs.features }}
+
+            Tasks:
+            1. Review each changed file (skip docs/csl-styles/ and binary assets) for:
+               factual mistakes in Markdown/YAML/settings syntax and examples;
+               contradictions with other pages or docs/changelog.md; broken internal
+               links or anchors and wrong image paths; missing `title`/`tags`
+               frontmatter; typos, grammar and drift from the CLAUDE.md style rules.
+               Fix what you find by editing the files.
+            2. Navigation: add every page under PAGES MISSING FROM NAV to the most
+               fitting section of `nav` in zensical.toml. For NAV ENTRIES WITH NO
+               PAGE, use `git log --name-status` to find where the page moved and
+               update the entry, or remove it if deleted.
+            3. For each NEW CHANGELOG FEATURE ENTRY, check it is documented. If a
+               user-facing feature is missing, document it on the most relevant
+               page with a version badge, saying only what the changelog states.
+               Skip minor one-off settings. Add any new page to `nav`.
+            4. Run `zensical build` and fix anything that stops it reporting
+               "No issues found".
+            5. Write a short Markdown summary of every change (file and what you
+               fixed) to `.docs-review/summary.md`. Add a "Please verify" list for
+               anything inferred rather than stated in the changelog. If you
+               changed nothing, write "No changes needed." to that file.
+
+            Rules: edit files only; do not commit, push or create branches. Do not
+            edit docs/changelog.md content or anything in docs/csl-styles/. Keep
+            changes small and focused.
+
+      - name: Open PR with fixes
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_ID: ${{ github.run_id }}
+        run: |
+          mkdir -p .docs-review
+          [ -f .docs-review/summary.md ] || echo "No summary written." > .docs-review/summary.md
+          mv .docs-review/summary.md "$RUNNER_TEMP/summary.md"
+          rm -rf .docs-review site
+
+          # Only docs and nav changes are ever proposed; anything else the run
+          # touched (action settings, artifacts, workflow files) is ignored.
+          if [ -z "$(git status --porcelain -- docs zensical.toml)" ]; then
+            echo "No changes; nothing to do."
+            cat "$RUNNER_TEMP/summary.md"
+            exit 0
+          fi
+
+          zensical build > "$RUNNER_TEMP/build.log" 2>&1 || true
+          if grep -q "No issues found" "$RUNNER_TEMP/build.log"; then
+            build="✅ \`zensical build\`: no issues found"
+            draft=""
+          else
+            build="⚠️ \`zensical build\` reported issues; see the workflow run log"
+            draft="--draft"
+          fi
+          rm -rf site
+
+          branch="docs-review/run-$RUN_ID"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$branch"
+          git add -- docs zensical.toml
+          git commit -m "docs: automated review fixes [skip review]"
+          git push origin "$branch"
+
+          {
+            echo "Automated docs review for ${GITHUB_SHA::7} (Gemini, run [$RUN_ID]($GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$RUN_ID))."
+            echo
+            cat "$RUNNER_TEMP/summary.md"
+            echo
+            echo "$build"
+          } > "$RUNNER_TEMP/body.md"
+
+          gh pr create $draft --base master --head "$branch" \
+            --title "docs: automated review fixes [skip review]" \
+            --body-file "$RUNNER_TEMP/body.md"
