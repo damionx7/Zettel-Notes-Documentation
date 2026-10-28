@@ -1,0 +1,97 @@
+name: Claude docs review
+
+# Runs Claude on every push to master that touches the docs. Claude reviews
+# the pages changed in that push and, if it finds problems, opens a PR with
+# fixes. It never pushes to master directly.
+#
+# Setup (one time):
+#   1. Install the Claude GitHub App on this repository:
+#      https://github.com/apps/claude
+#   2. Run `claude setup-token` locally and save the token as the repository
+#      secret CLAUDE_CODE_OAUTH_TOKEN (Settings > Secrets and variables > Actions).
+#
+# To skip a run, put [skip claude] in the commit message. Claude's own PRs
+# carry this marker so merging them does not trigger another review.
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - "docs/**"
+      - "zensical.toml"
+      - "CLAUDE.md"
+  workflow_dispatch:
+
+concurrency:
+  group: claude-docs-review
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  pull-requests: write
+  id-token: write
+
+jobs:
+  review:
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      (!contains(github.event.head_commit.message, '[skip claude]') &&
+       !contains(github.event.head_commit.message, '/claude/'))
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 50
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: 3.x
+
+      - name: Install Zensical
+        run: pip install -r requirements.txt
+
+      - name: Baseline build
+        run: zensical build
+
+      - name: Review docs with Claude
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          prompt: |
+            REPO: ${{ github.repository }}
+            PUSHED RANGE: ${{ github.event.before }}..${{ github.sha }}
+            TRIGGER: ${{ github.event_name }}
+
+            You maintain the Zettel Notes documentation site. Follow CLAUDE.md
+            in the repository root for style, structure and verification rules.
+
+            1. Work out what changed:
+               - On a push, run `git diff --name-only ${{ github.event.before }} ${{ github.sha }}`.
+                 If that range is unavailable, use `git diff --name-only HEAD~1 HEAD`.
+               - On a manual run, review every page in docs/.
+            2. Review the changed pages (skip docs/csl-styles/ and binary assets) for:
+               - factual mistakes in Markdown/YAML/settings syntax and examples
+               - contradictions with other pages or with docs/changelog.md
+               - broken internal links or anchors, wrong image paths
+               - pages missing from `nav` in zensical.toml, or missing `tags` frontmatter
+               - typos, grammar and drift from the style rules in CLAUDE.md
+            3. If docs/changelog.md changed, list each new feature entry and check
+               it is documented. Document missing user-facing features using only
+               what the changelog states; do not invent settings paths or behaviour.
+               Skip one-off minor settings.
+            4. Run `zensical build` and make sure it reports "No issues found".
+            5. If you made changes:
+               - create a branch named `claude/docs-review-${{ github.run_id }}`
+               - commit with a clear message ending in "[skip claude]"
+               - push and open a PR against master with
+                 `gh pr create --base master --title "docs: <summary> [skip claude]" --body "..."`.
+                 In the body, list each fix with the file, and add a
+                 "Please verify" checklist for anything inferred from the changelog.
+               If nothing needs fixing, do not create a branch or PR; just say so.
+
+            Never push to master. Keep changes small and focused on what the push touched.
+          claude_args: |
+            --max-turns 60
+            --allowedTools "Read,Write,Edit,MultiEdit,Glob,Grep,LS,Bash(git:*),Bash(gh pr create:*),Bash(gh pr list:*),Bash(gh pr view:*),Bash(zensical build:*),Bash(grep:*),Bash(ls:*),Bash(cat:*)"
