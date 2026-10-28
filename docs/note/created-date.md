@@ -1,57 +1,43 @@
 ---
-title: "Created Date of the Note"
+title: Note Creation Date
 tags:
   - date
   - time
 ---
 
-# How to explicitly set the date and time displayed for notes in the Notes List
+Android does not record when a file was created, and synced files lose that information anyway (see [issue #392](https://github.com/damionx7/Zettel-Notes-Documentation/issues/392#issuecomment-2844946465)). To show a reliable creation date in the **Notes List**, store it in the filename or in the frontmatter.
 
-This solution is prompted by an Android API limitation:
+If neither is present, the Notes List shows the file's **Last Modified** time.
 
-> Creation date is not possible for all notes as android system does not provide an api for creation date of a file. More so, it would be impossible to get creation date for notes that are synchronized.
-> 
-> https://github.com/damionx7/Zettel-Notes-Documentation/issues/392#issuecomment-2844946465
+!!! warning
 
-There are two ways to set the note creation time:
+    After changing repository or template settings, tap **Save** in the lower-right corner or the change is lost.
 
-## Method 1: Set the note filename in the `yyyyMMddHHmmss.md` format
+## Method 1: Date in the filename
 
-To automatically generate a filename in the `yyyyMMddHHmmss.md` format (you might have chosen a different file extension for notes), use the repository settings.
+Go to `Repositories > Edit Repository` and set **Date Format** to `yyyyMMddHHmmss`.
 
-In the repository settings: **Repositories** --> **Edit Repository** --> in the **Date Format** field, enter `yyyyMMddHHmmss`.
+New notes are then named like `20261028143000.md`, and the Notes List shows that date and time.
 
-**IMPORTANT:**
-After making changes in the repository settings window, be sure to click **Save** in the lower right corner.
+## Method 2: Date in the frontmatter
 
-New note files will display your current system date and time at the moment of note creation in the **Notes List**.
+Add `date: $$yyyyMMddHHmmss$$` to the frontmatter of new notes. When the note is created, the variable is replaced with the current date and time. You can do this in either of two places.
 
-## Method 2: Set the `date: $$yyyyMMddHHmmss$$` parameter in the YAML frontmatter
+### In repository default text
 
-There are two options for automatically generating the note creation date and time.
+Go to `Repositories > Edit Repository` and add this to **Default Text** (or add the `date` line to frontmatter that is already there):
 
-### Option 1. In the repository settings
-
-**Repositories** --> **Edit Repository** --> in the **Default Text** field, create a YAML frontmatter block like this:
-
-```
+```yaml
 ---
 date: $$yyyyMMddHHmmss$$
 ---
 ```
 
-If a YAML frontmatter already exists, then add or edit the `date: $$yyyyMMddHHmmss$$` parameter within it.
+### In a template
 
-**IMPORTANT:**
-After making changes in the repository settings window, be sure to click **Save** in the lower right corner.
+Go to `Templates > Edit Template` and include the `date` line in the template's frontmatter:
 
-New note files will display your current system date and time at the moment of note creation in the **Notes List**.
-
-### Option 2. In a template
-
-**Templates** --> **Edit Template** create a new template, or edit an existing one, so that its YAML frontmatter contains the parameter `date: $$yyyyMMddHHmmss$$`. For example:
-
-```
+```yaml
 ---
 title: "$title$"
 date: $$yyyyMMddHHmmss$$
@@ -59,21 +45,12 @@ tags:
 ---
 
 # $title$
-
 ```
 
-**IMPORTANT:**
-After making changes in the template settings window, be sure to click **Save** in the lower right corner.
+!!! note
 
-Templates can use the `DEFAULT_TEXT` variable. This variable might already contain the `date: $$yyyyMMddHHmmss$$` parameter set in the repository settings. Avoid duplication.
+    If the template also includes `$default-text$` and the repository default text already sets `date`, remove one of them to avoid a duplicate key.
 
-The new note file will display your current system date and time at the moment of note creation in the **Notes List**.
+## Display format
 
-## The **Notes List** will show the **Last Modified** date and time (from the "Info" window) if:
-
-1. The filename does not start with `yyyyMMddHHmmss`;
-2. The note's YAML frontmatter lacks the `date: $$yyyyMMddHHmmss$$` parameter.
-
-## How to configure the date and time display format
-
-You can configure your own date and time display format for the **Notes List**, **Gallery**, and **Recycle Bin** views via **Settings** --> **Theme** --> **Misc** --> **App-Wide Date Format**.
+To change how dates are shown in the Notes List, Gallery and Recycle Bin, go to `Settings > Theme > Misc > App-Wide Date Format`.

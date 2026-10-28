@@ -2,26 +2,26 @@
 title: Alarm Plugin
 ---
 
-!!! information
+!!! info
 
     Download from [Play Store](https://play.google.com/store/apps/details?id=org.eu.thedoc.zettelnotes.buttons.alarm) or F-Droid
 
 
-Use following format to set alarms for specific text in note or task. 
+Use this format to set an alarm on text in a note or task:
 
 ```
 [scheduled]: <2023-10-10 10:00>
 Remind me to code.
 ```
 
-This will create an alarm at 10 AM on 10th October 2023. Alarm will show `Remind me to code` text in notification. Clicking this notification will take you to the specific note.
+This creates an alarm for 10:00 on 10 October 2023. The notification shows `Remind me to code`; tapping it opens the note.
 
-Checking or deleting alarm will comment out the alarm syntax. 
+Completing or deleting the alarm comments out the alarm line.
 
-Click on alarm editor button to show date and time selection dialog.
+Tap the alarm editor button to pick a date and time.
 
 <figure>
-<img src="/assets/img/plugin-alarm-selection-dialog.png" alt="Task Note"/>
+<img src="/assets/img/plugin-alarm-selection-dialog.png" alt="Alarm date and time picker"/>
  <figcaption>Select date and time for alarm</figcaption>
 </figure>
 

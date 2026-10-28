@@ -2,11 +2,91 @@
 site_name = "Zettel Notes"
 site_url = "https://www.zettelnotes.com"
 docs_dir = "docs"
-repo_name = "damionx7/zettel-Notes-Documentation"
+repo_name = "damionx7/Zettel-Notes-Documentation"
 repo_url = "https://github.com/damionx7/Zettel-Notes-Documentation"
 edit_uri = "edit/master/docs/"
 copyright = '<a href="#__consent">Change cookie settings</a>'
 extra_css = ["assets/stylesheets/style.css"]
+
+nav = [
+  { "Getting Started" = [
+    "index.md",
+    "download.md",
+    "frequently-asked-questions.md",
+  ] },
+  { "Notes" = [
+    "note/index.md",
+    "note/editor/index.md",
+    "note/editor/markdown.md",
+    "note/editor/zettelkasten.md",
+    "note/editor/tags.md",
+    "note/note-types.md",
+    "note/yaml-frontmatter.md",
+    "note/created-date.md",
+    "templates.md",
+  ] },
+  { "Repositories" = [
+    "repository/index.md",
+    { "Synchronization" = [
+      "repository/synchronization/index.md",
+      "repository/synchronization/git.md",
+      "repository/synchronization/dropbox.md",
+      "repository/synchronization/webdav.md",
+      "repository/synchronization/sftp.md",
+      "repository/synchronization/keys-manager.md",
+    ] },
+    "repository/encryption.md",
+    "repository/importer.md",
+    "auto-backup.md",
+    "recycle-bin.md",
+    "storage-manager.md",
+  ] },
+  { "Organise & Find" = [
+    "saved-searches.md",
+    "calendar.md",
+    "gallery.md",
+    "bibtex.md",
+  ] },
+  { "Share & Integrate" = [
+    "note/share-note/index.md",
+    "note/share-note/pdf.md",
+    "note/share-note/pandoc-termux.md",
+    "note/share-note/launcher-shortcuts.md",
+    "note/share-note/notifications.md",
+    "note/share-note/widgets.md",
+    "note/share-note/zettel-links.md",
+    "web-clipper.md",
+    "tasker.md",
+  ] },
+  { "Customisation" = [
+    "themes/app-theme.md",
+    "themes/markdown-theme.md",
+    "themes/font-downloader.md",
+    "keyboard-shortcuts.md",
+    "app-lock.md",
+    "translations.md",
+  ] },
+  { "Plugins" = [
+    "plugins/index.md",
+    "plugins/ai-actions-plugin.md",
+    "plugins/chat-ai-plugin.md",
+    "plugins/alarm-plugin.md",
+    "plugins/anki-plugin.md",
+    "plugins/barcode-plugin.md",
+    "plugins/doc-scanner-plugin.md",
+    "plugins/donation-plugin.md",
+    "plugins/latex-plugin.md",
+    "plugins/location-plugin.md",
+    "plugins/ocr-plugin.md",
+    "plugins/speech-to-text-plugin.md",
+    "plugins/speed-read-plugin.md",
+    "plugins/telegraph.md",
+    "plugins/text-utils.md",
+    "plugins/todo-txt-plugin.md",
+    "plugins/translate-plugin.md",
+  ] },
+  { "Changelog" = "changelog.md" },
+]
 
 # Markdown
 [project.markdown_extensions.admonition]

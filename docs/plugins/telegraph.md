@@ -1,13 +1,11 @@
 ---
-title: Telegraph plugin
+title: Telegraph Plugin
 ---
 
-!!! information
+!!! info
 
     Download from [Play Store](https://play.google.com/store/apps/details?id=org.eu.thedoc.zettelnotes.buttons.telegraph) or F-Droid
 
-Plugin to publish notes to Telegraph from a markdown file.
+Publishes a note as a public [Telegraph](https://telegra.ph) page.
 
-When you click on the Telegraph Plugin button in the Editor Toolbar in Zettel Notes, a new page will be created on Telegraph.
-
-After publishing, a public Telegraph link will be generated which you can open or share.
+Tap the Telegraph button in the editor toolbar. Once published, you get a public link to open or share.

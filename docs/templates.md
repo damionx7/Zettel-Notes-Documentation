@@ -2,11 +2,11 @@
 title: Templates
 ---
 
-Templates are snippets of text which can be added while creating a new note.
+Templates are reusable starting text for new notes.
 
 ## Dynamic variables
 
-Zettel Notes supports following dynamic variables in templates. Dynamic variables can be added anywhere in template and its value will be replaced by corresponding text.
+These variables can appear anywhere in a template and are replaced when the note is created:
 
 - `$id$` :  Note ID
 - `$title$` : Note Title
@@ -17,12 +17,12 @@ Zettel Notes supports following dynamic variables in templates. Dynamic variable
 
 !!! tip
 
-    Date variable is surrounded with 2 `$$` on each side. To learn more about its format read [official documentation](https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html)
+    Date variables use two `$` on each side. See [SimpleDateFormat](https://docs.oracle.com/javase/8/docs/api/java/text/SimpleDateFormat.html) for the pattern syntax.
 
 
 ## Custom Variables
 
-Apart from pre-defined variables, Zettel Notes allows you to use custom variables also. These are defined by `$` on each side. eg. `$custom$`. While adding new note, you can set value of custom variable. Its all occurences in template will be replaced by specific value set by user.
+Any other name between single `$` signs, e.g. `$custom$`, is a custom variable. When you create a note from the template, you are asked for its value, and every occurrence is replaced.
 
 <figure>
 <img src="/assets/img/templates-custom-variable.png" alt="add note screen"/>
@@ -31,4 +31,4 @@ Apart from pre-defined variables, Zettel Notes allows you to use custom variable
 
 ## Default template
 
-A template can be set as default template by long pressing template and selecting `Set as Default` option. After that this selected template will be added to all fletting notes created by clicking the add note button in notes list.
+To make a template the default, long-press it and select **Set as Default**. It is then applied to every fleeting note created with the add button in the notes list.

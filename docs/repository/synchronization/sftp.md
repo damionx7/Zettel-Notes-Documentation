@@ -2,7 +2,7 @@
 title: SFTP (SSH) Synchronization
 ---
 
-To setup SFTP synchronization, go to `Repositories > Setup Sync > SFTP (SSH)`. Enter following details.
+To set up SFTP sync, go to `Repositories > Setup Sync > SFTP (SSH)` and enter:
 
 - Host / IP Address
 - Port
@@ -29,5 +29,4 @@ To setup SFTP synchronization, go to `Repositories > Setup Sync > SFTP (SSH)`. E
 ## Demo Video
 <video controls>
   <source src="/assets/videos/sftp.mp4" type="video/mp4"/>
-Your browser does not support the video tag.
 </video>

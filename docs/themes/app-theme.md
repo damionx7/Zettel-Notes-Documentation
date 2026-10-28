@@ -2,9 +2,9 @@
 title: App Themes
 ---
 
-There are 2 base themes - light and dark theme. You can choose to follow system theme. Zettel Notes will automatically select light or dark theme based on android system configuration.
+Zettel Notes has light and dark base themes, and can follow the Android system setting.
 
-You can configure each base theme with `Accent Color`, `Background Color`, `Viewer Font`, `Editor Font` and `Markdown Style`.
+Each base theme can be customised with `Accent Color`, `Background Color`, `Viewer Font`, `Editor Font` and `Markdown Style`.
 
 To configure theme, go to `Settings > Theme`.
 
@@ -31,13 +31,13 @@ You can configure separate markdown style for light and dark theme. [Read more](
 
 ## Toolbar Colors
 
-Following colors are available for changing toolbar. You can select any of them in settings. 
+Available toolbar colours:
 
 ![toolbar](../assets/img/app-theme-toolbars.png)
 
 ## Background Colors
 
-Following background colors are supported. 
+Available background colours:
 
 <figure>
 <img src="/assets/img/theme-background-light.png" alt="White"/>

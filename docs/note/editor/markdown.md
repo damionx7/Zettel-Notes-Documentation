@@ -2,7 +2,7 @@
 title: Formatting
 ---
 
-You can format text using these additional symbols. Zettel Notes follows Commonmark Markdown specification. [Learn more about Commonmark](https://spec.commonmark.org/0.30/).
+Zettel Notes follows the [CommonMark](https://spec.commonmark.org/0.30/) Markdown specification, with the extensions listed below.
 
 ### Bold
 
@@ -16,7 +16,7 @@ You can format text using these additional symbols. Zettel Notes follows Commonm
 
 ### Spoiler 
 
-- Enclose text with `>!!<`
+- Enclose text with `>!` and `!<`, e.g. `>!hidden text!<`
 - Click to reveal text in viewer mode
 - You can also long press to copy text in spoiler
 
@@ -35,7 +35,7 @@ You can format text using these additional symbols. Zettel Notes follows Commonm
 - Enclose text with `~` eg `~subscript~`
 - Rendered as <sub>subscript</sub>
 
-### Text Higlight
+### Text Highlight
 
 - Enclose text with `==` eg `==highlight==`
 - Rendered as <mark>highlight</mark>
@@ -46,9 +46,9 @@ You can format text using these additional symbols. Zettel Notes follows Commonm
 - 6 Heading levels are supported
 - eg. `# Heading` is interpreted as Heading level 1 and `## Heading` as level 2
 
-### Code Higlighting
+### Code Highlighting
 
-- 2 types of code highlighting is supported
+- Two types of code formatting are supported:
 - Inline code `code`
   - Enclose text with single backtick (`)
 - Code blocks
@@ -75,8 +75,7 @@ Code blocks
 
 ### Blockquote 
 
-- Defined via `>` in front of text eg. `> this is a blockquote 
-`
+- Add `>` at the start of a line, e.g. `> this is a blockquote`
 
 > this is a blockquote 
 
@@ -92,7 +91,7 @@ Tasks can be ticked from View Mode
 
 ### Custom checkboxes
 
-The character in task bracket can be modified to show different statuses. Following custom checkboxes are support
+The character in task bracket can be modified to show different statuses. The following custom checkboxes are supported:
 
 - `- [-] Cancelled`
 - `- [!] Important`
@@ -145,21 +144,21 @@ The character in task bracket can be modified to show different statuses. Follow
 
 Footnotes allow you to add references for specific text in a note. 
 
-To create a footnote add `[1]` after the text. eg `Text[^1]`. Here `1` is identifier and can be any number or word but cannot contain space. Add the footnote reference at the end of the document eg. `[1]: this is the reference`.
+To create a footnote, add `[^1]` after the text, e.g. `Text[^1]`. The identifier (`1`) can be any number or word without spaces. Then define the footnote at the end of the note, e.g. `[^1]: This is the reference.`
 
-## Latex
+## LaTeX
 
-**Inline Latex**
+**Inline LaTeX**
 
-To use inline latex, enclose the latex formula in `$`. eg. `$\text{A long division \longdiv{12345}{13}$`.
+Enclose the formula in single `$`, e.g. `$E = mc^2$`.
 
-**Block Latex**
+**Block LaTeX**
 
-To use block latex enclose the latex formula with `$$` and new line
+Enclose the formula in `$$` on separate lines:
 
 ```
 $$
-\text{A long division \longdiv{12345}{13}
+\int_0^1 x^2 \, dx = \frac{1}{3}
 $$
 ```
 

@@ -2,14 +2,14 @@
 title: Markdown Style
 ---
 
-Zettel Notes supports configuring markdown formatting apart from [App Theme](./app-theme.md).
+Markdown styles control how formatted text looks, separately from the [app theme](./app-theme.md).
 
-!!! information
+!!! info
 
-    You can export and import markdown styles as `json` files.
+    Markdown styles can be exported and imported as JSON files.
 
 
-## What can be modified ?
+## Customisable options
 
 1. Blockquote color
 2. Bold / Emphasis color
@@ -33,12 +33,12 @@ Zettel Notes supports configuring markdown formatting apart from [App Theme](./a
 
 !!! tip
 
-    If you define editor and viewer fonts in markdown theme and also in app theme, then fonts selected in markdown theme will be preferred.
+    Fonts set in a Markdown style take priority over fonts set in the app theme.
 
 
-## Pre-installed 
+## Built-in styles
 
-Following styles are provided by default. You can customize these styles or add your own.
+These styles are included and can be customised or used as a starting point.
 
 <figure>
   <img src="/assets/img/markdown-theme-writer.webp" alt="Writer" />
@@ -65,18 +65,17 @@ Following styles are provided by default. You can customize these styles or add 
   <figcaption>Dracula Theme</figcaption>
 </figure>
 
-These pre-installed styles were inspired from The Archive Themes https://github.com/Zettelkasten-Method/The-Archive-Themes.
+The built-in styles are inspired by [The Archive Themes](https://github.com/Zettelkasten-Method/The-Archive-Themes).
 
-# How to add new markdown style ?
+## Add a new style
 
 <video width="250" height="" controls>
   <source src="/assets/videos/add-markdown-theme.webm" type="video/webm"/>
-Your browser does not support the video tag.
 </video> 
 
-## Another Beautiful Style (My Favourite)
+## Additional style: Hertz Dark
 
-- To apply this markdown style, [download json file](../assets/markdown-theme-hertz-dark.json) and import in Zettel Notes. `Settings > Theme > Markdown Style > Import`.
+[Download the JSON file](../assets/markdown-theme-hertz-dark.json) and import it from `Settings > Theme > Markdown Style > Import`.
 
 
 <figure>

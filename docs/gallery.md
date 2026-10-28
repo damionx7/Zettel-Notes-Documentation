@@ -2,21 +2,16 @@
 title: Gallery
 ---
 
-All your media files are shown in gallery. Media files include `pdf` and other files apart from images.
+The Gallery shows all media files in a repository, including images, PDFs and other attachments.
 
-To view Gallery, open left navigation drawer and click on `Gallery` option.
+To open it, open the left navigation drawer and tap **Gallery**.
 
-<figure>
-<img src="/assets/img/nav-bar-calendar.png" alt="Gallery"/>
- <figcaption>Left Navigation Drawer</figcaption>
-</figure>
+Long-press a media file to:
 
-You can perform following actions on media files from Gallery. Just long press media item to show these options.
-
-1. Rename
-2. Copy Link to paste in note
-3. Create launcher shortcut to open media file directly from launcher
-4. Delete
+1. Rename it
+2. Copy its link to paste into a note
+3. Create a launcher shortcut that opens it directly
+4. Delete it
 
 <figure>
 <img src="/assets/img/gallery-items.png" alt="Gallery"/>
@@ -25,4 +20,4 @@ You can perform following actions on media files from Gallery. Just long press m
 
 !!! tip
 
-    You can also filter unused media files. Just press on top right button in menu `Toggle Unused Media`.
+    To find media files no note links to, tap **Toggle Unused Media** in the top-right menu.

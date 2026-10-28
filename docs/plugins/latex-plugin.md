@@ -1,9 +1,9 @@
 ---
-title: Latex Plugin
+title: LaTeX Plugin
 ---
 
-!!! information
+!!! info
 
     Download from [Play Store](https://play.google.com/store/apps/details?id=org.eu.thedoc.zettelnotes.buttons.latex) or F-Droid
 
-This plugin allows you to insert supported latex variables from a list. Just search the name and click on the specific symbol to insert its latex code in Zettel Notes.
+Search for a mathematical symbol by name and tap it to insert its LaTeX code into the note.

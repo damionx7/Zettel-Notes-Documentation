@@ -2,19 +2,19 @@
 title: Backups
 ---
 
-Zettel Notes can auto backup your notes at specific intervals. 
+Zettel Notes can back up your notes automatically at a set interval.
 
 !!! info    
     
-    Zettel Notes only creates backup of files in App Folder.
+    Automatic backups include only notes in the App Folder. Notes in external folders are not backed up.
 
 
-To enable auto backups 
+To enable automatic backups:
 
 1. Go to `Menu > Settings > Backup and Restore`
-2. Toggle `enabled` option below Automatic backups
+2. Turn on **Enabled** under Automatic backups
 3. Select backup folder and backup interval
-4. Click on `Backup Now` to backup in selected folder
+4. Tap **Backup Now** to create a backup immediately
 
 !!! tip
 
@@ -26,7 +26,7 @@ To enable auto backups
  <figcaption>Auto Backup Settings</figcaption>
 </figure>
 
-Following backup intervals are provided
+Available intervals:
 
 - 30 mins
 - 1 hour
@@ -37,12 +37,12 @@ Following backup intervals are provided
 
 !!! tip
     
-    You can also auto remove backups older than specific days in backup settings.
+    Backup settings can also delete backups older than a chosen number of days.
 
 
-## How to restore backup ?
+## Restore a backup
 
-Click on `Restore backup` in Backup and Restore. It will list all the backup files in application data. Select any file to restore. To select file from external storage or `Backup Folder`, click on `select from storage` option in restore dialog.
+Tap **Restore backup** in Backup and Restore. Backups stored in app data are listed; select one to restore. To restore from external storage or your backup folder, tap **Select from storage**.
 
 <figure>
 <img src="/assets/img/auto-backup-restore-dialog.png" alt="restore dialog screen"/>
@@ -50,7 +50,7 @@ Click on `Restore backup` in Backup and Restore. It will list all the backup fil
 </figure>
 
 
-You can select if you want to restore **Databases**, **Settings** or **Templates** in restore dialog.
+In the restore dialog, choose what to restore: **Databases**, **Settings** and/or **Templates**.
 
 <figure>
 <img src="/assets/img/auto-backup-restore.png" alt="restore dialog"/>
@@ -59,4 +59,4 @@ You can select if you want to restore **Databases**, **Settings** or **Templates
 
 !!! warning
 
-    Be careful when selecting `Reset to default`. It will reset all application data.
+    **Reset to default** erases all app data. It cannot be undone.

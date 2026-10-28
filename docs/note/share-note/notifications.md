@@ -2,11 +2,9 @@
 title: Pinned Notification
 ---
 
-Note can pinned as notification for quick access.
+Pin a note as a notification for quick access.
 
-To create pinned notification for a note, click on menu button to right of note. Choose `Share > Pin note as notification`.
-
-To close the notification, swipe down on notification and press Close.
+Tap the menu button next to the note and choose `Share > Pin note as notification`. To remove it, expand the notification and tap **Close**.
 
 <figure>
 <img src="/assets/img/note-share-pinned-notification.jpeg" alt="Pinned notification"/>

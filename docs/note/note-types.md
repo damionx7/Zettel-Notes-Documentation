@@ -1,9 +1,8 @@
 ---
 title: Note Types
-sidebar_position: 1
 ---
 
-Zettel Notes supports following note types. All are plain text files but with different YAML property `note_type`. Only View Mode is different for these notes while Edit mode is same.
+Every note type is a plain-text file; the type is set by the `note_type` frontmatter property. Only view mode differs between types; edit mode is the same.
 
 ## Task Note
 
@@ -33,7 +32,7 @@ note_type: drawing
 ---
 ```
 
-This note acts as central place for your drawings. To add a new drawing / doodle click on the floating add button.
+Collects your drawings in one place. Tap the floating **+** button to add a drawing.
 
 <figure>
 <img src="/assets/img/note-type-drawing.webp" alt="Drawing Note"/>
@@ -61,16 +60,16 @@ note_type: audio
 ---
 ```
 
-This note can be your audio recorder. If you are on a trip and want to take voice notes, just create a new audio note and take all your voice notes in it.
+Works as a voice recorder. Use one audio note to collect a series of voice memos, e.g. while travelling.
 
 <figure>
 <img src="/assets/img/note-type-audio.webp" alt="Audio Note"/>
  <figcaption>Audio Note</figcaption>
 </figure>
 
-!!! information
+!!! info
 
-    To configure audio recording, go to `Settings > Audio Recorder`. You can configure Bitrate, Channel Count, Sampling Rate, Recodring format and Filename. 
+    To configure audio recording, go to `Settings > Audio Recorder`. You can configure Bitrate, Channel Count, Sampling Rate, Recording format and Filename. 
 
 ## Bookmark Note
 
@@ -81,7 +80,7 @@ url: https://thedoc.eu.org
 ---
 ```
 
-This note directly opens the url or source defined in YAML. For eg. in the above YAML, clicking on bookmark note from notes list will directly open <https://thedoc.eu.org> in browser.
+Opens the URL in its frontmatter. With the example above, tapping the note in the notes list opens <https://thedoc.eu.org> in your browser.
 
 To create a bookmark note, share webpage from browser and select `Zettel Notes > New Bookmark Note` from share screen.
 
@@ -93,9 +92,9 @@ note_type: log
 ---
 ```
 
-Based on `.LOG` keyword of windows notepad. This note will add timestamp automatically in a newline, whenever user open note editor.
+Inspired by the `.LOG` feature of Windows Notepad: each time you open the editor, a timestamp is added on a new line.
 
-!!! information
+!!! info
 
     To configure date format for log notes, go to `Settings > Note Formats > Log Note > Date Format`.
     Eg. To make log entry bold, use this date format `'**'yyyy-MM-dd'**'`

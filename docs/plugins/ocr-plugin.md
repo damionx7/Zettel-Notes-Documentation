@@ -2,16 +2,14 @@
 title: OCR Plugin
 ---
 
-!!! information
+!!! info
 
     Download from [Play Store](https://play.google.com/store/apps/details?id=org.eu.thedoc.zettelnotes.buttons.ocr) or F-Droid
 
-Optical character recognition (OCR) plugin for Zettel Notes Markdown Note Taking App
+Extracts text from a photo or image and inserts it into the note. Over 100 languages are supported.
 
-This plugin allows to capture and convert images to text and add it directly in the corresponding note file. Over 100+ languages are supported.
-
-This plugin is based on Tesseract Open Source OCR Engine https://github.com/tesseract-ocr/tesseract.
+Powered by the open-source [Tesseract OCR engine](https://github.com/tesseract-ocr/tesseract).
 
 <p align="center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6O3l2ARnwDw?si=kwKTQOo0887ouxAa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe style="width:100%;max-width:560px;aspect-ratio:16/9" src="https://www.youtube.com/embed/6O3l2ARnwDw?si=kwKTQOo0887ouxAa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </p>

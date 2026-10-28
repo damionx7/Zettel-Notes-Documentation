@@ -8,13 +8,13 @@ Tags are labels that facilitate efficient organization and retrieval of your not
 
 Type hash (`#`) followed by keyword. Eg. `#tag`.
 
-To create tag in [YAML Frontmatter](../yaml-frontmatter.md), use following format:
+To add tags in [YAML frontmatter](../yaml-frontmatter.md), use `tags:` (`tag:` also works):
 
 ```yaml
 ---
-tag:  
-    - tag  
-    - tag with space  
+tags:
+    - tag
+    - tag with space
 ---
 ```  
 
@@ -32,7 +32,7 @@ Use forward slashes (`/`) to create hierarchies. Eg. `#sports/football` and `#sp
 
 Letters, numbers, underscore (`_`), hyphen (`-`), and forward slash (`/`) are allowed.
 
-Tags are case-insensitive and will display casing of first occurence. For instance, if you create `#Tag` and later add `#TAG`, both will be displayed as `#Tag`.
+Tags are case-insensitive and will display casing of first occurrence. For instance, if you create `#Tag` and later add `#TAG`, both will be displayed as `#Tag`.
 
 ## Searching Tags
 
