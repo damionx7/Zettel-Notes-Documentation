@@ -79,6 +79,7 @@ nav = [
     "plugins/doc-scanner-plugin.md",
     "plugins/donation-plugin.md",
     "plugins/latex-plugin.md",
+     "plugins/mermaid-plugin.md",
     "plugins/location-plugin.md",
     "plugins/ocr-plugin.md",
     "plugins/speech-to-text-plugin.md",
