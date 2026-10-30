@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style xmlns="http://purl.org/net/xbiblio/csl" version="1.0" default-locale="en-US">
+  <info>
+    <title>The Journal of Medieval and Early Modern Studies</title>
+    <title-short>JMEMS</title-short>
+    <id>http://www.zotero.org/styles/the-journal-of-medieval-and-early-modern-studies</id>
+    <link href="http://www.zotero.org/styles/the-journal-of-medieval-and-early-modern-studies" rel="self"/>
+    <link href="http://www.zotero.org/styles/chicago-notes-bibliography-17th-edition" rel="independent-parent"/>
+    <link href="https://jmems.trinity.duke.edu/contributorGuidelines.html" rel="documentation"/>
+    <category citation-format="note"/>
+    <category field="history"/>
+    <category field="humanities"/>
+    <category field="literature"/>
+    <issn>1082-9636</issn>
+    <eissn>1527-8263</eissn>
+    <updated>2025-10-26T14:55:55+00:00</updated>
+    <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
+  </info>
+</style>

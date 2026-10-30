@@ -1,0 +1,23 @@
+{
+    "Name": "Hertz Dark",
+    "Style": "Dark",
+    "Heading": "#91c9b9",
+    "ThematicBreak": "#DE9E3C",
+    "Code": "#DE9E3C",
+    "CodeBackground": "#222222",
+    "Spoiler": "#c13e23",
+    "BlockQuote": "#FFD1BCA4",
+    "ListBullet": "#de9e3c",
+    "Emphasis": "#BAB838",
+    "StrongEmphasis": "#C13E23",
+    "Link": "#d97630",
+    "Highlight": "#dddddd",
+    "HighlightForeground": "#FF000000",
+    "UnderlinedLinks": false,
+    "ShowLinkBrackets": false,
+    "BlockQuoteWidth": 8,
+    "HeadingBreakHeight": 4,
+    "ThematicBreakHeight": 4,
+    "BulletWidth": 48,
+    "TextColor": ""
+}

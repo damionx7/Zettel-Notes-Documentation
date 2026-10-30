@@ -1,0 +1,139 @@
+/* Light — palette attributes live on <body>, so match them there */
+[data-md-color-scheme="default"][data-md-color-primary] {
+  --zn-green: hsl(145, 50%, 30%);
+  --zn-green-light: hsl(145, 45%, 40%);
+  --zn-green-dark: hsl(145, 60%, 22%);
+  --zn-on-green: #fff;
+
+  --zn-heading-color: hsl(145, 100%, 25%);
+  --zn-link-color: hsl(145, 70%, 35%);
+  --zn-link-hover-color: hsl(145, 80%, 25%);
+
+  --md-code-fg-color: hsl(145, 50%, 25%);
+  --md-code-bg-color: hsl(145, 50%, 90%);
+}
+
+/* Dark — same hue, lighter shades for contrast */
+[data-md-color-scheme="slate"][data-md-color-primary] {
+  --zn-green: hsl(145, 50%, 30%);
+  --zn-green-light: hsl(145, 45%, 40%);
+  --zn-green-dark: hsl(145, 60%, 22%);
+  --zn-on-green: #fff;
+
+  --zn-heading-color: hsl(145, 55%, 62%);
+  --zn-link-color: hsl(145, 55%, 58%);
+  --zn-link-hover-color: hsl(145, 65%, 72%);
+
+  --md-code-fg-color: hsl(145, 100%, 90%);
+  --md-code-bg-color: hsl(145, 35%, 22%);
+}
+
+/* Map the palette onto the theme */
+[data-md-color-primary] {
+  --md-primary-fg-color: var(--zn-green);
+  --md-primary-fg-color--light: var(--zn-green-light);
+  --md-primary-fg-color--dark: var(--zn-green-dark);
+  --md-primary-bg-color: var(--zn-on-green);
+  --md-accent-fg-color: var(--zn-link-color);
+  --md-accent-fg-color--transparent: hsla(145, 60%, 45%, 0.1);
+  --md-typeset-a-color: var(--zn-link-color);
+}
+
+/* Typography */
+.md-typeset {
+  line-height: 1.6;
+}
+
+.md-typeset .admonition,
+.md-typeset details {
+  font-size: inherit;
+}
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4 {
+  font-weight: 600;
+  color: var(--zn-heading-color);
+}
+
+.md-typeset a:hover {
+  color: var(--zn-link-hover-color);
+}
+
+/* Media */
+.md-typeset img,
+.md-typeset video {
+  display: block;
+  margin: 24px auto;
+  width: 350px;
+  max-width: 100%;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: 0.4rem;
+}
+
+/* Header & navigation */
+.md-header {
+  background-color: var(--zn-green);
+  color: var(--zn-on-green);
+}
+
+.md-nav__link:hover {
+  color: var(--zn-link-hover-color);
+}
+
+/* Search button on the green header */
+.md-header .md-search__button {
+  color: var(--zn-on-green);
+  background-color: hsla(0, 0%, 100%, 0.15);
+}
+
+.md-header .md-search__button:hover,
+.md-header .md-search__button:focus {
+  color: var(--zn-on-green);
+  background-color: hsla(0, 0%, 100%, 0.25);
+}
+
+.md-header .md-search__button::before {
+  background-color: var(--zn-on-green);
+}
+
+.md-header .md-search__button::after {
+  color: var(--zn-on-green);
+  background-color: hsla(0, 0%, 100%, 0.2);
+}
+
+/* Buttons */
+.md-typeset .md-button {
+  color: var(--zn-on-green);
+  background-color: var(--zn-green);
+}
+
+.md-typeset .md-button:hover,
+.md-typeset .md-button:focus {
+  color: var(--zn-on-green);
+  background-color: var(--zn-green-dark);
+  opacity: 1;
+}
+
+/* Version badge (links to changelog) */
+.md-typeset a.zn-version {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3em;
+  padding: 0.15em 0.7em;
+  font-size: 0.8em;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--zn-link-color);
+  text-decoration: none;
+  background-color: var(--md-accent-fg-color--transparent);
+  border-radius: 1em;
+  transition: background-color 125ms, color 125ms;
+}
+
+.md-typeset a.zn-version:hover,
+.md-typeset a.zn-version:focus {
+  color: var(--zn-on-green);
+  background-color: var(--zn-green);
+}
