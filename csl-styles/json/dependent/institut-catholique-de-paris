@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style xmlns="http://purl.org/net/xbiblio/csl" version="1.0" default-locale="fr-FR">
+  <info>
+    <title>Institut Catholique de Paris (Français)</title>
+    <title-short>ICP</title-short>
+    <id>http://www.zotero.org/styles/institut-catholique-de-paris</id>
+    <link href="http://www.zotero.org/styles/institut-catholique-de-paris" rel="self"/>
+    <link href="http://www.zotero.org/styles/transversalites" rel="independent-parent"/>
+    <link href="https://github.com/citation-style-language/styles/pull/4374#issuecomment-565168897" rel="documentation"/>
+    <category citation-format="note"/>
+    <category field="theology"/>
+    <category field="humanities"/>
+    <category field="philosophy"/>
+    <category field="literature"/>
+    <category field="social_science"/>
+    <updated>2025-11-23T14:32:17+00:00</updated>
+    <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
+  </info>
+</style>
