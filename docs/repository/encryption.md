@@ -39,6 +39,21 @@ Encryption is configured per repository. To enable it, go to `Repositories > Lon
 - You can **generate the key** via `Settings` > `Keys Manager`  
 - Note encryption and decryption are **seamless**, similar to **End-to-End Encryption**.
 
+## Encrypted repositories (gocryptfs)
+
+Besides per-note encryption, a whole repository can be stored in a [gocryptfs](https://github.com/rfjakob/gocryptfs) encrypted folder [v3.1.4](../changelog.md#314){ .zn-version }. gocryptfs encrypts each file, and its file name, separately, so an encrypted repository works with file-based sync tools.
+
+You can set one up from the redesigned repository creation screen in two ways:
+
+| Option | Use it when |
+| --- | --- |
+| Create a new encrypted repository | You are starting a new vault for your notes. |
+| Use an existing encrypted repository | You already have a gocryptfs folder, for example one created on a computer or with another Android app. |
+
+!!! warning
+
+    If you forget the password of a gocryptfs repository, its notes cannot be decrypted.
+
 ## Encryption and search
 
 Encrypted notes are decrypted only when you open them. By default, their content is still indexed so that search can find them. To keep encrypted content out of the search index, change the option in `Settings > Security`.

@@ -4,6 +4,19 @@ tags:
   - reference
 ---
 
+### 3.1.4
+
+⭐ New! Encrypted repositories (gocryptfs)  
+⭐ New! Option to use a custom action toolbar  
+✨ Redesigned Repository screen  
+🐛 Fix crash when a toast is shown from a background thread
+
+### 3.1.3
+
+⭐ New! Tasker action to add content to existing note  
+⭐ New! Horizontal scroll for code spans  
+🐛 Fix write on encrypted mounted volumes (e.g. DroidFS)
+
 ### 3.1.2
 
 ⭐ Feature to exclude certain tags via Repository config (excluded_tags)  
